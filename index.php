@@ -1,7 +1,7 @@
-<?php 
+<!doctype HTML>
+<html>
 
 
-include_onde("index.html"); 
+<?php echo"La pergunta?"?>
 
-
-?>
+</html>
