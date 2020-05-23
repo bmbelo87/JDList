@@ -2,6 +2,6 @@
 <html>
 
 
-<?php echo"La pergunta?"?>
+<?php require(index.html)?>
 
 </html>
