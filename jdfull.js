@@ -4376,6 +4376,7 @@ var jd14 = [
    },
    {
       "song":"Y.M.C.A. (Mashup)",
+      "artist":"Village People",
       "difficulty":"Easy",
       "gold moves":"Yes",
       "month":"June",
