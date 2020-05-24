@@ -1,5 +1,3 @@
-
-
 var jd1 = [
    {
       "song":"A Little Less Conversation",
@@ -65,8 +63,8 @@ var jd1 = [
       "shake moves":"Yes"
    },
    {
-      "song":"Fame*",
-      "artist":"Irene Cara(In The Style Of Irene Cara)",
+      "song":"Fame",
+      "artist":"he Girly Team",
       "difficulty":"1",
       "effort":"3",
       "year":"1980",
@@ -272,15 +270,6 @@ var jd1 = [
       "shake moves":"No"
    },
    {
-      "song":"Warm Up (WU)",
-      "artist":"Crispy Duck",
-      "difficulty":"N/A",
-      "effort":"N/A",
-      "year":"2005[1]",
-      "linkimagem":"N/A",
-      "shake moves":"No"
-   },
-   {
       "song":"Who Let the Dogs Out?",
       "artist":"Baha Men",
       "difficulty":"3",
@@ -290,8 +279,8 @@ var jd1 = [
       "shake moves":"Yes"
    },
    {
-      "song":"Womanizer*",
-      "artist":"Britney Spears(The Gym All-Stars)",
+      "song":"Womanizer",
+      "artist":"The Gym All-Stars",
       "difficulty":"2",
       "effort":"1",
       "year":"2008",
@@ -303,7 +292,6 @@ jd1 = jd1.map((item, index) => ({
  ...item,
  id: 100 + index,   
 }))
-
 var jd2 = [
     {
        "song":"A-Punk",
@@ -366,17 +354,7 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5c/Callme_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716232853"
     },
     {
-       "song":"Cheesy Cha Cha (WU)",
-       "artist":"APM Music",
-       "difficulty":"N/A",
-       "effort":"N/A",
-       "year":"2009",
-       "duration":"3:10",
-       "mode":"Solo",
-       "linkimagem":""
-    },
-    {
-       "song":"Come On Eileen",
+       "song":"Come On Eileen (DLC)",
        "artist":"Dexys Midnight Runners",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2d/Comeon_cover_online.png/revision/latest/scale-to-width-down/185?cb=20180729194352"
     },
@@ -391,8 +369,8 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Cosmicgirl_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716232854"
     },
     {
-       "song":"Crazy in Love*",
-       "artist":"Beyoncé ft. Jay-Z(Studio Musicians)",
+       "song":"Crazy in Love",
+       "artist":"Studio Musicians",
        "difficulty":"3",
        "effort":"2",
        "year":"2003",
@@ -421,8 +399,8 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d8/Dagomba_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716232855"
     },
     {
-       "song":"Funkytown* (BBE)",
-       "artist":"Lipps Inc.(Sweat Invaders)",
+       "song":"Funkytown",
+       "artist":"Sweat Invaders",
        "difficulty":"1",
        "effort":"1",
        "year":"1980",
@@ -451,8 +429,8 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/HeyYa_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716232900"
     },
     {
-       "song":"Holiday*",
-       "artist":"Madonna(The Hit Crew)",
+       "song":"Holiday",
+       "artist":"The Hit Crew",
        "difficulty":"2",
        "effort":"1",
        "year":"1983",
@@ -526,7 +504,7 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2a/Itsrainingmen_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716233048"
     },
     {
-       "song":"Jai Ho (You Are My Destiny) (BBE)",
+       "song":"Jai Ho (You Are My Destiny)",
        "artist":"A. R. Rahman and The Pussycat Dolls ft. Nicole Scherzinger",
        "difficulty":"2",
        "effort":"2",
@@ -546,8 +524,8 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4b/JumpInTheLine_cover_jd2.png/revision/latest/scale-to-width-down/200?cb=20170716233051"
     },
     {
-       "song":"Jump*",
-       "artist":"Kris Kross(Studio Allstars)",
+       "song":"Jump",
+       "artist":"Studio Allstars",
        "difficulty":"3",
        "effort":"3",
        "year":"1992",
@@ -556,8 +534,8 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/43/Jump_cover_jd2.png/revision/latest/scale-to-width-down/200?cb=20170716233050"
     },
     {
-       "song":"Jungle Boogie*",
-       "artist":"Kool & the Gang(Studio Musicians)",
+       "song":"Jungle Boogie",
+       "artist":"Studio Musicians",
        "difficulty":"2",
        "effort":"2",
        "year":"1973",
@@ -576,8 +554,8 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/22/KattiKalandal_cover_jd2.png/revision/latest/scale-to-width-down/200?cb=20170716233052"
     },
     {
-       "song":"Monster Mash*",
-       "artist":"Boris Pickett and The Crypt-kickers(The Frighteners)",
+       "song":"Monster Mash",
+       "artist":"The Frighteners",
        "difficulty":"1",
        "effort":"1",
        "year":"1962",
@@ -647,7 +625,7 @@ var jd2 = [
     },
     {
        "song":"Satisfaction (Isak Original Extended)",
-       "artist":"Benny Benassi presents \"The Biz\"",
+       "artist":"Benny Benassi presents 'The Biz'",
        "difficulty":"1",
        "effort":"1",
        "year":"2002",
@@ -656,7 +634,7 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/59/Satisfaction_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716233056"
     },
     {
-       "song":"Should I Stay or Should I Go (BBE) (XSP)",
+       "song":"Should I Stay or Should I Go",
        "artist":"The Clash",
        "difficulty":"1",
        "effort":"2",
@@ -676,13 +654,13 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/93/SoulBossaNova_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716233059"
     },
     {
-        "song":"Spice Up Your Life",
+        "song":"Spice Up Your Life (DLC)",
         "artist":"Spice Girls",
         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/71/Spiceup_cover_online.png/revision/latest/scale-to-width-down/185?cb=20180729194549"
     },
     {
-       "song":"Sway (Quién Será)*",
-       "artist":"Michael Bublé(Marine Band)",
+       "song":"Sway (Quién Será)",
+       "artist":"Marine Band",
        "difficulty":"2",
        "effort":"1",
        "year":"2003",
@@ -751,8 +729,8 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/67/TikTok_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716233126"
     },
     {
-       "song":"Toxic*",
-       "artist":"Britney Spears(The Hit Crew)",
+       "song":"Toxic",
+       "artist":"The Hit Crew",
        "difficulty":"3",
        "effort":"1",
        "year":"2003",
@@ -801,7 +779,7 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/87/WhenIGrowUp_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716233128"
     },
     {
-     "song":"When I Grow Up (Sam)",
+     "song":"When I Grow Up (Sam Edition)",
      "artist":"The Pussycat Dolls",
      "difficulty":"2",
      "effort":"1",
@@ -811,7 +789,7 @@ var jd2 = [
      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f3/WhenIGrowUp_ContestFR_cover_generic.png/revision/latest/scale-to-width-down/130?cb=20150504101845"
      },
      {
-     "song":"When I Grow Up (Liana)",
+     "song":"When I Grow Up (Liana Edition)",
      "artist":"The Pussycat Dolls",
      "difficulty":"2",
      "effort":"1",
@@ -831,41 +809,1967 @@ var jd2 = [
      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/80/Mandy.png/revision/latest/scale-to-width-down/130?cb=20150523232822"
      }
  ]
- jd2 = jd2.map((item, index) => ({
+jd2 = jd2.map((item, index) => ({
     ...item,
     id: 200 + index,   
    }))
+var jdsp = [
+      {
+         "song":"American Boy",
+         "artist":"Estelle feat. Kanye West",
+         "difficulty":"2",
+         "effort":"1",
+         "year":"2008",
+         "duration":"4:10",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4c/Americanboy_cover_jd2.png/revision/latest/scale-to-width-down/123?cb=20170213155927"
+      },
+      {
+         "song":"Barbie Girl",
+         "artist":"Countdown Dee's Hit Explosion",
+         "difficulty":"1",
+         "effort":"3",
+         "year":"1997",
+         "duration":"3:13",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fa/SJ9E41_a59586a5_14.png/revision/latest/scale-to-width-down/123?cb=20170213160727"
+      },
+      {
+         "song":"Born To Be Wild",
+         "artist":"Steppenwolf",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"1967",
+         "duration":"3:38",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b0/Borntobewild_jd2_cover_generic.png/revision/latest/scale-to-width-down/123?cb=20170213161116"
+      },
+      {
+         "song":"Chicken Payback",
+         "artist":"A Band of Bees",
+         "difficulty":"1",
+         "effort":"1",
+         "year":"2004",
+         "duration":"3:13",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/59/Chickenpayback_cover_jd2.png/revision/latest/scale-to-width-down/123?cb=20170213161237"
+      },
+      {
+         "song":"Crying Blood",
+         "artist":"V V Brown",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2008",
+         "duration":"2:30",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/05/SJ9E41_c46a2dad_14.png/revision/latest/scale-to-width-down/123?cb=20170213161422"
+      },
+      {
+         "song":"Down By The Riverside",
+         "artist":"The Reverend Horatio Duncan and Amos Sweets",
+         "difficulty":"2",
+         "effort":"1",
+         "year":"1927",
+         "duration":"1:55",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/ff/Riverside_cover_jd2.png/revision/latest/scale-to-width-down/123?cb=20170213161539"
+      },
+      {
+         "song":"Firework",
+         "artist":"Katy Perry",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"2010",
+         "duration":"3:46",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7c/SJ9E41_1bb30017_14.png/revision/latest/scale-to-width-down/123?cb=20170213161735"
+      },
+      {
+         "song":"Funkytown",
+         "artist":"Sweat Invaders",
+         "difficulty":"1",
+         "effort":"1",
+         "year":"1980",
+         "duration":"3:53",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d9/Funkytown_jd2_cover_generic.png/revision/latest/scale-to-width-down/123?cb=20170716232859"
+      },
+      {
+         "song":"Futebol Crazy",
+         "artist":"The World Cup Girls (as Paul J. Borg)",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"2009",
+         "duration":"2:28",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9a/SJ9E41_b237ca81_14.png/revision/latest/scale-to-width-down/123?cb=20170213161900"
+      },
+      {
+         "song":"Here Comes the Hotstepper",
+         "artist":"The Hit Crew",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1994",
+         "duration":"3:33",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b9/SJ9E41_96217809_14.png/revision/latest/scale-to-width-down/123?cb=20170213162038"
+      },
+      {
+         "song":"Jai Ho! (You Are My Destiny)",
+         "artist":"A. R. Rahman and The Pussycat Dolls ft. Nicole Scherzinger",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2009",
+         "duration":"3:48",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e0/Jaiho_jd2_cover_generic.png/revision/latest/scale-to-width-down/123?cb=20170716233050"
+      },
+      {
+         "song":"Kung Fu Fighting",
+         "artist":"Carl Douglas",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1974",
+         "duration":"3:15",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/87/SJ9E41_725856ab_14.png/revision/latest/scale-to-width-down/123?cb=20170213162205"
+      },
+      {
+         "song":"Mambo No. 5 (A Little Bit Of Monika)",
+         "artist":"The Lemon Cubes",
+         "difficulty":"3",
+         "effort":"2",
+         "year":"1999",
+         "duration":"3:31",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ea/SJ9E41_aa88a25d_14.png/revision/latest/scale-to-width-down/123?cb=20170213162412"
+      },
+      {
+         "song":"Maniac",
+         "artist":"Studio Allstars",
+         "difficulty":"2",
+         "effort":"3",
+         "year":"1983",
+         "duration":"4:01",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e0/SJ9E41_7d08c6f1_14.png/revision/latest/scale-to-width-down/123?cb=20170213162527"
+      },
+      {
+         "song":"Moving on Up",
+         "artist":"The Lemon Cubes",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"1993",
+         "duration":"3:36",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/15/Movingonup_jd2_cover_generic.png/revision/latest/scale-to-width-down/123?cb=20170213162636"
+      },
+      {
+         "song":"Nine In The Afternoon",
+         "artist":"Panic! at the Disco",
+         "difficulty":"1",
+         "effort":"1",
+         "year":"2008",
+         "duration":"2:40",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ed/Nineafternoon_cover_generic_jd2.png/revision/latest/scale-to-width-down/123?cb=20180721222119"
+      },
+      {
+         "song":"Pon de Replay",
+         "artist":"Rihanna",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2005",
+         "duration":"3:33",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/af/Pondereplay_jd2_cover_generic.png/revision/latest/scale-to-width-down/123?cb=20170213162810"
+      },
+      {
+         "song":"Professor Pumplestickle",
+         "artist":"Nick Phoenix and Thomas J. Bergersen",
+         "difficulty":"3",
+         "effort":"1",
+         "year":"2006",
+         "duration":"2:35",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/48/SJ9E41_18a389b2_14.png/revision/latest/scale-to-width-down/123?cb=20170213162955"
+      },
+      {
+         "song":"Pump Up The Volume",
+         "artist":"M/A/R/R/S",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1987",
+         "duration":"3:54",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2f/SJ9E41_f259b5d9_14.png/revision/latest/scale-to-width-down/123?cb=20170213163104"
+      },
+      {
+         "song":"Skin-To-Skin",
+         "artist":"Sweat Invaders",
+         "difficulty":"1",
+         "effort":"3",
+         "year":"1992",
+         "duration":"2:05",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/16/SJ9E41_56b5eada_14.png/revision/latest/scale-to-width-down/123?cb=20170213163207"
+      },
+      {
+         "song":"Song 2",
+         "artist":"Blur",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1997",
+         "duration":"2:03",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a8/SJ9E41_25176142_14.png/revision/latest/scale-to-width-down/123?cb=20170213163309"
+      },
+      {
+         "song":"Why Oh Why",
+         "artist":"Love Letter",
+         "difficulty":"1",
+         "effort":"1",
+         "year":"2009",
+         "duration":"2:47",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/71/Whyowhy_jd2_cover_generic.png/revision/latest/scale-to-width-down/123?cb=20191110175843"
+      },
+      {
+         "song":"You Can't Hurry Love",
+         "artist":"The Supremes",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1966",
+         "duration":"2:58",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ec/Canthurrylove_cover_generic_jd2.png/revision/latest/scale-to-width-down/123?cb=20180721221950"
+      }
+   ]
+jdsp = jdsp.map((item, index) => ({
+     ...item,
+     id: 260 + index,   
+    }))
+var jd3 = [
+      {
+         "song":"Apache (Jump On It)",
+         "artist":"The Sugarhill Gang",
+         "difficulty":"3",
+         "effort":"2",
+         "year":"1981",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Apachesqa.png/revision/latest/scale-to-width-down/180?cb=20191211212626"
+      },
+      {
+         "song":"Apache (Jump On It) (Mashup)",
+         "artist":"The Sugarhill Gang",
+         "difficulty":"2",
+         "effort":"3",
+         "background color":"Red",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e2/Apachemashup.png/revision/latest/scale-to-width-down/180?cb=20191211214707"
+      },
+      {
+         "song":"Are You Gonna Go My Way",
+         "artist":"Lenny Kravitz",
+         "difficulty":"1",
+         "effort":"3",
+         "year":"1993",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a3/Gonnagomywaysquare.png/revision/latest/scale-to-width-down/180?cb=20191211203900"
+      },
+      {
+         "song":"Are You Gonna Go My Way (Sweet Mashup)",
+         "artist":"Lenny Kravitz",
+         "difficulty":"2",
+         "effort":"2",
+         "background color":"Sweat Background",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/91/Gonnawaymashup.png/revision/latest/scale-to-width-down/180?cb=20191211214744"
+      },
+      {
+         "song":"Baby One More Time",
+         "artist":"The Girly Team",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1998",
+         "mode":"Dance Crew",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e5/Babyonemorequat_thumb%402x.jpg/revision/latest/scale-to-width-down/180?cb=20191211023943"
+      },
+      {
+         "song":"Baby One More Time",
+         "artist":"The Girly Team",
+         "difficulty":"2",
+         "effort":"1",
+         "background color":"Purple",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/Babymashup.png/revision/latest/scale-to-width-down/180?cb=20191211214914"
+      },
+      {
+         "song":"Baby Zouk",
+         "artist":"Dr. Creole",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6b/Babyzoukgift.png/revision/latest/scale-to-width-down/180?cb=20191211213638"
+      },
+      {
+         "song":"Baby Zouk (Mashup)",
+         "artist":"Dr. Creole",
+         "difficulty":"2",
+         "effort":"3",
+         "background color":"Light Pink",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Babyzoukmashup.png/revision/latest/scale-to-width-down/180?cb=20191211214956"
+      },
+      {
+         "song":"Barbra Streisand",
+         "artist":"Duck Sauce",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2010",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/83/Barbrasquare.png/revision/latest/scale-to-width-down/180?cb=20191211024453"
+      },
+      {
+         "song":"Barbra Streisand (Extreme Version)",
+         "artist":"Duck Sauce",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b8/Barbraextremegift.png/revision/latest/scale-to-width-down/180?cb=20191008224817"
+      },
+      {
+         "song":"Barbra Streisand (Mashup)",
+         "artist":"Duck Sauce",
+         "difficulty":"2",
+         "effort":"1",
+         "background color":"Dark Blue",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/01/Barbramashup.png/revision/latest/scale-to-width-down/180?cb=20191211215054"
+      },
+         {
+         "song":"Beautiful Liar",
+         "artist":"Countdown Mix Masters",
+         "difficulty":"3",
+         "effort":"1",
+         "year":"2007",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/86/Beautifulliar_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211212450"
+      },
+      {
+         "song":"Beat Match Until I'm Blue (DLC)",
+         "artist":"Alan Hawkshaw and Andrew Kingslow(Sweat Invaders)",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/44/Untilbluesqa.png/revision/latest/scale-to-width-down/123?cb=20150318123240",
+         "release date":"January 4, 2012"
+      },
+      {
+         "song":"Boogie Wonderland",
+         "artist":"Groove Century",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1979",
+         "mode":"Dance Crew",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/57/Wonderlandsquare.png/revision/latest/scale-to-width-down/180?cb=20191211202637"
+      },
+      {
+         "song":"Boom",
+         "artist":"MC Magico and Alex Wilson (Reggaeton Storm)",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2006",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ea/Boomsquare.png/revision/latest/scale-to-width-down/180?cb=20191211202954"
+      },
+      {
+         "song":"Boomsday (DLC)",
+         "artist":"Sweat Invaders",
+         "difficulty":"2",
+         "effort":"3",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3c/Boomsdaysqa.png/revision/latest/scale-to-width-down/123?cb=20150318123756",
+         "release date":"January 18, 2012"
+      },
+      {
+         "song":"California Gurls",
+         "artist":"Katy Perry featuring Snoop Dogg",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2010",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cc/Cali_Gurls.png/revision/latest/scale-to-width-down/180?cb=20191211023503"
+      },
+      {
+         "song":"Cardiac Caress (DLC)",
+         "artist":"Sweat Invaders",
+         "difficulty":"2",
+         "effort":"3",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/af/Cardiaccarresssqa.png/revision/latest/scale-to-width-down/123?cb=20150318123738",
+         "release date":"January 18, 2012"
+      },
+      {
+         "song":"Crazy Christmas (DLC)",
+         "artist":"Santa Clones",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2e/Xmas_thumb%402x.jpg/revision/latest/scale-to-width-down/185?cb=20150310062507"
+      },
+      {
+         "song":"Crazy Little Thing Called Love",
+         "artist":"Queen",
+         "difficulty":"3",
+         "effort":"2",
+         "year":"1979",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0f/Crazylittle_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211202448"
+      },
+      {
+         "song":"Da Funk",
+         "artist":"Daft Punk",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1995",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/30/Dafunk_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211203343"
+      },
+      {
+         "song":"Da Funk (Sweat Mashup)",
+         "artist":"Daft Punk",
+         "difficulty":"2",
+         "effort":"2",
+         "background color":"Sweat Background",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/93/Dafunkmashup.png/revision/latest/scale-to-width-down/180?cb=20191211215233"
+      },
+      {
+         "song":"Dance All Nite",
+         "artist":"Anja",
+         "difficulty":"3",
+         "effort":"1",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e3/Givememore_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211023416"
+      },
+      {
+         "song":"Dun N' Dusted (DLC)",
+         "artist":"Jason Creasey(Sweat Invaders)",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fe/DunNDusted_cover_generic.png/revision/latest/scale-to-width-down/123?cb=20170709015416",
+         "release date":"January 4, 2012"
+      },
+      {
+         "song":"Dynamite",
+         "artist":"Taio Cruz",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"2010",
+         "mode":"Dance Crew",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ac/Dynamitequat_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211024653"
+      },
+      {
+         "song":"Dynamite (Mashup)",
+         "artist":"Taio Cruz",
+         "difficulty":"2",
+         "effort":"2",
+         "background color":"Green",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0f/Dynamitear_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211215132"
+      },
+      {
+         "song":"E.T.",
+         "artist":"Katy Perry",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bd/Etsqa.png/revision/latest/scale-to-width-down/180?cb=20191211202855"
+      },
+      {
+         "song":"Forget You",
+         "artist":"Cee Lo Green",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2010",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/50/ForgetYouuuuu.png/revision/latest/scale-to-width-down/180?cb=20191211202140"
+      },
+      {
+         "song":"Giddy on Up (Giddy on Out)",
+         "artist":"Laura Bell Bundy",
+         "difficulty":"2",
+         "effort":"1",
+         "year":"2010",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0a/Giddyonup_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211212125"
+      },
+      {
+         "song":"Giddy on Up (Giddy on Out) (Hold My Hand Version)",
+         "artist":"Laura BEll Bundy",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Dontletmedowngift.png/revision/latest/scale-to-width-down/180?cb=20191211213708"
+      },
+      {
+         "song":"Gonna Make You Sweat (Everybody Dance Now)",
+         "artist":"Sweat Invaders",
+         "difficulty":"2",
+         "effort":"3",
+         "year":"1990",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Everybody.png/revision/latest/scale-to-width-down/180?cb=20191211202356"
+      },
+      {
+         "song":"Hey Boy Hey Girl",
+         "artist":"The Chemical Brothers",
+         "difficulty":"3",
+         "effort":"3",
+         "year":"1999",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9c/Heyboy_thumb%402x.png/revision/latest/scale-to-width-down/180?cb=20200322222857"
+      },
+      { 
+         "song":"Hungarian Dance No. 5",
+         "artist":"Just Dance Classical Orchestra",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fa/Hungariandance_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211213749"
+      },
+      {
+         "song":"I Don't Feel Like Dancin'",
+         "artist":"Scissor Sisters",
+         "difficulty":"3",
+         "effort":"3",
+         "year":"2006",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2e/Feellikedancing_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211024320"
+      },
+      {
+         "song":"I Don’t Feel Like Dancin’ (Mashup)",
+         "artist":"Scissor Sisters",
+         "difficulty":"2",
+         "effort":"2",
+         "background color":"Dark Pink",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/79/Feellikedancingmu_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211215311"
+      },
+      {
+         "song":"I Feel Love",
+         "artist":"Donna Summer",
+         "difficulty":"2",
+         "effort":"1",
+         "year":"1977",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d1/Ifeellove_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211203652"
+      },
+      {
+         "song":"I Was Made For Lovin' You",
+         "artist":"Kiss",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"1979",
+         "mode":"Dance Crew",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8a/Iwasmade_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211212223"
+      },
+      {
+         "song":"I'm So Excited",
+         "artist":"Pointer Sisters",
+         "difficulty":"1",
+         "effort":"3",
+         "year":"1984",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e1/Imsoexcited_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211205846"
+      },
+      {
+         "song":"Jamaican Dance",
+         "artist":"Konshens",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"2011",
+         "mode":"Hold My Hand",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/db/Jamaicandancesquare.png/revision/latest/scale-to-width-down/180?cb=20191211205238"
+      },
+      {
+         "song":"Jamaican Dance (Mashup)",
+         "artist":"Konshens",
+         "difficulty":"3",
+         "effort":"3",
+         "background color":"Jamaican Dance background",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e2/Jamaicandancemashup.png/revision/latest/scale-to-width-down/180?cb=20191211215339"
+      },
+      {
+         "song":"Jambo Mambo (DLC)",
+         "artist":"Ole Orquesta",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1997",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d0/Jambomambo_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211213139"
+      },
+      {
+         "song":"Jump (For My Love)",
+         "artist":"Girls Aloud",
+         "difficulty":"3",
+         "effort":"3",
+         "year":"2003",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/81/Girlsaloudsquare.png/revision/latest/scale-to-width-down/180?cb=20191211202305"
+      },
+      {
+         "song":"Jump (For My Love) (Sweat Mashup)",
+         "artist":"Girls Aloud",
+         "difficulty":"3",
+         "effort":"3",
+         "background color":"Sweat Background",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/21/Jumpformylovemashup.png/revision/latest/scale-to-width-down/180?cb=20191211215533"
+      },
+      {
+         "song":"Kurio ko uddah le jana",
+         "artist":"Bollywood Rainbow",
+         "difficulty":"3",
+         "effort":"2",
+         "year":"1974",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/71/Lalallaleighleigh%2C.png/revision/latest/scale-to-width-down/180?cb=20191211212020"
+      },
+      {
+         "song":"Land Of 1000 Dances",
+         "artist":"Wilson Pickett",
+         "difficulty":"1",
+         "effort":"3",
+         "year":"1966",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/91/Thousandansesquare.png/revision/latest/scale-to-width-down/180?cb=20191211205103"
+      },
+      {
+         "song":"Let's Go To The Mall",
+         "artist":"Cobie Smulders(as Robin Sparkles)",
+         "difficulty":"3",
+         "effort":"2",
+         "year":"2006",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/97/Tothemall.jpg/revision/latest/scale-to-width-down/180?cb=20150929211612"
+      },
+      {
+         "song":"Lollipop",
+         "artist":"MIKA",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2007",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/58/Lollipop.png/revision/latest/scale-to-width-down/180?cb=20191211023747"
+      },
+      {
+         "song":"Mamasita",
+         "artist":"Daddy P, Spike T & Da Digger (Latino Sunset)",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5f/Mamasitagift.png/revision/latest/scale-to-width-down/180?cb=20191211213906"
+      },
+      {
+         "song":"Merengue",
+         "artist":"Chucho Merchan(Sweat Invaders)",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/85/Merenguesqa.png/revision/latest/scale-to-width-down/123?cb=20150318123719",
+         "release date":"January 18, 2012"
+      },
+      {
+         "song":"Night Boat To Cairo",
+         "artist":"Madness",
+         "difficulty":"1",
+         "effort":"3",
+         "year":"1979",
+         "mode":"Dance Crew",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ec/Nightboat_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211205717"
+      },
+      {
+         "song":"No Limit",
+         "artist":"2 Unlimited",
+         "difficulty":"2",
+         "effort":"3",
+         "year":"1993",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/de/Nolimitsquare.png/revision/latest/scale-to-width-down/180?cb=20191211024550"
+      },
+      {
+         "song":"No Limit (Sweat Mashup)",
+         "artist":"2 Unlimited",
+         "difficulty":"2",
+         "effort":"3",
+         "background color":"Sweat Background",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Nolimitmashup.png/revision/latest/scale-to-width-down/180?cb=20191211215608"
+      },
+      {
+         "song":"Party Rock Anthem",
+         "artist":"LMFAO featuring Lauren Bennett and GoonRock",
+         "difficulty":"3",
+         "effort":"2",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/PRA.png/revision/latest/scale-to-width-down/180?cb=20191211212725"
+      },
+      {
+         "song":"Party Rock Anthem (Mashup)",
+         "artist":"LMFAO featuring Lauren Bennett and GoonRock",
+         "difficulty":"2",
+         "effort":"2",
+         "background color":"Light Blue",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/73/Partyrockmashup.png/revision/latest/scale-to-width-down/180?cb=20191211215917"
+      },
+      {
+         "song":"Pata Pata",
+         "artist":"African Ladies",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"1967",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2b/Paptapapta.png/revision/latest/scale-to-width-down/180?cb=20191211212813"
+      },
+      {
+         "song":"Price Tag",
+         "artist":"Jessie J featuring B.o.B.",
+         "difficulty":"2",
+         "effort":"1",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7f/Pricetagsquare.png/revision/latest/scale-to-width-down/180?cb=20191211024058"
+      },
+      {
+         "song":"Promiscuous",
+         "artist":"Nelly Furtado featuring Timbaland",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2006",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/89/Promiscuous_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211201949"
+      },
+      {
+         "song":"Promiscuous (Mashup)",
+         "artist":"Nelly Furtado featuring Timbaland",
+         "difficulty":"2",
+         "effort":"2",
+         "background color":"Red",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ef/Promiscuousmu_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211215952"
+      },
+      {
+         "song":"Pump It",
+         "artist":"Black Eyed Peas",
+         "difficulty":"3",
+         "effort":"3",
+         "year":"2005",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ea/Pumpit_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211023647"
+      },
+      {
+         "song":"Pump It (Mashup)",
+         "artist":"Black Eyed Peas",
+         "difficulty":"3",
+         "effort":"3",
+         "background color":"Blue-Violet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/78/Pumpitmu_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211220417"
+      },
+      {
+         "song":"She's Got Me Dancing",
+         "artist":"Tommy Sparks",
+         "difficulty":"3",
+         "effort":"2",
+         "year":"2009",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5c/Shesgotme.png/revision/latest/scale-to-width-down/180?cb=20191211205154"
+      },
+      {
+         "song":"She’s Got Me Dancing",
+         "artist":"Tommy Sparks",
+         "difficulty":"3",
+         "effort":"2",
+         "background color":"Dark Blue",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e2/Gotmedancingmashup.png/revision/latest/scale-to-width-down/180?cb=20191211220527"
+      },
+      {
+         "song":"Somethin' Stupid",
+         "artist":"Robbie Williams and Nicole Kidman",
+         "difficulty":"1",
+         "effort":"1",
+         "year":"1967 (2001)",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e5/Somethingbubbly.png/revision/latest/scale-to-width-down/180?cb=20191211213016"
+      },
+      {
+         "song":"Soul Searchin' (DLC)",
+         "artist":"Groove Century",
+         "difficulty":"1",
+         "effort":"1",
+         "year":"1999",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/59/Soulserchsqa.png/revision/latest/scale-to-width-down/180?cb=20191211213404"
+      },
+      {
+         "song":"Spectronizer",
+         "artist":"Sentai Express",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"2011",
+         "mode":"Dance Crew",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8d/Spectro.png/revision/latest/scale-to-width-down/180?cb=20191211212839"
+      },
+      {
+         "song":"Take On Me",
+         "artist":"a-ha",
+         "difficulty":"1",
+         "effort":"3",
+         "year":"1985",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3a/Takeonme_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211023600"
+      },
+      {
+         "song":"Take On Me (Mashup)",
+         "artist":"a-ha",
+         "difficulty":"2",
+         "effort":"2",
+         "background color":"Purple",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cd/Takeonmemu_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211220520"
+      },
+      {
+         "song":"Teenage Dream",
+         "artist":"Katy Perry",
+         "difficulty":"2",
+         "effort":"1",
+         "year":"2010",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/Teenagedreamsqa.png/revision/latest/scale-to-width-down/180?cb=20191211043259"
+      },
+      {
+         "song":"The Master Blaster",
+         "artist":"Inspector Marceau",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/92/Masterblaster_thumb%402x.png/revision/latest/scale-to-width-down/180?cb=20191211213948"
+      },
+      {
+         "song":"Think",
+         "artist":"The London Theatre Orchestra & Cast",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1968",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Think_jd3_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160827092748"
+      },
+      {
+         "song":"This is Halloween",
+         "artist":"Danny Elfman",
+         "difficulty":"2",
+         "effort":"2",
+         "year":"1993",
+         "mode":"Dance Crew",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0f/Halloweenquat_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211213054"
+      },
+      {
+         "song":"Tightrope (Solo Version)",
+         "artist":"Janelle Monae",
+         "difficulty":"3",
+         "effort":"2",
+         "year":"2010",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/ba/Tightrope_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211212259"
+      },
+      {
+         "song":"Touch Me Want Me",
+         "artist":"Sweat Invaders",
+         "difficulty":"2",
+         "effort":"3",
+         "year":"2011",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ae/Touchmewantme.png/revision/latest/scale-to-width-down/123?cb=20150318123714",
+         "release date":"January 4, 2012"
+      },
+      {
+         "song":"Twist and Shake It (DLC)",
+         "artist":"Ben Wheeler and Tara Chinn(The Girly Team)",
+         "difficulty":"1",
+         "effort":"1",
+         "year":"2011",
+         "mode":"Duet",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/16/Twistandshakeasqa.png/revision/latest/scale-to-width-down/180?cb=20191211213317"
+      },
+      {
+         "song":"Venus",
+         "artist":"Bananarama",
+         "difficulty":"1",
+         "effort":"2",
+         "year":"1986",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/09/Venusb_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20190904172300"
+      },
+      {
+         "song":"Video Killed the Radio Star",
+         "artist":"The Buggles",
+         "difficulty":"2",
+         "effort":"1",
+         "year":"1979",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ee/Videokilled_jd3_square.jpg/revision/latest/scale-to-width-down/180?cb=20160224021629"
+      },
+      {
+         "song":"What You Waiting For?",
+         "artist":"Gwen Stefani",
+         "difficulty":"2",
+         "effort":"1",
+         "year":"2004",
+         "mode":"Solo",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d8/Whatyouwait_jd3_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20150930081557"
+      },
+      {
+         "song":"What You Waiting For (Sweat Mashup)",
+         "artist":"Gwen Stefani",
+         "difficulty":"2",
+         "effort":"3",
+         "background color":"Sweat Background",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Whatyouwaitmu_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211220430"
+      }
+   ]
+jd3 = jd3.map((item, index) => ({
+      ...item,
+      id: 300 + index,   
+     }))
+var jdgh =  [
+   {
+      "song":"Acceptable in the 80s#",
+      "artist":"Calvin Harris",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2007",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/63/Acceptablesqa.png/revision/latest/scale-to-width-down/165?cb=20150308141916",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Airplanes",
+      "artist":"B.o.B feat. Hayley Williams",
+      "difficulty":"1",
+      "effort":"1",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4c/Airplanessqa.png/revision/latest/scale-to-width-down/164?cb=20191211212343",
+      "original game":"Just Dance 3 (Target Exclusive)"
+   },
+   {
+      "song":"Alright",
+      "artist":"Supergrass",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"1995",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f9/Alrightsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142004",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Baby Don't Stop Now",
+      "artist":"Anja",
+      "difficulty":"2",
+      "effort":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a2/Babydontstopnowsqa.png/revision/latest/scale-to-width-down/165?cb=20191211213232",
+      "original game":"Just Dance 3  (DLC)"
+   },
+   {
+      "song":"Baby Girl (U)",
+      "artist":"Reggaeton",
+      "difficulty":"3",
+      "effort":"2",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b7/BabyGirl_jd3_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142103",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Barbie Girl*",
+      "artist":"Aqua(Countdown Dee's Hit Explosion)",
+      "difficulty":"1",
+      "effort":"3",
+      "year":"1997",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Barbiegirlsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142139",
+      "original game":"Just Dance 2 (DLC)"
+   },
+   {
+      "song":"Body Movin’ (Fatboy Slim Remix)",
+      "artist":"Beastie Boys",
+      "difficulty":"1",
+      "effort":"3",
+      "year":"1998",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4f/Bodymovingsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142124",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Crazy in Love*",
+      "artist":"Beyoncé feat. Jay-Z(Studio Musicians)",
+      "difficulty":"3",
+      "effort":"2",
+      "year":"2003",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3f/Crazyinlove_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142155",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Dagomba",
+      "artist":"Sorcerer",
+      "difficulty":"2",
+      "effort":"3",
+      "year":"2003",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5c/Dagomba_jd3_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142213",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"DARE",
+      "artist":"Gorillaz",
+      "difficulty":"2",
+      "effort":"1",
+      "year":"2005",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/68/Dare_jd3_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142229",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Eye of the Tiger#",
+      "artist":"Survivor",
+      "difficulty":"1",
+      "effort":"2",
+      "year":"1982",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/71/Eyeofthetigersqa.png/revision/latest/scale-to-width-down/165?cb=20150308142251",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Fame*",
+      "artist":"Irene Cara(In The Style of Irene Cara)",
+      "difficulty":"1",
+      "effort":"3",
+      "year":"1980",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Famesqa.png/revision/latest/scale-to-width-down/165?cb=20150308142306",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Firework#",
+      "artist":"Katy Perry",
+      "difficulty":"1 [3]",
+      "effort":"2 [3]",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fa/Fireworksqa.png/revision/latest/scale-to-width-down/165?cb=20150308142331",
+      "original game":"Just Dance 2  (DLC)"
+   },
+   {
+      "song":"Girlfriend",
+      "artist":"Avril Lavigne",
+      "difficulty":"2",
+      "effort":"3",
+      "year":"2007",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/82/Girlfriendsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142351",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Hey Ya",
+      "artist":"Outkast",
+      "difficulty":"3",
+      "effort":"3",
+      "year":"2003",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4f/HeyYa_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142412",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Hot n Cold#",
+      "artist":"Katy Perry",
+      "difficulty":"1",
+      "effort":"1",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9c/Hotncoldsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142437",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"I Like to Move It (Radio Mix)**",
+      "artist":"Reel 2 Real feat. The Mad Stuntman (Groove Century)",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"1993",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a2/Iliketomoveitsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142500",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"It's Raining Men",
+      "artist":"The Weather Girls",
+      "difficulty":"2",
+      "effort":"3",
+      "year":"1983",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/23/Itsrainingmen_jd3_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142518",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Jai Ho (You Are My Destiny)",
+      "artist":"A. R. Rahman and The Pussycat Dolls feat. Nicole Scherzinger",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/Jaiho_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150216182834",
+      "original game":"Just Dance 2 (Best Buy Exclusive)"
+   },
+   {
+      "song":"Jin Go Lo Ba #",
+      "artist":"Fatboy Slim",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2004",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Jingolobasqa.png/revision/latest/scale-to-width-down/165?cb=20150308142642",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Jump in the Line (Shake, Señora)*",
+      "artist":"Harry Belafonte(The Sunlight Shakers)",
+      "difficulty":"3",
+      "effort":"2",
+      "year":"1961",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/Jumpinthelinesqa.png/revision/latest/scale-to-width-down/165?cb=20150308142614",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Jump*",
+      "artist":"Kris Kross(Studio Allstars)",
+      "difficulty":"3",
+      "effort":"3",
+      "year":"1992",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/Jumpsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142553",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Katti Kalandal (U)",
+      "artist":"Bollywood",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2000",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/56/Kattikalandalsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142700",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Kung Fu Fighting (Dave Ruffy / Mark Wallis Remix)",
+      "artist":"Carl Douglas",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"1974",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/Kungfufightingsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142744",
+      "original game":"Just Dance 2  (DLC)"
+   },
+   {
+      "song":"Only Girl (In The World)",
+      "artist":"Rihanna",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/85/Onlygirl.jpg/revision/latest/scale-to-width-down/165?cb=20170919234611",
+      "original game":"Just Dance 3 (Target Exclusive)"
+   },
+   {
+      "song":"Pon de Replay",
+      "artist":"Rihanna",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2005",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e8/Pondereplay_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142828",
+      "original game":"Just Dance 2  (DLC)"
+   },
+   {
+      "song":"Proud Mary",
+      "artist":"Ike & Tina Turner",
+      "difficulty":"2",
+      "effort":"3",
+      "year":"1969",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/07/ProudMary_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142845",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Rasputin",
+      "artist":"Boney M.",
+      "difficulty":"3",
+      "effort":"3",
+      "year":"1978",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7f/Rasputinsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142905",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Ring My Bell",
+      "artist":"Anita Ward",
+      "difficulty":"2",
+      "effort":"1",
+      "year":"1979",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/04/Ringmybell_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142926",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Satisfaction (Isak Original Extended)",
+      "artist":"Benny Benassi presents \"The Biz\"",
+      "difficulty":"1",
+      "effort":"1",
+      "year":"2003",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Satisfaction_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308143029",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Step by Step",
+      "artist":"New Kids on the Block",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"1990",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/43/Stepbystepsqa.png/revision/latest/scale-to-width-down/165?cb=20150308143047",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"The Power",
+      "artist":"Snap!",
+      "difficulty":"2",
+      "effort":"3",
+      "year":"1990",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a2/ThePower_jd3_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142944",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"TiK ToK#",
+      "artist":"Kesha",
+      "difficulty":"2 [1]",
+      "effort":"1",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/77/Tiktok_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308143005",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Toxic*",
+      "artist":"Britney Spears(The Hit Crew)",
+      "difficulty":"3",
+      "effort":"1",
+      "year":"2004",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/42/Toxic_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20200401072904",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"U Can't Touch This*",
+      "artist":"MC Hammer(Groove Century)",
+      "difficulty":"2",
+      "effort":"3",
+      "year":"1990",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9b/Youcanttouchthissqa.png/revision/latest/scale-to-width-down/165?cb=20150308143125",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Viva Las Vegas",
+      "artist":"Elvis Presley",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"1964",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ee/Vivalasvegassqa.png/revision/latest/scale-to-width-down/165?cb=20150308143144",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Who Let the Dogs Out?* #",
+      "artist":"Baha Men(The Sunlight Shakers)",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2000",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/10/Wholetthedogsout.png/revision/latest/scale-to-width-down/165?cb=20150308143202",
+      "original game":"Just Dance"
+   }
+]
+jdgh = jdgh.map((item, index) => ({
+   ...item,
+   id: 135 + index
+  }))
+var jdbo = [
+   {
+      "song":"Acceptable in the 80s",
+      "artist":"Calvin Harris",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2007",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/63/Acceptablesqa.png/revision/latest/scale-to-width-down/165?cb=20150308141916",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Airplanes",
+      "artist":"B.o.B feat. Hayley Williams",
+      "difficulty":"1",
+      "effort":"1",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/49/Airplanessqa_%282%29.png/revision/latest?cb=20150308113646",
+      "original game":"Just Dance 3 (Target Exclusive)"
+   },
+   {
+      "song":"Alright",
+      "artist":"Supergrass",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"1995",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f9/Alrightsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142004",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Baby Don't Stop Now",
+      "artist":"Anja",
+      "difficulty":"2",
+      "effort":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ee/Babydontstopnowsqa_%282%29.png/revision/latest?cb=20150308113927",
+      "original game":"Just Dance 3 (PS3, DLC for Wii)"
+   },
+   {
+      "song":"Baby Girl",
+      "artist":"Reggaeton",
+      "difficulty":"3",
+      "effort":"2",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b7/BabyGirl_jd3_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142103",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Barbie Girl*",
+      "artist":"Aqua(Countdown Dee's Hit Explosion)",
+      "difficulty":"1",
+      "effort":"3",
+      "year":"1997",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Barbiegirlsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142139",
+      "original game":"Just Dance 2 (DLC)"
+   },
+   {
+      "song":"Cosmic Girl",
+      "artist":"Jamiroquai",
+      "difficulty":"1",
+      "effort":"2",
+      "year":"1996",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/96/Cosmicgirl_jdbo_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20150213094229",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Dagomba",
+      "artist":"Sorcerer",
+      "difficulty":"2",
+      "effort":"3",
+      "year":"2003",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5c/Dagomba_jd3_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142213",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Down By The Riverside",
+      "artist":"The Reverend Horatio Duncan and Amos Sweets",
+      "difficulty":"2",
+      "effort":"1",
+      "year":"1927",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4b/Riverside_thumb%402x.jpg/revision/latest/scale-to-width-down/165?cb=20150310062614",
+      "original game":"Just Dance 2 (DLC)"
+   },
+   {
+      "song":"Fame*",
+      "artist":"Irene Cara(In The Style of Irene Cara)",
+      "difficulty":"1",
+      "effort":"3",
+      "year":"1980",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Famesqa.png/revision/latest/scale-to-width-down/165?cb=20150308142306",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Firework#",
+      "artist":"Katy Perry",
+      "difficulty":"3",
+      "effort":"3",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fa/Fireworksqa.png/revision/latest/scale-to-width-down/165?cb=20150308142331",
+      "original game":"Just Dance 2 (DLC)"
+   },
+   {
+      "song":"Futebol Crazy",
+      "artist":"The World Cup Girls",
+      "difficulty":"1",
+      "effort":"2",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a6/Futebol_thumb%402x.jpg/revision/latest/scale-to-width-down/165?cb=20150310062713",
+      "original game":"Just Dance 2 (DLC)"
+   },
+   {
+      "song":"Hey Ya!",
+      "artist":"Outkast",
+      "difficulty":"3",
+      "effort":"3",
+      "year":"2003",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4f/HeyYa_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308142412",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"I Like to Move It (Radio Mix)*",
+      "artist":"Reel 2 Real feat. The Mad Stuntman(Groove Century)",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"1993",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a2/Iliketomoveitsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142500",
+      "original game":"Just Dance"
+   },
+   {
+      "song":"Jai Ho (You Are My Destiny)",
+      "artist":"A. R. Rahman and The Pussycat Dolls ft. Nicole Scherzinger",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/Jaiho_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150216182834",
+      "original game":"Just Dance 2 (Best Buy Exclusive)"
+   },
+   {
+      "song":"Katti Kalandal",
+      "artist":"Bollywood",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2000",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/56/Kattikalandalsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142700",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Kung Fu Fighting (Dave Ruffy / Mark Wallis Remix)",
+      "artist":"Carl Douglas",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"1974",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/Kungfufightingsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142744",
+      "original game":"Just Dance 2 (DLC)"
+   },
+   {
+      "song":"Mambo No. 5 (A Little Bit of Monika)",
+      "artist":"Lou Bega(incorrectly credited as The Lemon Cubes)",
+      "difficulty":"3",
+      "effort":"2",
+      "year":"1999",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/28/Mambo5_thumb%402x.jpg/revision/latest/scale-to-width-down/165?cb=20150330131359",
+      "original game":"Just Dance 2 (DLC)"
+   },
+   {
+      "song":"Move Your Feet",
+      "artist":"Junior Senior",
+      "difficulty":"3",
+      "effort":"3",
+      "year":"2003",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/78/Moveyourfeet_jdbo_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150216184436",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Mugsy Baloney",
+      "artist":"Charleston",
+      "difficulty":"3",
+      "effort":"2",
+      "year":"1925",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/12/MugsyBaloney_jd3_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20150310065346",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Only Girl (In the World)",
+      "artist":"Rihanna",
+      "difficulty":"2",
+      "effort":"2",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/85/Onlygirl.jpg/revision/latest/scale-to-width-down/165?cb=20170919234611",
+      "original game":"Just Dance 3 (Target Exclusive)"
+   },
+   {
+      "song":"Rasputin",
+      "artist":"Boney M.",
+      "difficulty":"3",
+      "effort":"3",
+      "year":"1978",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7f/Rasputinsqa.png/revision/latest/scale-to-width-down/165?cb=20150308142905",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Satisfaction (Isak Original Extended)",
+      "artist":"Benny Benassi presents \"The Biz\"",
+      "difficulty":"1",
+      "effort":"1",
+      "year":"2003",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Satisfaction_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150308143029",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"Toxic*",
+      "artist":"Britney Spears(The Hit Crew)",
+      "difficulty":"3",
+      "effort":"1",
+      "year":"2004",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/42/Toxic_jdgh_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20200401072904",
+      "original game":"Just Dance 2"
+   },
+   {
+      "song":"U Can't Touch This*",
+      "artist":"MC Hammer(Groove Century)",
+      "difficulty":"2",
+      "effort":"3",
+      "year":"1990",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9b/Youcanttouchthissqa.png/revision/latest/scale-to-width-down/165?cb=20150308143125",
+      "original game":"Just Dance"
+   }
+]
+jdbo = jdbo.map((item, index) => ({
+   ...item,
+   id: 172 + index
+}))
+var jd4 = [
+   {
+      "song":"(I’ve Had) The Time Of My Life",
+      "artist":"Bill Medley and Jennifer Warnes",
+      "difficulty":"3",
+      "year":"1987",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2e/Thetimeofmylife.jpg/revision/latest/scale-to-width-down/165?cb=20140929023028"
+   },
+   {
+      "song":"(I’ve Had) The Time Of My Life (Mashup)",
+      "artist":"Bill Medley and Jennifer Warnes",
+      "difficulty":"3",
+      "year":"1987",
+      "mode":"Duet",
+      "linkimagem":"_img/(IveHad)Thetimeofmylife.jpg"
+   },
+   {
+      "song":"Ain’t No Other Man",
+      "artist":"Christina Aguilera (The Girly Team)",
+      "difficulty":"2",
+      "year":"2006",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/AintNoOtherMan_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928052914"
+   },
+   {
+      "song":"Aserejé (The Ketchup Song)",
+      "artist":"Las Ketchup",
+      "difficulty":"1",
+      "year":"2002",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Ketchupsong.jpg/revision/latest/scale-to-width-down/165?cb=20140928224051"
+   },
+   {
+      "song":"Beauty And A Beat",
+      "artist":"Justin Bieber ft. Nicki Minaj",
+      "difficulty":"3",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/60/Beautyandabeat_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20170227143436"
+   },
+   {
+      "song":"Beware of the Boys (Mundian To Bach Ke)",
+      "artist":"Panjabi MC",
+      "difficulty":"2",
+      "year":"2003",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a1/Bewareof.jpg/revision/latest/scale-to-width-down/165?cb=20140928062023"
+   },
+   {
+      "song":"Brand New Start (C)",
+      "artist":"Anja",
+      "difficulty":"2",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/12/Letmefeelya_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150315151354"
+   },
+   {
+      "song":"Call Me Maybe",
+      "artist":"Carly Rae Jepsen",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/54/Callmemaybe.jpg/revision/latest/scale-to-width-down/165?cb=20140928064318"
+   },
+   {
+      "song":"Can’t Take My Eyes Off You",
+      "artist":"Boys Town Gang",
+      "difficulty":"1",
+      "year":"1982",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d6/CantEyesJD4Square.png/revision/latest/scale-to-width-down/165?cb=20181027224125"
+   },
+   {
+      "song":"Cercavo Amore (P)",
+      "artist":"Emma",
+      "difficulty":"3",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Amore.jpg/revision/latest/scale-to-width-down/165?cb=20140928055735"
+   },
+   {
+      "song":"Crazy Little Thing",
+      "artist":"Anja",
+      "difficulty":"3",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2e/Sexylittlething_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20170227202232"
+   },
+   {
+      "song":"Crucified",
+      "artist":"Army of Lovers",
+      "difficulty":"3",
+      "year":"1991",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9a/Crucifiedquat.jpg/revision/latest/scale-to-width-down/165?cb=20140928071744"
+   },
+   {
+      "song":"Diggin’ in the Dirt (P)",
+      "artist":"Stefanie Heinzmann",
+      "difficulty":"2",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c5/Diggin.jpg/revision/latest/scale-to-width-down/165?cb=20140928073018"
+   },
+   {
+      "song":"Disturbia",
+      "artist":"Rihanna",
+      "difficulty":"3",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/94/Disturbia.jpg/revision/latest/scale-to-width-down/165?cb=20140928073510"
+   },
+   {
+      "song":"Domino (W)",
+      "artist":"Jessie J",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ce/Domino.jpg/revision/latest/scale-to-width-down/165?cb=20140928073951"
+   },
+   {
+      "song":"Everybody Needs Somebody To Love*",
+      "artist":"The Blues Brothers (Dancing Bros)",
+      "difficulty":"2",
+      "year":"1980",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/13/Everybodyneeds.jpg/revision/latest/scale-to-width-down/165?cb=20140928081438"
+   },
+   {
+      "song":"Good Feeling",
+      "artist":"Flo Rida",
+      "difficulty":"2",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bb/Goodfeeling.jpg/revision/latest/scale-to-width-down/165?cb=20140928091620"
+   },
+   {
+      "song":"Good Girl (N)",
+      "artist":"Carrie Underwood",
+      "difficulty":"1",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ec/Goodgirl.jpg/revision/latest/scale-to-width-down/165?cb=20140928092207"
+   },
+   {
+      "song":"Hit ’Em Up Style (Oops!)",
+      "artist":"Blu Cantrell",
+      "difficulty":"1",
+      "year":"2001",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/34/HitEmUp_Cover_Generic.jpg/revision/latest/scale-to-width-down/165?cb=20180710205808"
+   },
+   {
+      "song":"Hot For Me",
+      "artist":"A.K.A",
+      "difficulty":"2",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a4/Hotforme_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180624224527"
+   },
+   {
+      "song":"I Like It",
+      "artist":"The Blackout Allstars",
+      "difficulty":"3",
+      "year":"1994",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/62/Ilikeitlike_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928220303"
+   },
+   {
+      "song":"Istanbul (Not Constantinople)",
+      "artist":"They Might Be Giants",
+      "difficulty":"1",
+      "year":"1990",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/97/Istanbulquat.jpg/revision/latest/scale-to-width-down/165?cb=20140928221114"
+   },
+   {
+      "song":"Jailhouse Rock",
+      "artist":"Elvis Presley",
+      "difficulty":"1",
+      "year":"1957",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a7/Jailhousequat.jpg/revision/latest/scale-to-width-down/165?cb=20140928222630"
+   },
+   {
+      "song":"Livin’ La Vida Loca",
+      "artist":"Ricky Martin",
+      "difficulty":"3",
+      "year":"1999",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5d/Livinlavidaloca_jd4_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180628004625"
+   },
+   {
+      "song":"Love You Like a Love Song",
+      "artist":"Selena Gomez and the Scene",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Loveyoulike_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928231502"
+   },
+   {
+      "song":"Make The Party (Don’t Stop) (E)",
+      "artist":"Bunny Beatz",
+      "difficulty":"2",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c8/MakeTheParty_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180624202544"
+   },
+   {
+      "song":"Maneater",
+      "artist":"Nelly Furtado",
+      "difficulty":"2",
+      "year":"2006",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2d/Maneater.jpg/revision/latest/scale-to-width-down/165?cb=20140928232606"
+   },
+   {
+      "song":"Mas Que Nada",
+      "artist":"Sergio Mendes ft. The Black Eyed Peas",
+      "difficulty":"1",
+      "year":"2006",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Masquenada.jpg/revision/latest/scale-to-width-down/165?cb=20140928233851"
+   },
+   {
+      "song":"Moves Like Jagger",
+      "artist":"Maroon 5 ft. Christina Aguilera",
+      "difficulty":"2",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Moveslikejag_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180627234740"
+   },
+   {
+      "song":"Mr. Saxobeat",
+      "artist":"Alexandra Stan",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2c/Mrsaxobeat.jpg/revision/latest/scale-to-width-down/165?cb=20140929000522"
+   },
+   {
+      "song":"Never Gonna Give You Up",
+      "artist":"Rick Astley",
+      "difficulty":"1",
+      "year":"1987",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/20/Nevergonna.jpg/revision/latest/scale-to-width-down/165?cb=20140929000956"
+   },
+   {
+      "song":"Oh No!",
+      "artist":"Marina and the Diamonds",
+      "difficulty":"3",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/95/Ohno.jpg/revision/latest/scale-to-width-down/165?cb=20140929001640"
+   },
+   {
+      "song":"On the Floor",
+      "artist":"Jennifer Lopez ft. Pitbull",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Onthefloor_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180629003633"
+   },
+   {
+      "song":"Oops!...I Did It Again*",
+      "artist":"Britney Spears (The Girly Team)",
+      "difficulty":"2",
+      "year":"2000",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Ididitagainquat.jpg/revision/latest/scale-to-width-down/165?cb=20140928093842"
+   },
+   {
+      "song":"Rock Lobster",
+      "artist":"The B-52's",
+      "difficulty":"2",
+      "year":"1978",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b5/Rocklobster_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140929011253"
+   },
+   {
+      "song":"Rock n’ Roll (Will Take You to the Mountain)",
+      "artist":"Skrillex",
+      "difficulty":"2",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/32/Rocknroll_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140929011951"
+   },
+   {
+      "song":"Run the Show",
+      "artist":"Kat DeLuna ft. Busta Rhymes",
+      "difficulty":"3",
+      "year":"2007",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/26/Runtheshow.jpg/revision/latest/scale-to-width-down/165?cb=20140929012909"
+   },
+   {
+      "song":"So What (D)",
+      "artist":"P!nk",
+      "difficulty":"1",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/Sowhat.jpg/revision/latest/scale-to-width-down/165?cb=20140929020212"
+   },
+   {
+      "song":"Some Catchin' Up To Do",
+      "artist":"Sammy",
+      "difficulty":"1",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/94/Catchinup_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180712144447"
+   },
+   {
+      "song":"Super Bass",
+      "artist":"Nicki Minaj",
+      "difficulty":"3",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1b/Superbass.jpg/revision/latest/scale-to-width-down/165?cb=20140929021335"
+   },
+   {
+      "song":"Superstition",
+      "artist":"Stevie Wonder",
+      "difficulty":"1",
+      "year":"1972",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/97/Superjd4.png/revision/latest/scale-to-width-down/165?cb=20180624213855"
+   },
+   {
+      "song":"The Final Countdown (D)",
+      "artist":"Europe",
+      "difficulty":"3",
+      "year":"1986",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e3/TheFinalCountdown_SquareJD4.png/revision/latest/scale-to-width-down/165?cb=20181027224022"
+   },
+   {
+      "song":"Time Warp*",
+      "artist":"The Rocky Horror Picture Show Cast (Halloween Thrills)",
+      "difficulty":"3",
+      "year":"1975",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2a/Timewarpquat.jpg/revision/latest/scale-to-width-down/165?cb=20140929033301"
+   },
+   {
+      "song":"Tribal Dance",
+      "artist":"2 Unlimited",
+      "difficulty":"3",
+      "year":"1993",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Tribaldance.jpg/revision/latest/scale-to-width-down/165?cb=20140924210900"
+   },
+   {
+      "song":"Umbrella (S)",
+      "artist":"Rihanna ft. Jay-Z",
+      "difficulty":"1",
+      "year":"2007",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9d/Umbrella.jpg/revision/latest/scale-to-width-down/165?cb=20140929034749"
+   },
+   {
+      "song":"Want U Back (W)",
+      "artist":"Cher Lloyd ft. Astro",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/28/WantUBack_JD4.png/revision/latest/scale-to-width-down/165?cb=20190706184156"
+   },
+   {
+      "song":"We No Speak Americano*",
+      "artist":"Yolanda Be Cool and DCUP (Hit The Electro Beat)",
+      "difficulty":"2",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b4/Americano.jpg/revision/latest/scale-to-width-down/165?cb=20140928055006"
+   },
+   {
+      "song":"What Makes You Beautiful (D)",
+      "artist":"One Direction",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Whatmakesyoubeautiful_square_jd4.png/revision/latest/scale-to-width-down/165?cb=20180627235644"
+   },
+   {
+      "song":"Wild Wild West",
+      "artist":"Will Smith",
+      "difficulty":"3",
+      "year":"1999",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/96/Wildwildwestquat.jpg/revision/latest/scale-to-width-down/165?cb=20140929042214"
+   },
+   {
+      "song":"You Make Me Feel... (C)",
+      "artist":"Cobra Starship ft. Sabi",
+      "difficulty":"2",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5f/Youmakemefeeldlc_jd4_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20150313232308"
+   },
+   {
+      "song":"You’re the First, the Last, My Everything",
+      "artist":"Barry White",
+      "difficulty":"1",
+      "year":"1974",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d2/You%27re_the_first_the_last_my_everything_jdn.jpg/revision/latest/scale-to-width-down/165?cb=20140924211045"
+   }
+]
+jd4 = jd4.map((item, index) => ({
+   ...item,
+   id: 400 + index,
+  }))
+
 
 var jd20 = [
     {
-       "song":"365",
-       "artist":"Zedd & Katy Perry",
-       "year":"2019",
-       "mode":"Solo",
-       "difficulty":"Easy",
-       "effort":"Low",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f9/365_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205753"
-    },
-    {
-       "song":"7 rings",
-       "artist":"Ariana Grande",
-       "year":"2019",
-       "mode":"Trio",
-       "difficulty":"Medium",
-       "effort":"Moderate",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/7rings_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191026222501"
-    },
-    {
-        "song":"7 Rings - Extreme",
-        "artist":"Ariana Grande",
-        "mode":"Solo",
-        "difficulty":"Ex",
-        "effort":"Intense",
-        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1c/7ringsalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205752"
-     },
-    {
        "song":"Always Look On The Bright Side Of Life",
-       "artist":"Monty Python",
+       "artist":"The Frankie Bostello Orchestra",
        "year":"1979",
        "mode":"Dance Crew",
        "difficulty":"Easy",
@@ -900,7 +2804,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d4/Badguy_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205802"
     },
     {
-        "song":"bad guy - Extreme",
+        "song":"bad guy (Billie Version)",
         "artist":"Billie Eilish",
         "mode":"Solo",
         "difficulty":"Ex",
@@ -918,7 +2822,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d5/Bangarang_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191031042700"
     },
     {
-        "song":"Bangarang - Extreme",
+        "song":"Bangarang (Extreme Version)",
         "artist":"Skrillex ft. Sirah",
         "mode":"Solo",
         "difficulty":"Ex",
@@ -954,7 +2858,7 @@ var jd20 = [
     },
     {
        "song":"Everybody (Backstreet’s Back)",
-       "artist":"Backstreet Boys (Millennium Alert)",
+       "artist":"Millennium Alert",
        "year":"1997",
        "mode":"Dance Crew",
        "difficulty":"Easy",
@@ -1007,7 +2911,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/35/Godisawoman_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210250"
     },
     {
-        "song":"God Is a Woman - Alternative",
+        "song":"God Is a Woman (God Version)",
         "artist":"Ariana Grande",
         "mode":"Solo",
         "difficulty":"Medium",
@@ -1033,7 +2937,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/28/Iamthebest_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191023081404"
     },
     {
-        "song":"I Am the Best - Extreme",
+        "song":"I Am the Best (Extreme Version)",
         "artist":"2NE1",
         "mode":"Solo",
         "difficulty":"Ex",
@@ -1060,7 +2964,7 @@ var jd20 = [
     },
     {
        "song":"Infernal Galop (Can-Can)",
-       "artist":"Jacques Offenbach (The Just Dance Orchestra)",
+       "artist":"The Just Dance Orchestra",
        "year":"1858",
        "mode":"Duet",
        "difficulty":"Medium",
@@ -1069,7 +2973,7 @@ var jd20 = [
     },
     {
        "song":"Into the Unknown",
-       "artist":"Idina Menzel & AURORA",
+       "artist":"Disney's Frozen 2",
        "year":"2019",
        "mode":"Solo",
        "difficulty":"Easy",
@@ -1078,7 +2982,7 @@ var jd20 = [
     },
     {
        "song":"Just An Illusion",
-       "artist":"Imagination (Equinox Stars)",
+       "artist":"Equinox Stars",
        "year":"1982",
        "mode":"Duet",
        "difficulty":"Medium",
@@ -1104,7 +3008,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e5/Killthislove_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210445"
     },
     {
-        "song":"Kill This Love - Extreme",
+        "song":"Kill This Love (Extreme Version)",
         "artist":"BLACKPINK",
         "mode":"Solo",
         "difficulty":"Ex",
@@ -1113,7 +3017,7 @@ var jd20 = [
      },
     {
        "song":"Le Bal Masqué",
-       "artist":"La Compagnie Créole (Dr. Creole)",
+       "artist":"Dr. Creole",
        "year":"1984",
        "mode":"Dance Crew",
        "difficulty":"Easy",
@@ -1148,7 +3052,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/32/Oldtownroad_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210449"
     },
     {
-        "song":"Old Town Road - Alternative",
+        "song":"Old Town Road (Line Dance Version)",
         "artist":"Lil Nas X ft. Billy Ray Cyrus",
         "mode":"Trio",
         "difficulty":"Easy",
@@ -1174,7 +3078,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fe/Rainoverme_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210451"
     },
     {
-        "song":"Rain Over Me - Extreme",
+        "song":"Rain Over Me (Extreme Version)",
         "artist":"Pitbull ft. Marc Anthony",
         "mode":"Solo",
         "difficulty":"Ex",
@@ -1192,6 +3096,15 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Skibidi_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210604"
     },
     {
+      "song":"Só Depois do Carnaval",
+      "artist":"Lexa",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Docarnaval_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191031042342"
+   },
+    {
        "song":"Soy Yo",
        "artist":"Bomba Estéreo",
        "year":"2015",
@@ -1201,7 +3114,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Soyyo_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210604"
     },
     {
-        "song":"Soy Yo - Alternative",
+        "song":"Soy Yo (Snake Edition)",
         "artist":"Bomba Estéreo",
         "mode":"Duet",
         "difficulty":"Medium",
@@ -1209,7 +3122,7 @@ var jd20 = [
         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8b/Soyyoalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210605"
      },
     {
-       "song":"Stop Movin’",
+       "song":"Stop Movin'",
        "artist":"Royal Republic",
        "year":"2019",
        "mode":"Trio",
@@ -1227,22 +3140,13 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ae/Sushii_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210606"
     },
     {
-        "song":"Sushi - Extreme",
+        "song":"Sushi (Extreme Version)",
         "artist":"Merk & Kremont",
         "mode":"Solo",
         "difficulty":"Ex",
         "effort":"Intense",
         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bb/Sushiialt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210607"
      },
-    {
-       "song":"Só Depois do Carnaval",
-       "artist":"Lexa",
-       "year":"2019",
-       "mode":"Solo",
-       "difficulty":"Medium",
-       "effort":"Moderate",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Docarnaval_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191031042342"
-    },
     {
        "song":"Taki Taki",
        "artist":"DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
@@ -1253,7 +3157,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c3/Takitaki_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210609"
     },
     {
-        "song":"Taki Taki - Alternative",
+        "song":"Taki Taki (Caveman Version)",
         "artist":"DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
         "mode":"Duet",
         "difficulty":"Medium",
@@ -1270,7 +3174,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/Talk_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210612"
     },
     {
-        "song":"Talk - Extreme",
+        "song":"Talk (Extreme Edition)",
         "artist":"Khalid",
         "mode":"Solo",
         "difficulty":"Ex",
@@ -1296,7 +3200,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/14/Thetime_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210753"
     },
     {
-        "song":"The Time (Dirty Bit) - Extreme",
+        "song":"The Time (Dirty Bit) (Extreme Version)",
         "artist":"The Black Eyed Peas",
         "mode":"Solo",
         "difficulty":"Ex",
@@ -1321,70 +3225,40 @@ var jd20 = [
        "effort":"Intense",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b7/Vodovorot_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210758"
     },
+    {
+      "song":"365",
+      "artist":"Zedd & Katy Perry",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f9/365_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205753"
+   },
+   {
+      "song":"7 rings",
+      "artist":"Ariana Grande",
+      "year":"2019",
+      "mode":"Trio",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/7rings_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191026222501"
+   },
+   {
+       "song":"7 rings (Extreme Version)",
+       "artist":"Ariana Grande",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Intense",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1c/7ringsalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205752"
+    }
  ]
-
- jd20 = jd20.map((item, index) => ({
+jd20 = jd20.map((item, index) => ({
     ...item,
     id: 2000 + index,   
    }))
-
- var jdU = [
+var jdU = [
     {
-       "song":"#thatPOWER",
-       "artist":"will.i.am ft. Justin Bieber",
-       "year":"2013",
-       "mode":"Dance Crew",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/66/Thatpower_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151358",
-       "original game":"Just Dance 2014",
-       "released into servers":"Available at launch"
-    },
-    {
-       "song":"10.000 luchtballonnen",
-       "artist":"K3",
-       "year":"2015",
-       "mode":"Trio",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/10000lucht.png/revision/latest/scale-to-width-down/180?cb=20191102100918",
-       "original game":"Just Dance 2020",
-       "released into servers":"November 5, 2019 (Benelux)"
-    },
-    {
-       "song":"10.000 luchtballonnen",
-       "artist":"K3",
-       "year":"2015",
-       "mode":"Trio",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/10000lucht.png/revision/latest/scale-to-width-down/180?cb=20191102100918",
-       "original game":"Just Dance 2020",
-       "released into servers":"December 23, 2019 (Worldwide)"
-    },
-    {
-       "song":"1999",
-       "artist":"Charli XCX & Troye Sivan",
-       "year":"2018",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5e/1999_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200130161535",
-       "original game":"Exclusive Track",
-       "released into servers":"January 30, 2020"
-    },
-    {
-       "song":"24K Magic",
-       "artist":"Bruno Mars",
-       "year":"2016",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3a/24k_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171003191223",
-       "original game":"Just Dance 2018",
-       "released into servers":"October 20, 2018"
-    },
-    {
-       "song":"99 Luftballons*",
-       "artist":"Nena(Rutschen Planeten)",
-       "year":"1983",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Luftballons_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151352",
-       "original game":"Just Dance 2014",
-       "released into servers":"Available at launch"
-    },
-    {
-       "song":"A Little Party Never Killed Nobody (All We Got)",
+       "song":"A Little Party Never Killed Nobody",
        "artist":"Fergie ft. Q-Tip, GoonRock",
        "year":"2013",
        "mode":"Solo",
@@ -1392,6 +3266,15 @@ var jd20 = [
        "original game":"Just Dance 2019",
        "released into servers":"November 2, 2019"
     },
+    {
+      "song":"A Little Party Never Killed Nobody (Twenties Version)",
+      "artist":"Fergie ft. Q-Tip, GoonRock",
+      "year":"2013",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3c/Littlepartyalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215638",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
     {
        "song":"A Pirate You Shall Be",
        "artist":"Tom Zehnder",
@@ -1456,6 +3339,15 @@ var jd20 = [
        "released into servers":"February 16, 2017"
     },
     {
+      "song":"All About That Bass (Flower & Bee Version)",
+      "artist":"Meghan Trainor",
+      "year":"2014",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/16/Aboutthatbassalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208084206",
+      "original game":"Just Dance 2016",
+      "released into servers":"May 4, 2017"
+   },
+    {
        "song":"All About Us",
        "artist":"Jordan Fisher",
        "year":"2016",
@@ -1492,15 +3384,6 @@ var jd20 = [
        "released into servers":"April 21, 2016"
     },
     {
-       "song":"Amazing Girl (K)",
-       "artist":"The Girly Team",
-       "year":"2017",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3b/Missamazingkids_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184954",
-       "original game":"Just Dance 2018 (Kids Mode)",
-       "released into servers":"October 20, 2018"
-    },
-    {
        "song":"American Girl",
        "artist":"Bonnie McKee",
        "year":"2013",
@@ -1519,6 +3402,15 @@ var jd20 = [
        "released into servers":"February 16, 2017"
     },
     {
+      "song":"Animals (Extreme Version)",
+      "artist":"Martin Garrix",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/AnimalsALT.png/revision/latest/scale-to-width-down/180?cb=20170208084214",
+      "original game":"Just Dance 2016",
+      "released into servers":"March 9, 2017"
+   },
+    {
        "song":"Another One Bites the Dust",
        "artist":"Queen",
        "year":"1980",
@@ -1527,6 +3419,15 @@ var jd20 = [
        "original game":"Just Dance 2018",
        "released into servers":"October 20, 2018"
     },
+    {
+      "song":"Another One Bites the Dust (Stunt Version)",
+      "artist":"Queen",
+      "year":"1980",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/73/Anotheronealt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184938",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
     {
        "song":"Apache (Jump On It)",
        "artist":"The Sugarhill Gang",
@@ -1546,7 +3447,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Aquarius/Let the Sunshine In*",
+       "song":"Aquarius/Let the Sunshine In",
        "artist":"The 5th Dimension (The Sunlight Shakers)",
        "year":"1969",
        "mode":"Duet",
@@ -1573,6 +3474,15 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
+      "song":"Automaton (Tomato Verson)",
+      "artist":"Jamiroquai",
+      "year":"2017",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/de/Automatonalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184939",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+    {
        "song":"Baby Girl",
        "artist":"Reggaeton",
        "year":"2009",
@@ -1582,20 +3492,11 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Baby One More Time*",
-       "artist":"Britney Spears(The Girly Team)",
+       "song":"Baby One More Time",
+       "artist":"Britney Spears",
        "year":"1998",
        "mode":"Dance Crew",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/53/Baby_one_more_time_jdn.jpg/revision/latest/scale-to-width-down/180?cb=20141121195642",
-       "original game":"Just Dance 3",
-       "released into servers":"Available at launch"
-    },
-    {
-       "song":"Baby Zouk(R)",
-       "artist":"Dr. Creole",
-       "year":"1999",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/46/Babyzouk.jpg/revision/latest/scale-to-width-down/180?cb=20141218210520",
        "original game":"Just Dance 3",
        "released into servers":"Available at launch"
     },
@@ -1663,8 +3564,17 @@ var jd20 = [
        "released into servers":"November 2, 2019"
     },
     {
+      "song":"Bang Bang Bang (Extreme Version)",
+      "artist":"BIGBANG",
+      "year":"2015",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2a/Bang2019alt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022213932",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+    {
        "song":"Barbie Girl",
-       "artist":"Aqua* (Countdown Dee’s Hit Explosion)",
+       "artist":"Aqua (Countdown Dee’s Hit Explosion)",
        "year":"1997",
        "mode":"Duet",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d3/Barbiegirl_now.jpg/revision/latest/scale-to-width-down/180?cb=20150404185740",
@@ -1762,6 +3672,24 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"Blurred Lines (Extreme Version)",
+      "artist":"Robin Thicke ft. Pharrell Williams",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/50/Blurredlinesaltdlc.jpg/revision/latest/scale-to-width-down/180?cb=20160526090318",
+      "original game":"Just Dance 2014",
+      "released into servers":"May 19, 2016"
+   },
+   {
+      "song":"Blurred Lines (FANMADE)",
+      "artist":"Robin Thicke ft. Pharrell Williams",
+      "year":"2013",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Justmaxbl.jpg/revision/latest/scale-to-width-down/180?cb=20150129122034",
+      "original game":"Just Dance Now",
+      "released into servers":"March 24, 2016"
+   },
+    {
        "song":"Bonbon",
        "artist":"Era Istrefi",
        "year":"2016",
@@ -1771,22 +3699,13 @@ var jd20 = [
        "released into servers":"October 12, 2017"
     },
     {
-       "song":"Boogie Wonderland*",
+       "song":"Boogie Wonderland",
        "artist":"Earth, Wind and Fire ft. The Emotions(Groove Century)",
        "year":"1979",
        "mode":"Dance Crew",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/28/Boogiewonderquat.jpg/revision/latest/scale-to-width-down/180?cb=20150430154019",
        "original game":"Just Dance 3",
        "released into servers":"Available at launch"
-    },
-    {
-       "song":"Boogiesaurus (K)",
-       "artist":"John Anthony(A. Caveman and the Backseats)",
-       "year":"2003",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d1/Jurassickids_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022223039",
-       "original game":"Just Dance 2019 (Kids Mode)",
-       "released into servers":"November 2, 2019"
     },
     {
        "song":"Boom",
@@ -1825,6 +3744,15 @@ var jd20 = [
        "released into servers":"February 16, 2017"
     },
     {
+      "song":"Born This Way (Nerd Version)",
+      "artist":"Lady Gaga",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/BornThisWayALT.png/revision/latest/scale-to-width-down/180?cb=20170208084227",
+      "original game":"Just Dance 2016",
+      "released into servers":"March 9, 2017"
+   },
+    {
        "song":"Boys",
        "artist":"Lizzo",
        "year":"2018",
@@ -1833,6 +3761,15 @@ var jd20 = [
        "original game":"Exclusive Track",
        "released into servers":"October 31, 2019"
     },
+    {
+      "song":"Boys (Voguing Version)",
+      "artist":"Lizzo",
+      "year":"2018",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/69/Boysalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20200114100150",
+      "original game":"Exclusive Track",
+      "released into servers":"May 28, 2020"
+   },
     {
        "song":"Boys (Summertime Love)",
        "artist":"Sabrina (The Lemon Cubes)",
@@ -1861,6 +3798,15 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
+      "song":"Bubble Pop! (Bubble Gum Version)",
+      "artist":"HyunA",
+      "year":"2011",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ce/Bubblepopalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20180716160533",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+    {
        "song":"Built For This",
        "artist":"Becky G",
        "year":"2013",
@@ -1879,6 +3825,33 @@ var jd20 = [
        "released into servers":"November 2, 2019"
     },
     {
+      "song":"Bum Bum Tam Tam (Mad Scientist Version)",
+      "artist":"MC Fioti, Future, J Balvin, Stefflon Don, Juan Magan",
+      "year":"2018",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5d/Bumbumtamtamalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215548",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+   {
+      "song":"C'Mon",
+      "artist":"Ke$ha",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Cmon_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151209",
+      "original game":"Just Dance 2014",
+      "released into servers":"Available at launch"
+   },
+   {
+      "song":"Ça Plane Pour Moi",
+      "artist":"Plastic Bertrand(Bob Platine)",
+      "year":"1978",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/35/Caplane_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022221014",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+    {
        "song":"Cake By The Ocean",
        "artist":"DNCE",
        "year":"2015",
@@ -1887,6 +3860,15 @@ var jd20 = [
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
     },
+    {
+      "song":"Cake By The Ocean (Earphones Version)",
+      "artist":"DNCE",
+      "year":"2015",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a1/Cakebytheoceanalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028111454",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
     {
        "song":"California Gurls",
        "artist":"Katy Perry ft. Snoop Dogg",
@@ -1933,6 +3915,15 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"Can’t Take My Eyes Off You (Wrestler Version)",
+      "artist":"Boys Town Gang",
+      "year":"1982",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7b/Canttakemyeyesalt.jpg/revision/latest/scale-to-width-down/180?cb=20160530192535",
+      "original game":"Just Dance 4",
+      "released into servers":"February 25, 2016"
+   },
+    {
        "song":"Carmen (Overture)",
        "artist":"The Just Dance Orchestra",
        "year":"1875",
@@ -1969,6 +3960,15 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
+      "song":"Chantaje (Subway Version)",
+      "artist":"Shakira ft. Maluma",
+      "year":"2016",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/15/Chantajealt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184943",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+    {
        "song":"Cheap Thrills",
        "artist":"Sia ft. Sean Paul",
        "year":"2016",
@@ -1977,6 +3977,15 @@ var jd20 = [
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
     },
+    {
+      "song":"Cheap Thrills (Bollywood Version)",
+      "artist":"Sia Ft. Sean Paul",
+      "year":"2016",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c3/Cheapthrillsalt.png/revision/latest/scale-to-width-down/180?cb=20161028111436",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
     {
        "song":"Cheerleader (Felix Jaehn Remix)",
        "artist":"OMI",
@@ -1987,7 +3996,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Chiwawa (N-Switch)",
+       "song":"Chiwawa",
        "artist":"Wanko Ni Mero Mero",
        "year":"2015",
        "mode":"Solo",
@@ -1995,6 +4004,15 @@ var jd20 = [
        "original game":"Just Dance 2016",
        "released into servers":"March 9, 2017"
     },
+    {
+      "song":"Chiwawa (Barbie Version)",
+      "artist":"Wanko Ni Mero Mero",
+      "year":"2015",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/40/Barbie_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171105144223",
+      "original game":"Exclusive Track",
+      "released into servers":"January 26, 2017"
+   },
     {
        "song":"Circus",
        "artist":"Britney Spears",
@@ -2005,6 +4023,15 @@ var jd20 = [
        "released into servers":"March 9, 2017"
     },
     {
+      "song":"Circus (Extreme Version)",
+      "artist":"Britney Spears",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/95/CircusALT.png/revision/latest/scale-to-width-down/180?cb=20170208084244",
+      "original game":"Just Dance 2016",
+      "released into servers":"April 6, 2017"
+   },
+    {
        "song":"Cola Song",
        "artist":"INNA ft. J Balvin",
        "year":"2014",
@@ -2013,6 +4040,15 @@ var jd20 = [
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
     },
+    {
+      "song":"Cola Song (Candy People Version)",
+      "artist":"INNA ft. J Balvin",
+      "year":"2014",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/29/Colasongalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028111322",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
     {
        "song":"Cool For The Summer",
        "artist":"Demi Lovato",
@@ -2102,15 +4138,6 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/93/Cryingblood-0.jpg/revision/latest/scale-to-width-down/180?cb=20150621221505",
        "original game":"Just Dance 2",
        "released into servers":"March 24, 2016"
-    },
-    {
-       "song":"C’Mon",
-       "artist":"Ke$ha",
-       "year":"2012",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Cmon_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151209",
-       "original game":"Just Dance 2014",
-       "released into servers":"Available at launch"
     },
     {
        "song":"Daddy Cool",
@@ -2203,6 +4230,15 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
+      "song":"Despacito (Extreme Version)",
+      "artist":"Luis Fonsi ft. Daddy Yankee",
+      "year":"2017",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/00/Despacitoalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184945",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+    {
        "song":"Dharma",
        "artist":"Headhunterz & KSHMR",
        "year":"2016",
@@ -2211,6 +4247,15 @@ var jd20 = [
        "original game":"Just Dance 2018",
        "released into servers":"October 20, 2018"
     },
+    {
+      "song":"Dharma (Fight Version)",
+      "artist":"Headhunterz & KSHMR",
+      "year":"2016",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/14/Dharmaalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184945",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
     {
        "song":"Die Young",
        "artist":"Ke$ha",
@@ -2275,15 +4320,6 @@ var jd20 = [
        "released into servers":"January 23, 2020"
     },
     {
-       "song":"Done For Me",
-       "artist":"Charlie Puth ft. Kehlani",
-       "year":"2018",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Doneforme_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181220150154",
-       "original game":"Exclusive Track",
-       "released into servers":"December 20, 2018"
-    },
-    {
        "song":"Don’t Let Me Down",
        "artist":"The Chainsmokers ft. Daya",
        "year":"2016",
@@ -2301,6 +4337,15 @@ var jd20 = [
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
     },
+    {
+      "song":"Don’t Stop Me Now (Panda Version)",
+      "artist":"Queen",
+      "year":"1979",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/25/Dontstopmealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028111410",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
     {
        "song":"Don’t Wanna Know",
        "artist":"Maroon 5",
@@ -2320,7 +4365,7 @@ var jd20 = [
        "released into servers":"January 26, 2017"
     },
     {
-       "song":"Don’t Worry Be Happy*",
+       "song":"Don’t Worry Be Happy",
        "artist":"Bobby McFerrin (The Bench Men)",
        "year":"1988",
        "mode":"Trio",
@@ -2337,6 +4382,15 @@ var jd20 = [
        "original game":"Just Dance 2014",
        "released into servers":"Available at launch"
     },
+    {
+      "song":"Done For Me",
+      "artist":"Charlie Puth ft. Kehlani",
+      "year":"2018",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Doneforme_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181220150154",
+      "original game":"Exclusive Track",
+      "released into servers":"December 20, 2018"
+   },
     {
        "song":"Down By The Riverside",
        "artist":"The Reverend Horatio Duncan & Amos Sweets",
@@ -2392,6 +4446,15 @@ var jd20 = [
        "released into servers":"October 12, 2017"
     },
     {
+      "song":"El Tiki (Trio Version)",
+      "artist":"Maluma",
+      "year":"2015",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/88/Eltikialt.png/revision/latest/scale-to-width-down/180?cb=20161028111612",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
+    {
        "song":"Epic Sirtaki",
        "artist":"The Cast of Zorba the Greek (The Bouzouki's)",
        "year":"2014",
@@ -2419,16 +4482,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"EZ DO DANCE (J)",
-       "artist":"TRF",
-       "year":"1993",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f3/Ezdodance_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20160402202618",
-       "original game":"Just Dance Wii U",
-       "released into servers":"May 20, 2020"
-    },
-    {
-       "song":"Fame*",
+       "song":"Fame",
        "artist":"Irene Cara(The Girly Team)",
        "year":"1980",
        "mode":"Solo",
@@ -2455,14 +4509,14 @@ var jd20 = [
        "released into servers":"April 6, 2017"
     },
     {
-       "song":"Fearless Pirate (K)",
-       "artist":"Marine Band",
-       "year":"2017",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8f/Fearlesspiratekids_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184946",
-       "original game":"Just Dance 2018 (Kids Mode)",
-       "released into servers":"October 20, 2018"
-    },
+      "song":"Fancy(Indian Version)",
+      "artist":"Iggy Azalea Ft. Charli XCX",
+      "year":"2014",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/44/Fancyalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208084302",
+      "original game":"Just Dance 2016",
+      "released into servers":"May 4, 2017"
+   },
     {
        "song":"Feel It Still",
        "artist":"Portugal. The Man",
@@ -2509,6 +4563,15 @@ var jd20 = [
        "released into servers":"May 9, 2019July 4, 2019"
     },
     {
+      "song":"Fine China (Extreme Version)",
+      "artist":"Chris Brown",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/50/Finechinaalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530043148",
+      "original game":"Just Dance 2014",
+      "released into servers":"July 11, 2019"
+   },
+    {
        "song":"Finesse (Remix)",
        "artist":"Bruno Mars ft. Cardi B",
        "year":"2018",
@@ -2517,6 +4580,15 @@ var jd20 = [
        "original game":"Just Dance 2019",
        "released into servers":"November 2, 2019"
     },
+    {
+      "song":"Finesse (Remix) (Extreme Version)",
+      "artist":"Bruno Mars ft. Cardi B",
+      "year":"2018",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a7/Finessealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022213446",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
     {
        "song":"Fire",
        "artist":"LLP ft. Mike Diamondz",
@@ -2581,22 +4653,13 @@ var jd20 = [
        "released into servers":"May 28, 2020"
     },
     {
-       "song":"Fraggle Rock*",
-       "artist":"The Cast of Fraggle Rock(The Just Dance Kids)",
+       "song":"Fraggle Rock",
+       "artist":"The Just Dance Kids",
        "year":"1983",
        "mode":"Solo",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3b/Kidsfragglerock_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20180829141305",
        "original game":"Just Dance Kids 2014",
        "released into servers":"August 23, 2018"
-    },
-    {
-       "song":"Friendly Phantom (K)",
-       "artist":"Halloween Thrills",
-       "year":"1996",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d4/Ghostkids_cover_online.png/revision/latest/scale-to-width-down/180?cb=20181022222241",
-       "original game":"Just Dance 2019 (Kids Mode)",
-       "released into servers":"November 2, 2019"
     },
     {
        "song":"Fun",
@@ -2608,16 +4671,7 @@ var jd20 = [
        "released into servers":"March 9, 2017"
     },
     {
-       "song":"Funky Robot (K)",
-       "artist":"Dancing Bros",
-       "year":"2017",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Funkyrobotkids_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184947",
-       "original game":"Just Dance 2018 (Kids Mode)",
-       "released into servers":"October 20, 2018"
-    },
-    {
-       "song":"Funkytown*",
+       "song":"Funkytown",
        "artist":"Lipps Inc.(Sweat Invaders)",
        "year":"1980",
        "mode":"Solo",
@@ -2653,6 +4707,15 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"Gentleman (Sweat Version)",
+      "artist":"PSY",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/79/Gentlemanswt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530043245",
+      "original game":"Just Dance 2014",
+      "released into servers":"January 20, 2016"
+   },
+    {
        "song":"Get Ugly",
        "artist":"Jason Derulo",
        "year":"2015",
@@ -2680,6 +4743,15 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"Ghostbusters (Sweat Version)",
+      "artist":"Ray Parker, Jr.",
+      "year":"1979",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/Ghostbustersswt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530043307",
+      "original game":"Just Dance 2014",
+      "released into servers":"January 20, 2016"
+   },
+    {
        "song":"Gibberish",
        "artist":"MAX",
        "year":"2015",
@@ -2689,7 +4761,16 @@ var jd20 = [
        "released into servers":"April 6, 2017"
     },
     {
-       "song":"Gimme! Gimme! Gimme! (A Man After Midnight)",
+      "song":"Gimme! Gimme! Gimme! (A Man After Midnight)",
+      "artist":"ABBA",
+      "year":"1979",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/19/Abbagimmegimme_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20181012220948",
+      "original game":"ABBA: You Can Dance",
+      "released into servers":"March 22, 2018"
+   },
+    {
+       "song":"Gimme! Gimme! Gimme! (A Man After Midnight) (JD2014)",
        "artist":"ABBA",
        "year":"1979",
        "mode":"Solo",
@@ -2698,14 +4779,14 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Gimme! Gimme! Gimme! (A Man After Midnight)",
-       "artist":"ABBA",
-       "year":"1979",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/19/Abbagimmegimme_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20181012220948",
-       "original game":"ABBA: You Can Dance",
-       "released into servers":"March 22, 2018"
-    },
+      "song":"Gimme! Gimme! Gimme! (A Man After Midnight)(Sing Along)",
+      "artist":"ABBA",
+      "year":"1979",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e4/Gimmegimmeosc_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160331135935",
+      "original game":"Just Dance 2014",
+      "released into servers":"March 24, 2016"
+   },
     {
        "song":"Girlfriend",
        "artist":"Avril Lavigne",
@@ -2779,6 +4860,15 @@ var jd20 = [
        "released into servers":"March 23, 2017"
     },
     {
+      "song":"HandClap (Fanmade)",
+      "artist":"Fitz and the Tantrums",
+      "year":"2016",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/67/Handclapfan.jpg/revision/latest/scale-to-width-down/180?cb=20170831091858",
+      "original game":"Exclusive Track",
+      "released into servers":"August 31, 2017"
+   },
+    {
        "song":"Hangover (BaBaBa)",
        "artist":"Buraka Som Sistema",
        "year":"2011",
@@ -2797,6 +4887,15 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"Happy (Sing Along)",
+      "artist":"Pharrell Williams",
+      "year":"2013",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Happyalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118075036",
+      "original game":"Just Dance 2015",
+      "released into servers":"April 21, 2016"
+   },
+    {
        "song":"Happy Farm (K)",
        "artist":"Groove Century",
        "year":"2016",
@@ -2814,6 +4913,15 @@ var jd20 = [
        "original game":"Just Dance 2019",
        "released into servers":"November 2, 2019"
     },
+    {
+      "song":"Havana (Tango Version)",
+      "artist":"Camila Cabello",
+      "year":"2017",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Havanaalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022214239",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
     {
        "song":"Heart of Glass",
        "artist":"Blondie",
@@ -2860,6 +4968,15 @@ var jd20 = [
        "released into servers":"March 9, 2017"
     },
     {
+      "song":"Hey Mama(Geisha Version)",
+      "artist":"David Guetta Ft. Nicki Minaj, Bebe Rexha & Afrojack",
+      "year":"2014",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cf/HeyMamaALT.png/revision/latest/scale-to-width-down/180?cb=20170208084316",
+      "original game":"Just Dance 2016",
+      "released into servers":"April 6, 2017"
+   },
+    {
        "song":"Hey Ya",
        "artist":"Outkast",
        "year":"2003",
@@ -2887,6 +5004,15 @@ var jd20 = [
        "released into servers":"October 12, 2017"
     },
     {
+      "song":"Hips Don’t Lie (Sumo Version)",
+      "artist":"Shakira ft. Wyclef Jean",
+      "year":"2005",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1e/Hipsalt.png/revision/latest/scale-to-width-down/180?cb=20161028111748",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
+    {
        "song":"Hit The Lights",
        "artist":"Selena Gomez & The Scene",
        "year":"2012",
@@ -2896,7 +5022,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Hit The Road Jack*",
+       "song":"Hit The Road Jack",
        "artist":"Ray Charles (Charles Percy)",
        "year":"1961",
        "mode":"Duet",
@@ -2904,6 +5030,15 @@ var jd20 = [
        "original game":"Just Dance 2016",
        "released into servers":"April 6, 2017"
     },
+    {
+      "song":"Hit The Road Jack (Line Dance Version)",
+      "artist":"Ray Charles (Charles Percy)",
+      "year":"1961",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c1/HitTheRoadALT.png/revision/latest/scale-to-width-down/180?cb=20170208084328",
+      "original game":"Just Dance 2016",
+      "released into servers":"May 4, 2017"
+   },
     {
        "song":"Hit ’Em Up Style (Oops!)",
        "artist":"Blu Cantrell",
@@ -2950,7 +5085,7 @@ var jd20 = [
        "released into servers":"March 22, 2018"
     },
     {
-       "song":"Hot N Cold",
+       "song":"Hot N Cold (Chick Version)",
        "artist":"Katy Perry",
        "year":"2008",
        "mode":"Solo",
@@ -2975,15 +5110,6 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3d/HowDeep_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20170302195311",
        "original game":"Exclusive Track",
        "released into servers":"June 22, 2017 (Consoles)"
-    },
-    {
-       "song":"How Deep Is Your Love",
-       "artist":"Calvin Harris & Disciples",
-       "year":"2015",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3d/HowDeep_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20170302195311",
-       "original game":"Exclusive Track",
-       "released into servers":"March 3, 2017 (Switch)"
     },
     {
        "song":"How Far I’ll Go",
@@ -3040,6 +5166,15 @@ var jd20 = [
        "released into servers":"February 7, 2017"
     },
     {
+      "song":"I Gotta Feeling (Classroom Version)",
+      "artist":"The Black Eyed Peas",
+      "year":"2009",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fb/IGotAFeelingALT.png/revision/latest/scale-to-width-down/180?cb=20170208084343",
+      "original game":"Just Dance 2016",
+      "released into servers":"May 4, 2017"
+   },
+    {
        "song":"I Kissed a Girl",
        "artist":"Katy Perry",
        "year":"2008",
@@ -3048,6 +5183,24 @@ var jd20 = [
        "original game":"Just Dance 2014",
        "released into servers":"Available at launch"
     },
+    {
+      "song":"I Kissed a Girl (Sing Along)",
+      "artist":"Katy Perry",
+      "year":"2009",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b1/Ikissedosc_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160331140328",
+      "original game":"Just Dance 2014",
+      "released into servers":"March 24, 2016"
+   },
+    {
+      "song":"I Kissed a Girl (Sweat Version)",
+      "artist":"Katy Perry",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/Ikissedswt_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160526085649",
+      "original game":"Just Dance 2014",
+      "released into servers":"May 19, 2016"
+   },
     {
        "song":"I Like It",
        "artist":"The Blackout Allstars",
@@ -3058,22 +5211,13 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"I Like to Move It*",
+       "song":"I Like to Move It",
        "artist":"Reel 2 Reel ft. The Mad Stuntman (The Just Dance Kids)",
        "year":"1993",
        "mode":"Solo",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2e/Kidsiliketomoveit.jpg/revision/latest/scale-to-width-down/180?cb=20161201120238",
        "original game":"Just Dance Kids 2014",
        "released into servers":"November 29, 2016"
-    },
-    {
-       "song":"I Love It(UNR)",
-       "artist":"linkimagema Pop ft. Charli XCX",
-       "year":"2012",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ef/Iloveit_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200119123012",
-       "original game":"Just Dance 2015",
-       "released into servers":"Available at launch"
     },
     {
        "song":"I Love Rock ‘N’ Roll*",
@@ -3120,6 +5264,42 @@ var jd20 = [
        "original game":"Just Dance 2014",
        "released into servers":"Available at launch"
     },
+    {
+      "song":"I Will Survive (Sing Along)",
+      "artist":"Gloria Gaynor",
+      "year":"1978",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/84/Iwillsurviveosc.jpg/revision/latest/scale-to-width-down/180?cb=20160728110731",
+      "original game":"Just Dance 2014",
+      "released into servers":"July 21, 2016"
+   },
+   {
+      "song":"I’m An Albatraoz",
+      "artist":"AronChupa",
+      "year":"2014",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5a/AlbatraozSqu.png/revision/latest/scale-to-width-down/180?cb=20170208081905",
+      "original game":"Just Dance 2016",
+      "released into servers":"February 7, 2017"
+   },
+   {
+      "song":"I’m Still Standing*",
+      "artist":"Elton John(Top Culture)",
+      "year":"1983",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/29/Imstillstanding_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022220332",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+   {
+      "song":"I’ve Been Working on The Railroad",
+      "artist":"The Just Dance Kids",
+      "year":"1927",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/51/KIDSWorkingOnTheRailroad_Cover_Generic.jpg/revision/latest/scale-to-width-down/180?cb=20180727170240",
+      "original game":"Just Dance Kids",
+      "released into servers":"July 26, 2018"
+   },
     {
        "song":"Idealistic",
        "artist":"Digitalism",
@@ -3175,15 +5355,6 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
-       "song":"Into the Unknown (F)",
-       "artist":"Idina Menzel ft. AURORA",
-       "year":"2019",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Lullaby_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191123054754",
-       "original game":"Exclusive Track",
-       "released into servers":"November 22, 2019"
-    },
-    {
        "song":"Into You",
        "artist":"Ariana Grande",
        "year":"2016",
@@ -3202,15 +5373,6 @@ var jd20 = [
        "released into servers":"March 9, 2017"
     },
     {
-       "song":"Irish Meadow Dance (K)",
-       "artist":"O’Callaghan’s Orchestra",
-       "year":"2015",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/af/Saintpatrickkids_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181023010518",
-       "original game":"Just Dance 2019(Kids Mode)",
-       "released into servers":"November 2, 2019"
-    },
-    {
        "song":"Isidora",
        "artist":"Bog Bog Orkestar",
        "year":"2013",
@@ -3220,22 +5382,13 @@ var jd20 = [
        "released into servers":"December 7, 2017"
     },
     {
-       "song":"Istanbul (Not Constantinople)",
+       "song":"Istanbul",
        "artist":"They Might Be Giants",
        "year":"1990",
        "mode":"Dance Crew",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/97/Istanbulquat.jpg/revision/latest/scale-to-width-down/180?cb=20140928221114",
        "original game":"Just Dance 4",
        "released into servers":"Available at launch"
-    },
-    {
-       "song":"Itsy Bitsy Teenie Weenie Yellow Polka Dot Bikini",
-       "artist":"The Sunlight Shakers",
-       "year":"1960",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/91/Itsybitsyretake_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184949",
-       "original game":"Just Dance 2018",
-       "released into servers":"October 20, 2018"
     },
     {
        "song":"It’s Raining Men",
@@ -3256,32 +5409,32 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"I’m An Albatraoz",
-       "artist":"AronChupa",
-       "year":"2014",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5a/AlbatraozSqu.png/revision/latest/scale-to-width-down/180?cb=20170208081905",
-       "original game":"Just Dance 2016",
-       "released into servers":"February 7, 2017"
-    },
+      "song":"It’s You (Sweat Version)",
+      "artist":"Duck Sauce",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7d/Itsyouswt_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160428131633",
+      "original game":"Just Dance 2014",
+      "released into servers":"April 21, 2016"
+   },
     {
-       "song":"I’m Still Standing*",
-       "artist":"Elton John(Top Culture)",
-       "year":"1983",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/29/Imstillstanding_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022220332",
-       "original game":"Just Dance 2019",
-       "released into servers":"November 2, 2019"
-    },
-    {
-       "song":"I’ve Been Working on The Railroad",
-       "artist":"The Just Dance Kids",
-       "year":"1927",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/51/KIDSWorkingOnTheRailroad_Cover_Generic.jpg/revision/latest/scale-to-width-down/180?cb=20180727170240",
-       "original game":"Just Dance Kids",
-       "released into servers":"July 26, 2018"
-    },
+      "song":"Itsy Bitsy Teenie Weenie Yellow Polka Dot Bikini",
+      "artist":"The Sunlight Shakers",
+      "year":"1960",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/91/Itsybitsyretake_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184949",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+   {
+      "song":"J’Suis Pas Jalouse",
+      "artist":"Andy Raconte",
+      "year":"2017",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ab/Andy_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200521041244",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 26, 2017"
+   },
     {
        "song":"Jai Ho (You Are My Destiny)",
        "artist":"A.R. Rahman featuring the Pussycat Dolls and Nicole Scherzinger",
@@ -3301,6 +5454,15 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"Jailhouse Rock (Line Dance)",
+      "artist":"Elvis Presley",
+      "year":"1957",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Jailhousealt.jpg/revision/latest/scale-to-width-down/180?cb=20151210140239",
+      "original game":"Just Dance 4",
+      "released into servers":"November 25, 2015"
+   },
+    {
        "song":"Jambo Mambo",
        "artist":"Olé Orquestra",
        "year":"1997",
@@ -3317,17 +5479,8 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0f/Natoodance.jpg/revision/latest/scale-to-width-down/180?cb=20161022062505",
        "original game":"Just Dance 2017",
        "released into servers":"February 24, 2017 (W)"
-    },
-    {
-       "song":"Je sais pas danser",
-       "artist":"Natoo",
-       "year":"2016",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0f/Natoodance.jpg/revision/latest/scale-to-width-down/180?cb=20161022062505",
-       "original game":"Just Dance 2017",
-       "released into servers":"October 27, 2016 (F)"
-    },
-    {
+    }, 
+   {
        "song":"Jingle Bells",
        "artist":"The Just Dance Kids",
        "year":"1857",
@@ -3335,15 +5488,6 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/23/Kidsjinglebells.jpg/revision/latest/scale-to-width-down/180?cb=20161201130031",
        "original game":"Just Dance Kids 2",
        "released into servers":"November 29, 2016"
-    },
-    {
-       "song":"Jingle Bells (K)",
-       "artist":"Santa Clones",
-       "year":"1857",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/29/Merrychristmaskids_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022234655",
-       "original game":"Just Dance 2019(Kids Mode)",
-       "released into servers":"November 2, 2019"
     },
     {
        "song":"John Wayne",
@@ -3355,7 +5499,16 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
-       "song":"Juju On That Beat",
+      "song":"John Wayne (Extreme Version)",
+      "artist":"Lady Gaga",
+      "year":"2016",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ef/Johnwalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184950",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+    {
+       "song":"Juju On That Beat (TZ Anthem)",
        "artist":"Zay Hilfigerrr & Zayion McCall",
        "year":"2016",
        "mode":"Duet",
@@ -3409,23 +5562,23 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Just Mario  (Switch)",
-       "artist":"Koji Kondo(Ubisoft Meets Nintendo)",
-       "year":"2011",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/10/Marionx_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015200508",
-       "original game":"Just Dance Wii",
-       "released into servers":"October 24, 2017"
-    },
-    {
-       "song":"J’suis pas jalouse",
-       "artist":"Andy Raconte",
-       "year":"2017",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ab/Andy_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200521041244",
-       "original game":"Just Dance 2018",
-       "released into servers":"October 26, 2017"
-    },
+      "song":"Just Dance (Sing Along)",
+      "artist":"Lady Gaga ft. Colby O'Donis",
+      "year":"2008",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cb/Justdanceosc.jpg/revision/latest/scale-to-width-down/180?cb=20160901120245",
+      "original game":"Just Dance 2014",
+      "released into servers":"August 25, 2016"
+   },
+   {
+      "song":"Just Dance (Sweat Version)",
+      "artist":"Lady Gaga ft. Colby O' Donis",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/90/Justdanceswtdlcupdated.jpg/revision/latest/scale-to-width-down/180?cb=20160805093906",
+      "original game":"Just Dance 2014",
+      "released into servers":"July 21, 2016"
+   },    
     {
        "song":"Kaboom Pow",
        "artist":"Nikki Yanofsky",
@@ -3435,6 +5588,15 @@ var jd20 = [
        "original game":"Just Dance 2016",
        "released into servers":"February 16, 2017"
     },
+    {
+      "song":"Karaoke Forever - Future Underworld Mix",
+      "artist":"Alan Tam",
+      "year":"1990",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/27/Karaokeforeverchn_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20190213115014",
+      "original game":"舞力全开2017",
+      "released into servers":"February 5, 2019"
+   },
     {
        "song":"Katti Kalandal",
        "artist":"Bollywood",
@@ -3462,6 +5624,15 @@ var jd20 = [
        "original game":"Just Dance 2018",
        "released into servers":"October 20, 2018"
     },
+    {
+      "song":"Kissing Strangers (Charleston Version)",
+      "artist":"DNCE ft. Nicki Minaj",
+      "year":"2017",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/34/Kissingstrangersalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184952",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
     {
        "song":"Knowing Me, Knowing You",
        "artist":"ABBA",
@@ -3526,15 +5697,6 @@ var jd20 = [
        "released into servers":"October 12, 2017 (2016)"
     },
     {
-       "song":"Last Christmas",
-       "artist":"Santa Clones",
-       "year":"1986",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/Lastchristmas.png/revision/latest/scale-to-width-down/180?cb=20161028111941",
-       "original game":"Just Dance 2017",
-       "released into servers":"March 3, 2017 (Switch)"
-    },
-    {
        "song":"Lay All Your Love On Me",
        "artist":"ABBA",
        "year":"1981",
@@ -3562,6 +5724,15 @@ var jd20 = [
        "released into servers":"October 12, 2017"
     },
     {
+      "song":"Lean On (Scarf Version)",
+      "artist":"Major Lazer & DJ Snake ft. MØ",
+      "year":"2015",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8c/Leanonalt.png/revision/latest/scale-to-width-down/180?cb=20161028112020",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
+    {
        "song":"Leg Song",
        "artist":"LULU",
        "year":"2016",
@@ -3580,7 +5751,7 @@ var jd20 = [
        "released into servers":"October 12, 2017"
     },
     {
-       "song":"Let It Go*",
+       "song":"Let It Go",
        "artist":"Idina Menzel(Disney's Frozen)",
        "year":"2013",
        "mode":"Duet",
@@ -3589,16 +5760,16 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Let Me Love You (F)",
-       "artist":"DJ Snake feat. Justin Bieber",
-       "year":"2016",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/59/Blackmamba_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161117190631",
-       "original game":"Just Dance 2017",
-       "released into servers":"October 25, 2016 (2017)"
-    },
+      "song":"Let It Go (Sing Along)",
+      "artist":"Idina Menzel (Disney's Frozen)",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/96/Letitgodlc_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118132600",
+      "original game":"Just Dance 2015",
+      "released into servers":"December 21, 2015"
+   },
     {
-       "song":"Let Me Love You (F)",
+       "song":"Let Me Love You",
        "artist":"DJ Snake feat. Justin Bieber",
        "year":"2016",
        "mode":"Duet",
@@ -3607,7 +5778,7 @@ var jd20 = [
        "released into servers":"January 18, 2018 (2016, 2018)"
     },
     {
-       "song":"Let’s Groove*",
+       "song":"Let’s Groove",
        "artist":"Earth, Wind & Fire (Equinox Stars)",
        "year":"1981",
        "mode":"Trio",
@@ -3634,15 +5805,6 @@ var jd20 = [
        "released into servers":"October 12, 2017 (2016)"
     },
     {
-       "song":"Like I Would",
-       "artist":"ZAYN",
-       "year":"2015",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Likeiwould.png/revision/latest/scale-to-width-down/180?cb=20161028112100",
-       "original game":"Just Dance 2017",
-       "released into servers":"March 3, 2017 (Switch)"
-    },
-    {
        "song":"Little Swing",
        "artist":"AronChupa ft. Little Sis Nora",
        "year":"2016",
@@ -3661,7 +5823,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Love Boat*",
+       "song":"Love Boat",
        "artist":"Jack Jones (Frankie Bostello)",
        "year":"1979",
        "mode":"Solo",
@@ -3670,7 +5832,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Love Is All*",
+       "song":"Love Is All",
        "artist":"Roger Glover and The Butterfly Ball(The Sunlight Shakers)",
        "year":"1974",
        "mode":"Duet",
@@ -3722,15 +5884,6 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/53/Macarena_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170222122231",
        "original game":"Just Dance 2015",
        "released into servers":"April 13, 2017"
-    },
-    {
-       "song":"Magic Halloween (K)",
-       "artist":"Halloween Thrills",
-       "year":"2013",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/Magichalloweenkids_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184953",
-       "original game":"Just Dance 2018 (Kids Mode)",
-       "released into servers":"October 20, 2018"
     },
     {
        "song":"Make It Jingle",
@@ -3859,6 +6012,15 @@ var jd20 = [
        "released into servers":"March 7, 2019"
     },
     {
+      "song":"Medicina (Extreme Version)",
+      "artist":"Anitta",
+      "year":"2018",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cb/MedicinaAlt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20190627171819",
+      "original game":"Exclusive Track",
+      "released into servers":"June 27, 2019"
+   },
+    {
        "song":"Mi Gente",
        "artist":"J Balvin & Willy William",
        "year":"2017",
@@ -3868,7 +6030,7 @@ var jd20 = [
        "released into servers":"February 22, 2018"
     },
     {
-       "song":"Mi Mi Mi*",
+       "song":"Mi Mi Mi",
        "artist":"Serebro(Hit The Electro Beat)",
        "year":"2013",
        "mode":"Duet",
@@ -3876,6 +6038,24 @@ var jd20 = [
        "original game":"Just Dance 2019",
        "released into servers":"November 2, 2019"
     },
+    {
+      "song":"Mi Mi Mi (Sassy Version)",
+      "artist":"Serebro(Hit The Electro Beat)",
+      "year":"2013",
+      "mode":"Quartet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/71/Mimimialt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022230710",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+   {
+      "song":"Milosc w Zakopanem",
+      "artist":"Sławomir",
+      "year":"2017",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2b/Miloscw_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022231525",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
     {
        "song":"Miss Understood",
        "artist":"Sammie",
@@ -3885,15 +6065,7 @@ var jd20 = [
        "original game":"Just Dance 2014",
        "released into servers":"Available at launch"
     },
-    {
-       "song":"Miłość w Zakopanem",
-       "artist":"Sławomir",
-       "year":"2017",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2b/Miloscw_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022231525",
-       "original game":"Just Dance 2019",
-       "released into servers":"November 2, 2019"
-    },
+
     {
        "song":"Money, Money, Money",
        "artist":"ABBA",
@@ -3913,16 +6085,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Monsters of Jazz (K)",
-       "artist":"Jacky Arthur, Harold GellerGroove Century",
-       "year":"2015",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/48/Monstersacademykids_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022235441",
-       "original game":"Just Dance 2019 (Kids Mode)",
-       "released into servers":"November 2, 2019"
-    },
-    {
-       "song":"Moskau*",
+       "song":"Moskau",
        "artist":"Dschinghis Khan (Dancing Bros.)",
        "year":"1979",
        "mode":"Duet",
@@ -4048,6 +6211,15 @@ var jd20 = [
        "released into servers":"November 2, 2019"
     },
     {
+      "song":"New Rules (Extreme Version)",
+      "artist":"Dua Lipa",
+      "year":"2017",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c8/Newrulesalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181102163745",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+    {
        "song":"New World",
        "artist":"Krewella, Yellow Claw ft. Vava",
        "year":"2017",
@@ -4165,6 +6337,15 @@ var jd20 = [
        "released into servers":"November 2, 2019"
     },
     {
+      "song":"OMG (Extreme Version)",
+      "artist":"Arash ft. Snoop Dogg",
+      "year":"2016",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/67/Omgalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215947",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+    {
        "song":"On Ne Porte Pas De Sous-Vêtements",
        "artist":"McFly & Carlito",
        "year":"2018",
@@ -4210,7 +6391,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Pac-Man*",
+       "song":"Pac-Man",
        "artist":"Toshio Kai(Dancing Bros.)",
        "year":"1980",
        "mode":"Dance Crew",
@@ -4255,15 +6436,6 @@ var jd20 = [
        "released into servers":"July 11, 2019"
     },
     {
-       "song":"Pixie Land (K)",
-       "artist":"The Sunlight Shakers",
-       "year":"2010",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Pixielandkids_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20191223184053",
-       "original game":"Just Dance 2018 (Kids Mode)",
-       "released into servers":"October 20, 2018"
-    },
-    {
        "song":"PoPiPo",
        "artist":"Hatsune Miku",
        "year":"2008",
@@ -4281,6 +6453,15 @@ var jd20 = [
        "original game":"Just Dance 2014",
        "released into servers":"Available at launch"
     },
+    {
+      "song":"Pound The Alarm (Extreme Version)",
+      "artist":"Nicki Minaj",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/63/Poundthealarmaltdlc.jpg/revision/latest/scale-to-width-down/180?cb=20160526092815",
+      "original game":"Just Dance 2014",
+      "released into servers":"May 19, 2016"
+   },
     {
        "song":"Primadonna",
        "artist":"Marina and the Diamonds",
@@ -4336,15 +6517,6 @@ var jd20 = [
        "released into servers":"May 20, 2020"
     },
     {
-       "song":"Qia La Yong Yuan OK - Future Underworld Mix",
-       "artist":"Alan Tam",
-       "year":"1990",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/27/Karaokeforeverchn_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20190213115014",
-       "original game":"舞力全开2017",
-       "released into servers":"February 5, 2019"
-    },
-    {
        "song":"Rabiosa",
        "artist":"Shakira ft. El Cata",
        "year":"2010",
@@ -4354,6 +6526,15 @@ var jd20 = [
        "released into servers":"May 4, 2017"
     },
     {
+      "song":"Rabiosa (Latin Fitness Version)",
+      "artist":"Shakira ft. El Cata",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4f/Rabiosaalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208084402",
+      "original game":"Just Dance 2016",
+      "released into servers":"March 9, 2017"
+   },
+    {
        "song":"RADICAL",
        "artist":"Dyro & Dannic",
        "year":"2014",
@@ -4362,6 +6543,15 @@ var jd20 = [
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
     },
+    {
+      "song":"RADICAL (Helmet Version)",
+      "artist":"Dyro & Dannic",
+      "year":"2014",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ed/Radicalalt.png/revision/latest/scale-to-width-down/180?cb=20161028112313",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
     {
        "song":"Rasputin",
        "artist":"Boney M.",
@@ -4381,8 +6571,8 @@ var jd20 = [
        "released into servers":"November 2, 2019"
     },
     {
-       "song":"Rhythm of the Night*",
-       "artist":"Corona(Ultraclub 90)",
+       "song":"Rhythm of the Night",
+       "artist":"Corona Cover (Ultraclub 90)",
        "year":"1993",
        "mode":"Solo",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/57/Rhythm_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022232955",
@@ -4507,7 +6697,16 @@ var jd20 = [
        "released into servers":"May 23, 2019May 29, 2019"
     },
     {
-       "song":"September*",
+      "song":"Scream & Shout (Extreme Version)",
+      "artist":"will.i.am ft. Britney Spears",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5d/Screamnshoutalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028112436",
+      "original game":"Just Dance 2017",
+      "released into servers":"June 27, 2019"
+   },
+    {
+       "song":"September",
        "artist":"Earth, Wind & Fire (Equinox Stars)",
        "year":"1978",
        "mode":"Trio",
@@ -4515,6 +6714,15 @@ var jd20 = [
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
     },
+    {
+      "song":"September (Disco Fitness Version)",
+      "artist":"Earth, Wind & Fire(Equinox Stars)",
+      "year":"1978",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/92/Septemberalt.png/revision/latest/scale-to-width-down/180?cb=20161028112512",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
     {
        "song":"Sexy And I Know It",
        "artist":"LMFAO",
@@ -4552,15 +6760,6 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Shinobi Cat",
-       "artist":"Steve Ouimette(Glorious Black Belts)",
-       "year":"2018",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/42/Ninjakids_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181023002014",
-       "original game":"Just Dance 2019(Kids Mode)",
-       "released into servers":"November 2, 2019"
-    },
-    {
        "song":"Shut Up and Dance",
        "artist":"Walk The Moon",
        "year":"2014",
@@ -4578,6 +6777,15 @@ var jd20 = [
        "original game":"Just Dance 2018",
        "released into servers":"October 20, 2018"
     },
+    {
+           "song":"Side to Side (Cycling Version)",
+           "artist":"Ariana Grande ft. Nicki Minaj",
+           "year":"2016",
+           "mode":"Solo",
+           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5c/Sidetoalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184957",
+           "original game":"Just Dance 2018",
+           "released into servers":"October 20, 2018"
+      },
     {
        "song":"Single Ladies (Put a Ring on It)",
        "artist":"Beyoncé",
@@ -4633,6 +6841,15 @@ var jd20 = [
        "released into servers":"October 12, 2017"
     },
     {
+      "song":"Sorry (Extreme Version)",
+      "artist":"Justin Bieber",
+      "year":"2015",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/ff/Sorryalt.png/revision/latest/scale-to-width-down/180?cb=20161028112617",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
+    {
        "song":"SOS",
        "artist":"ABBA",
        "year":"1975",
@@ -4678,15 +6895,6 @@ var jd20 = [
        "released into servers":"November 5, 2019 (Russia)"
     },
     {
-       "song":"Spinning (Кружит)",
-       "artist":"Monatik",
-       "year":"2016",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cb/Spinning_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20191113171819",
-       "original game":"Just Dance 2020",
-       "released into servers":"December 23, 2019 (Worldwide)"
-    },
-    {
        "song":"Stadium Flow",
        "artist":"Imposs",
        "year":"2015",
@@ -4704,6 +6912,15 @@ var jd20 = [
        "original game":"Just Dance 2014",
        "released into servers":"Available at launch"
     },
+    {
+      "song":"Starships (Charleston Version)",
+      "artist":"Nicki Minaj",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Starshipsalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530044034",
+      "original game":"Just Dance 2014",
+      "released into servers":"November 25, 2015"
+   },
     {
        "song":"Step by Step",
        "artist":"New Kids on the Block",
@@ -4758,6 +6975,15 @@ var jd20 = [
        "original game":"Just Dance 2015",
        "released into servers":"April 21, 2016"
     },
+    {
+      "song":"Summer (Sweat Version)",
+      "artist":"Calvin Harris",
+      "year":"2014",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/44/Summeralt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118103317",
+      "original game":"Just Dance 2015",
+      "released into servers":"June 23, 2016October 29, 2018"
+   },
     {
        "song":"Sun",
        "artist":"DEMO",
@@ -4831,6 +7057,15 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
+      "song":"Swish Swish (VIPMADE)",
+      "artist":"Katy Perry ft. Nicki Minaj",
+      "year":"2017",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/86/2A691DC9-6323-47E3-82C8-508AEE5341BC.jpeg/revision/latest/scale-to-width-down/180?cb=20190112011411",
+      "original game":"Exclusive Track",
+      "released into servers":"January 17, 2019"
+   },
+    {
        "song":"Take a Chance on Me",
        "artist":"ABBA",
        "year":"1978",
@@ -4858,15 +7093,6 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Tales of the Desert",
-       "artist":"Ian Livingstone(Persian Nights)",
-       "year":"2008",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/07/Theexplorerkids_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181023012654",
-       "original game":"Just Dance 2019(Kids Mode)",
-       "released into servers":"November 2, 2019"
-    },
-    {
        "song":"Taste The Feeling",
        "artist":"Avicii ft. Conrad Sewell",
        "year":"2016",
@@ -4875,6 +7101,15 @@ var jd20 = [
        "original game":"Exclusive Track",
        "released into servers":"March 10, 2016"
     },
+    {
+      "song":"Taste The Feeling (Olympic Version)",
+      "artist":"Avicii ft. Conrad Sewell",
+      "year":"2016",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/82/Tastethefeelingalt.jpg/revision/latest/scale-to-width-down/180?cb=20160711113722",
+      "original game":"Exclusive Track",
+      "released into servers":"July 11, 2016"
+   },
     {
        "song":"Te Dominar",
        "artist":"Daya Luz",
@@ -4893,6 +7128,15 @@ var jd20 = [
        "original game":"Just Dance 2016",
        "released into servers":"February 16, 2017"
     },
+    {
+      "song":"Teacher (Car Version)",
+      "artist":"Nick Jonas",
+      "year":"2014",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/TeacherALT.png/revision/latest/scale-to-width-down/180?cb=20170208084504",
+      "original game":"Just Dance 2016",
+      "released into servers":"March 9, 2017"
+   },
     {
        "song":"Teenage Dream",
        "artist":"Katy Perry",
@@ -5056,7 +7300,16 @@ var jd20 = [
        "released into servers":"May 4, 2017"
     },
     {
-       "song":"Thumbs (F)",
+      "song":"This Is How We Do (Aerobics Version)",
+      "artist":"Katy Perry",
+      "year":"2014",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d0/Thisishowalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208084516",
+      "original game":"Just Dance 2016",
+      "released into servers":"April 6, 2017"
+   },
+    {
+       "song":"Thumbs",
        "artist":"Sabrina Carpenter",
        "year":"2016",
        "mode":"Solo",
@@ -5065,7 +7318,7 @@ var jd20 = [
        "released into servers":"October 24, 2017"
     },
     {
-       "song":"Tico-Tico No Fubá*",
+       "song":"Tico-Tico No Fubá",
        "artist":"Zequinha de Abreu(The Frankie Bostello Orchestra)",
        "year":"1917",
        "mode":"Duet",
@@ -5128,6 +7381,15 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"Tribal Dance (With a Katana)",
+      "artist":"2 Unlimited",
+      "year":"1993",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e1/Tribaldancealt.jpg/revision/latest/scale-to-width-down/180?cb=20160728083151",
+      "original game":"Just Dance 4",
+      "released into servers":"July 21, 2016"
+   },
+    {
        "song":"Troublemaker",
        "artist":"Olly Murs ft. Flo Rida",
        "year":"2012",
@@ -5146,6 +7408,15 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
+      "song":"Tumbum (Extreme Version)",
+      "artist":"Yemi Alade",
+      "year":"2016",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/31/Tumbumalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015185000",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+    {
        "song":"Turn Up the Love",
        "artist":"Far East Movement feat. Cover Drive",
        "year":"2012",
@@ -5154,6 +7425,24 @@ var jd20 = [
        "original game":"Just Dance 2014",
        "released into servers":"Available at launch"
     },
+    {
+      "song":"Turn Up the Love (Sumo Version)",
+      "artist":"Far East Movement ft. Cover Drive",
+      "year":"2012",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Turnupthelovealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530044200",
+      "original game":"Just Dance 2014",
+      "released into servers":"December 21, 2015"
+   },
+   {
+      "song":"Turn Up the Love(Fanmade)",
+      "artist":"Far East Movement ft. Cover Drive",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e0/TurnUpTheLoveFAN_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20190119150859",
+      "original game":"Just Dance Now",
+      "released into servers":"November 25, 2015"
+   },
     {
        "song":"Twist and Shake It",
        "artist":"Ben Wheeler and Tara Chinn(The Girly Team)",
@@ -5200,6 +7489,15 @@ var jd20 = [
        "released into servers":"April 6, 2017"
     },
     {
+      "song":"Uptown Funk (Tuxedo Version)",
+      "artist":"Mark Ronson Ft. Bruno Mars",
+      "year":"2014",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/86/UptownFunkALT.png/revision/latest/scale-to-width-down/180?cb=20170208084527",
+      "original game":"Just Dance 2016",
+      "released into servers":"March 9, 2017"
+   },
+    {
        "song":"Venus",
        "artist":"Bananarama",
        "year":"1986",
@@ -5227,6 +7525,15 @@ var jd20 = [
        "released into servers":"October 20, 2018"
     },
     {
+      "song":"Waka Waka (This Time for Africa) (Football Version)",
+      "artist":"Shakira",
+      "year":"2010",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/09/Wakawakaalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015185001",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+    {
        "song":"Wake Me Up",
        "artist":"Avicii feat. Aloe Blacc",
        "year":"2013",
@@ -5244,6 +7551,15 @@ var jd20 = [
        "original game":"Just Dance 2",
        "released into servers":"August 10, 2017"
     },
+    {
+      "song":"Wake Me Up Before You Go-Go(From The Emoji Movie)",
+      "artist":"Wham!",
+      "year":"1984",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/36/WakeMeUpALT_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20170720115226",
+      "original game":"Exclusive Track",
+      "released into servers":"July 20, 2017"
+   },
     {
        "song":"Waking Up in Vegas",
        "artist":"Katy Perry",
@@ -5272,6 +7588,15 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"Walk This Way (Old School)",
+      "artist":"Run DMC & Aerosmith",
+      "year":"1986",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f7/Walkthiswayalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170723044005",
+      "original game":"Just Dance 2015",
+      "released into servers":"June 23, 2016"
+   },
+    {
        "song":"Want To Want Me",
        "artist":"Jason Derulo",
        "year":"2015",
@@ -5280,6 +7605,15 @@ var jd20 = [
        "original game":"Just Dance 2016",
        "released into servers":"May 4, 2017"
     },
+    {
+      "song":"Want To Want Me (Couple Version)",
+      "artist":"Jason Derulo",
+      "year":"2015",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d5/WantToWantMeALT.png/revision/latest/scale-to-width-down/180?cb=20170208084546",
+      "original game":"Just Dance 2016",
+      "released into servers":"February 16, 2017"
+   },
     {
        "song":"Want U Back",
        "artist":"Cher Lloyd ft. Astro",
@@ -5299,6 +7633,15 @@ var jd20 = [
        "released into servers":"October 12, 2017"
     },
     {
+      "song":"Watch Me (Whip/Nae Nae) (Family Battle Version)",
+      "artist":"Silento",
+      "year":"2015",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/36/Naenaealt.png/revision/latest/scale-to-width-down/180?cb=20161028112840",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
+    {
        "song":"Water Me",
        "artist":"Lizzo",
        "year":"2016",
@@ -5307,6 +7650,15 @@ var jd20 = [
        "original game":"Just Dance 2019",
        "released into servers":"November 2, 2019"
     },
+    {
+      "song":"Water Me (Tennis Version)",
+      "artist":"Lizzo",
+      "year":"2017",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/01/Watermealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215747",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
     {
        "song":"Waterloo",
        "artist":"ABBA",
@@ -5335,6 +7687,15 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
+      "song":"We No Speak Americano (Fanmade)",
+      "artist":"Yolanda Be Cool and DCUP(Hit The Electro Beat)",
+      "year":"2010",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8e/Americanofan.jpg/revision/latest/scale-to-width-down/180?cb=20150220094103",
+      "original game":"Just Dance Now",
+      "released into servers":"January 20, 2016"
+   },
+    {
        "song":"We R Who We R",
        "artist":"Ke$ha",
        "year":"2010",
@@ -5361,6 +7722,15 @@ var jd20 = [
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
     },
+    {
+      "song":"What Is Love (Car Version)",
+      "artist":"Haddaway(Ultraclub 90)",
+      "year":"1993",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b8/Whatislovealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028112914",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
     {
        "song":"What Lovers Do",
        "artist":"Maroon 5 ft. SZA",
@@ -5398,6 +7768,15 @@ var jd20 = [
        "released into servers":"November 2, 2019"
     },
     {
+      "song":"Where Are You Now? (Hide and Seek Version)",
+      "artist":"Lady Leshurr ft. Wiley",
+      "year":"2016",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a5/Whereareyoualt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215836",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+    {
        "song":"Wherever I Go",
        "artist":"OneRepublic",
        "year":"2016",
@@ -5416,15 +7795,6 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Why Oh Why(R)",
-       "artist":"Love Letter",
-       "year":"2009",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Whyowhy_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20190106204430",
-       "original game":"Just Dance 2",
-       "released into servers":"Available at launch"
-    },
-    {
        "song":"Wild",
        "artist":"Jessie J ft. Big Sean",
        "year":"2013",
@@ -5434,7 +7804,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"William Tell Overture (N-Switch)",
+       "song":"William Tell Overture",
        "artist":"Rossini",
        "year":"1829",
        "mode":"Duet",
@@ -5461,6 +7831,15 @@ var jd20 = [
        "released into servers":"November 2, 2019"
     },
     {
+      "song":"Work Work (Extreme Version)",
+      "artist":"Britney Spears",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cc/Workworkalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022214600",
+      "original game":"Just Dance 2019",
+      "released into servers":"November 2, 2019"
+   },
+    {
        "song":"Worth It",
        "artist":"Fifth Harmony ft. Kid Ink",
        "year":"2015",
@@ -5469,6 +7848,15 @@ var jd20 = [
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
     },
+    {
+      "song":"Worth It (Extreme Crew Version)",
+      "artist":"Fifth Harmony ft. Kid Ink",
+      "year":"2015",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/10/Worthitalt.png/revision/latest/scale-to-width-down/180?cb=20161028113043",
+      "original game":"Just Dance 2017",
+      "released into servers":"October 12, 2017"
+   },
     {
        "song":"X",
        "artist":"Nicky Jam & J Balvin",
@@ -5524,7 +7912,7 @@ var jd20 = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"You Never Can Tell*",
+       "song":"You Never Can Tell",
        "artist":"Chuck Berry (A. Caveman & The Backseats)",
        "year":"1963",
        "mode":"Duet",
@@ -5542,6 +7930,24 @@ var jd20 = [
        "released into servers":"June 7, 2018"
     },
     {
+      "song":"You’re the First, the Last, My Everything",
+      "artist":"Barry White",
+      "year":"1974",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d2/You%27re_the_first_the_last_my_everything_jdn.jpg/revision/latest/scale-to-width-down/180?cb=20140924211045",
+      "original game":"Just Dance 4",
+      "released into servers":"Available at launch"
+   },
+   {
+      "song":"You’re The One That I Want",
+      "artist":"John Travolta & Olivia Newton-John(From The Movie Grease)",
+      "year":"1978",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8f/YoureTheOneSqu.png/revision/latest/scale-to-width-down/180?cb=20170208084124",
+      "original game":"Just Dance 2016",
+      "released into servers":"March 9, 2017"
+   },
+    {
        "song":"YOUTH",
        "artist":"Troye Sivan",
        "year":"2015",
@@ -5550,899 +7956,91 @@ var jd20 = [
        "original game":"Exclusive Track",
        "released into servers":"October 25, 2016"
     },
-    {
-       "song":"You’re the First, the Last, My Everything",
-       "artist":"Barry White",
-       "year":"1974",
-       "mode":"Dance Crew",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d2/You%27re_the_first_the_last_my_everything_jdn.jpg/revision/latest/scale-to-width-down/180?cb=20140924211045",
-       "original game":"Just Dance 4",
-       "released into servers":"Available at launch"
-    },
-    {
-       "song":"You’re The One That I Want",
-       "artist":"John Travolta & Olivia Newton-John(From The Movie Grease)",
-       "year":"1978",
-       "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8f/YoureTheOneSqu.png/revision/latest/scale-to-width-down/180?cb=20170208084124",
-       "original game":"Just Dance 2016",
-       "released into servers":"March 9, 2017"
-    },
-    {
-       "song":"Ça Plane Pour Moi*",
-       "artist":"Plastic Bertrand(Bob Platine)",
-       "year":"1978",
-       "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/35/Caplane_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022221014",
-       "original game":"Just Dance 2019",
-       "released into servers":"November 2, 2019"
-    },
-        {
-           "song":"#thatPOWER- Extreme",
-           "artist":"will.i.am ft.Justin Bieber",
-           "year":"2013",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cd/Thatpoweralt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530044100",
-           "original game":"Just Dance 2014",
-           "released into servers":"February 25, 2016"
-        },
-        {
-           "song":"#thatPOWER(Sing Along)",
-           "artist":"will.i.am ft.Justin Bieber",
-           "year":"2013",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/Thatpoweroscdlc_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160630123117",
-           "original game":"Just Dance 2014",
-           "released into servers":"June 23, 2016"
-        },
-        {
-           "song":"24K Magic (Ex Version)",
-           "artist":"Bruno Mars",
-           "year":"2016",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d7/24kalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20180717054529",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"A Little Party Never Killed Nobody (All We Got) (Twenties Version)",
-           "artist":"Fergie ft. Q-Tip, GoonRock",
-           "year":"2013",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3c/Littlepartyalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215638",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"All About That Bass(Flower & Bee Version)",
-           "artist":"Meghan Trainor",
-           "year":"2014",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/16/Aboutthatbassalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208084206",
-           "original game":"Just Dance 2016",
-           "released into servers":"May 4, 2017"
-        },
-        {
-           "song":"All You Gotta Do (Is Just Dance) (VIPMADE) (2018) (2019)",
-           "artist":"The Just Dance Band",
-           "year":"2017",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/58/AllYouGottaVIP_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20190119152134",
-           "original game":"Exclusive Track",
-           "released into servers":"November 28, 2017"
-        },
-        {
-           "song":"Animals(Ex Version)",
-           "artist":"Martin Garrix",
-           "year":"2013",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/AnimalsALT.png/revision/latest/scale-to-width-down/180?cb=20170208084214",
-           "original game":"Just Dance 2016",
-           "released into servers":"March 9, 2017"
-        },
-        {
-           "song":"Another One Bites the Dust (Stunt Version)",
-           "artist":"Queen",
-           "year":"1980",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/73/Anotheronealt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184938",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Automaton (Tomato Verson)",
-           "artist":"Jamiroquai",
-           "year":"2017",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/de/Automatonalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184939",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Bang Bang Bang (Ex Version)",
-           "artist":"BIGBANG",
-           "year":"2015",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2a/Bang2019alt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022213932",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Bang Bang Bang (VIPMADE)*",
-           "artist":"BIGBANG",
-           "year":"2015",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d9/Bang2019VIP_Cover_Generic.jpg/revision/latest/scale-to-width-down/180?cb=20181227094050",
-           "original game":"Just Dance 2019",
-           "released into servers":"December 20, 2018"
-        },
-        {
-           "song":"Blurred Lines - Extreme",
-           "artist":"Robin Thicke ft. Pharrell Williams",
-           "year":"2013",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/50/Blurredlinesaltdlc.jpg/revision/latest/scale-to-width-down/180?cb=20160526090318",
-           "original game":"Just Dance 2014",
-           "released into servers":"May 19, 2016"
-        },
-        {
-           "song":"Blurred Lines(Fanmade)",
-           "artist":"Robin Thicke ft. Pharrell Williams",
-           "year":"2013",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Justmaxbl.jpg/revision/latest/scale-to-width-down/180?cb=20150129122034",
-           "original game":"Just Dance Now",
-           "released into servers":"March 24, 2016"
-        },
-        {
-           "song":"Born This Way(Nerd Version)",
-           "artist":"Lady Gaga",
-           "year":"2011",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/BornThisWayALT.png/revision/latest/scale-to-width-down/180?cb=20170208084227",
-           "original game":"Just Dance 2016",
-           "released into servers":"March 9, 2017"
-        },
-        {
-           "song":"Boys (Voguing Version)",
-           "artist":"Lizzo",
-           "year":"2018",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/69/Boysalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20200114100150",
-           "original game":"Exclusive Track",
-           "released into servers":"May 28, 2020"
-        },
-        {
-           "song":"Bubble Pop! (Bubble Gum Version)",
-           "artist":"HyunA",
-           "year":"2011",
-           "mode":"Dance Crew",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ce/Bubblepopalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20180716160533",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Bum Bum Tam Tam (Mad Scientist Version)",
-           "artist":"MC Fioti, Future, J Balvin, Stefflon Don, Juan Magan",
-           "year":"2018",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5d/Bumbumtamtamalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215548",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Cake By The Ocean (Earphones Version)",
-           "artist":"DNCE",
-           "year":"2015",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a1/Cakebytheoceanalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028111454",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Cake By The Ocean(VIPMADE) (2017)",
-           "artist":"DNCE",
-           "year":"2015",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Cakebytheoceanvip_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170226094502",
-           "original game":"Exclusive Track",
-           "released into servers":"November 14, 2016"
-        },
-        {
-           "song":"Can’t Take My Eyes Off You(Wrestler Version)",
-           "artist":"Boys Town Gang",
-           "year":"1982",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7b/Canttakemyeyesalt.jpg/revision/latest/scale-to-width-down/180?cb=20160530192535",
-           "original game":"Just Dance 4",
-           "released into servers":"February 25, 2016"
-        },
-        {
-           "song":"Chantaje (Subway Version)",
-           "artist":"Shakira ft. Maluma",
-           "year":"2016",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/15/Chantajealt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184943",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Cheap Thrills (Bollywood Version)",
-           "artist":"Sia Ft. Sean Paul",
-           "year":"2016",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c3/Cheapthrillsalt.png/revision/latest/scale-to-width-down/180?cb=20161028111436",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Chiwawa(Remastered Version) (F)",
-           "artist":"Wanko Ni Mero Mero",
-           "year":"2015",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/40/Barbie_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171105144223",
-           "original game":"Exclusive Track",
-           "released into servers":"January 26, 2017"
-        },
-        {
-           "song":"Circus(Ex Version)",
-           "artist":"Britney Spears",
-           "year":"2008",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/95/CircusALT.png/revision/latest/scale-to-width-down/180?cb=20170208084244",
-           "original game":"Just Dance 2016",
-           "released into servers":"April 6, 2017"
-        },
-        {
-           "song":"Cola Song (Candy People Version)",
-           "artist":"INNA ft. J Balvin",
-           "year":"2014",
-           "mode":"Dance Crew",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/29/Colasongalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028111322",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Despacito (Ex Version)",
-           "artist":"Luis Fonsi ft. Daddy Yankee",
-           "year":"2017",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/00/Despacitoalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184945",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Dharma (Fight Version)",
-           "artist":"Headhunterz & KSHMR",
-           "year":"2016",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/14/Dharmaalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184945",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Don’t Stop Me Now (Panda Version)",
-           "artist":"Queen",
-           "year":"1979",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/25/Dontstopmealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028111410",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"El Tiki (Trio Version)",
-           "artist":"Maluma",
-           "year":"2015",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/88/Eltikialt.png/revision/latest/scale-to-width-down/180?cb=20161028111612",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Fancy(Indian Version)",
-           "artist":"Iggy Azalea Ft. Charli XCX",
-           "year":"2014",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/44/Fancyalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208084302",
-           "original game":"Just Dance 2016",
-           "released into servers":"May 4, 2017"
-        },
-        {
-           "song":"Fine China (Ex Version)",
-           "artist":"Chris Brown",
-           "year":"2013",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/50/Finechinaalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530043148",
-           "original game":"Just Dance 2014",
-           "released into servers":"July 11, 2019"
-        },
-        {
-           "song":"Finesse (Remix) (Ex Version)",
-           "artist":"Bruno Mars ft. Cardi B",
-           "year":"2018",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a7/Finessealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022213446",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Footloose (Kids Version) (K)",
-           "artist":"Top Culture",
-           "year":"1984",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/75/Footloosekids_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184947",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Gentleman(Sweat)",
-           "artist":"PSY",
-           "year":"2013",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/79/Gentlemanswt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530043245",
-           "original game":"Just Dance 2014",
-           "released into servers":"January 20, 2016"
-        },
-        {
-           "song":"Ghostbusters(Sweat)",
-           "artist":"Ray Parker, Jr.",
-           "year":"1979",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/Ghostbustersswt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530043307",
-           "original game":"Just Dance 2014",
-           "released into servers":"January 20, 2016"
-        },
-        {
-           "song":"Gimme! Gimme! Gimme! (A Man After Midnight)(Sing Along)",
-           "artist":"ABBA",
-           "year":"1979",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e4/Gimmegimmeosc_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160331135935",
-           "original game":"Just Dance 2014",
-           "released into servers":"March 24, 2016"
-        },
-        {
-           "song":"Good Feeling - Extreme",
-           "artist":"Flo Rida",
-           "year":"2012",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/Goodfeelingalt.jpg/revision/latest/scale-to-width-down/180?cb=20160428100139",
-           "original game":"Just Dance 4",
-           "released into servers":"April 21, 2016"
-        },
-        {
-           "song":"HandClap(Fanmade)",
-           "artist":"Fitz and the Tantrums",
-           "year":"2016",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/67/Handclapfan.jpg/revision/latest/scale-to-width-down/180?cb=20170831091858",
-           "original game":"Exclusive Track",
-           "released into servers":"August 31, 2017"
-        },
-        {
-           "song":"Happy(Sing Along)",
-           "artist":"Pharrell Williams",
-           "year":"2013",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Happyalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118075036",
-           "original game":"Just Dance 2015",
-           "released into servers":"April 21, 2016"
-        },
-        {
-           "song":"Havana (Tango Version)",
-           "artist":"Camila Cabello",
-           "year":"2017",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Havanaalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022214239",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Hey Mama(Geisha Version)",
-           "artist":"David Guetta Ft. Nicki Minaj, Bebe Rexha & Afrojack",
-           "year":"2014",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cf/HeyMamaALT.png/revision/latest/scale-to-width-down/180?cb=20170208084316",
-           "original game":"Just Dance 2016",
-           "released into servers":"April 6, 2017"
-        },
-        {
-           "song":"Hips Don’t Lie (Sumo Version)",
-           "artist":"Shakira ft. Wyclef Jean",
-           "year":"2005",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1e/Hipsalt.png/revision/latest/scale-to-width-down/180?cb=20161028111748",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Hips Don’t Lie(VIPMADE) (2017)",
-           "artist":"Shakira ft. Wyclef Jean",
-           "year":"2005",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/HipsVIP_Cover_Generic_2019.png/revision/latest/scale-to-width-down/180?cb=20190119152315",
-           "original game":"Exclusive Track",
-           "released into servers":"November 24, 2016"
-        },
-        {
-           "song":"Hit The Road Jack*(Line Dance Version)",
-           "artist":"Ray Charles (Charles Percy)",
-           "year":"1961",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c1/HitTheRoadALT.png/revision/latest/scale-to-width-down/180?cb=20170208084328",
-           "original game":"Just Dance 2016",
-           "released into servers":"May 4, 2017"
-        },
-        {
-           "song":"I Gotta Feeling(Classroom Version)",
-           "artist":"The Black Eyed Peas",
-           "year":"2009",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fb/IGotAFeelingALT.png/revision/latest/scale-to-width-down/180?cb=20170208084343",
-           "original game":"Just Dance 2016",
-           "released into servers":"May 4, 2017"
-        },
-        {
-           "song":"I Kissed a Girl (Sweat)",
-           "artist":"Katy Perry",
-           "year":"2008",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/Ikissedswt_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160526085649",
-           "original game":"Just Dance 2014",
-           "released into servers":"May 19, 2016"
-        },
-        {
-           "song":"I Kissed a Girl(Sing Along)",
-           "artist":"Katy Perry",
-           "year":"2009",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b1/Ikissedosc_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160331140328",
-           "original game":"Just Dance 2014",
-           "released into servers":"March 24, 2016"
-        },
-        {
-           "song":"I Will Survive (Sing Along)",
-           "artist":"Gloria Gaynor",
-           "year":"1978",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/84/Iwillsurviveosc.jpg/revision/latest/scale-to-width-down/180?cb=20160728110731",
-           "original game":"Just Dance 2014",
-           "released into servers":"July 21, 2016"
-        },
-        {
-           "song":"It’s You (Sweat)",
-           "artist":"Duck Sauce",
-           "year":"2013",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7d/Itsyouswt_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160428131633",
-           "original game":"Just Dance 2014",
-           "released into servers":"April 21, 2016"
-        },
-        {
-           "song":"Jailhouse Rock(Line Dance)",
-           "artist":"Elvis Presley",
-           "year":"1957",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Jailhousealt.jpg/revision/latest/scale-to-width-down/180?cb=20151210140239",
-           "original game":"Just Dance 4",
-           "released into servers":"November 25, 2015"
-        },
-        {
-           "song":"John Wayne (Ex Version)",
-           "artist":"Lady Gaga",
-           "year":"2016",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ef/Johnwalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184950",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Just Dance (Sing Along)",
-           "artist":"Lady Gaga ft. Colby O'Donis",
-           "year":"2008",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cb/Justdanceosc.jpg/revision/latest/scale-to-width-down/180?cb=20160901120245",
-           "original game":"Just Dance 2014",
-           "released into servers":"August 25, 2016"
-        },
-        {
-           "song":"Just Dance (Sweat)",
-           "artist":"Lady Gaga ft. Colby O' Donis",
-           "year":"2008",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/90/Justdanceswtdlcupdated.jpg/revision/latest/scale-to-width-down/180?cb=20160805093906",
-           "original game":"Just Dance 2014",
-           "released into servers":"July 21, 2016"
-        },
-        {
-           "song":"Kissing Strangers (Charleston Version)",
-           "artist":"DNCE ft. Nicki Minaj",
-           "year":"2017",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/34/Kissingstrangersalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184952",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Lean On (Scarf Version)",
-           "artist":"Major Lazer ft. MØ & DJ Snake",
-           "year":"2015",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8c/Leanonalt.png/revision/latest/scale-to-width-down/180?cb=20161028112020",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Let It Go*(Sing Along)",
-           "artist":"Idina Menzel (Disney's Frozen)",
-           "year":"2013",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/96/Letitgodlc_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118132600",
-           "original game":"Just Dance 2015",
-           "released into servers":"December 21, 2015"
-        },
-        {
-           "song":"Medicina (Ex Version)",
-           "artist":"Anitta",
-           "year":"2018",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cb/MedicinaAlt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20190627171819",
-           "original game":"Exclusive Track",
-           "released into servers":"June 27, 2019"
-        },
-        {
-           "song":"Mi Mi Mi* (Sassy Version)",
-           "artist":"Serebro(Hit The Electro Beat)",
-           "year":"2013",
-           "mode":"Quartet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/71/Mimimialt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022230710",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Naughty Girl (Rabbid Peach Version) (Switch)",
-           "artist":"Beyoncé",
-           "year":"2003",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/Naughtygirlalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20180413004604",
-           "original game":"Exclusive Track",
-           "released into servers":"April 12, 2018"
-        },
-        {
-           "song":"New Reality (VIPMADE)*",
-           "artist":"Gigi Rowe",
-           "year":"2018",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fd/Newrealityvip_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181106222151",
-           "original game":"Just Dance 2019",
-           "released into servers":"December 21, 2018"
-        },
-        {
-           "song":"New Rules (Ex Version)",
-           "artist":"Dua Lipa",
-           "year":"2017",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c8/Newrulesalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181102163745",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Oishii Oishii(VIPMADE) (2017)",
-           "artist":"Wanko Ni Mero Mero",
-           "year":"2016",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/15/OishiiVIP_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20161208203732",
-           "original game":"Exclusive Track",
-           "released into servers":"November 24, 2016"
-        },
-        {
-           "song":"OMG (Ex Version)",
-           "artist":"Arash ft. Snoop Dogg",
-           "year":"2016",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/67/Omgalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215947",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Pound The Alarm - Extreme",
-           "artist":"Nicki Minaj",
-           "year":"2012",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/63/Poundthealarmaltdlc.jpg/revision/latest/scale-to-width-down/180?cb=20160526092815",
-           "original game":"Just Dance 2014",
-           "released into servers":"May 19, 2016"
-        },
-        {
-           "song":"Rabiosa(Latin Fitness Version)",
-           "artist":"Shakira ft. El Cata",
-           "year":"2010",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4f/Rabiosaalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208084402",
-           "original game":"Just Dance 2016",
-           "released into servers":"March 9, 2017"
-        },
-        {
-           "song":"RADICAL (Helmet Version)",
-           "artist":"Dyro & Dannic",
-           "year":"2014",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ed/Radicalalt.png/revision/latest/scale-to-width-down/180?cb=20161028112313",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Scream & Shout (Ex Version)",
-           "artist":"will.i.am ft. Britney Spears",
-           "year":"2012",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5d/Screamnshoutalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028112436",
-           "original game":"Just Dance 2017",
-           "released into servers":"June 27, 2019"
-        },
-        {
-           "song":"September* (Disco Fitness Version)",
-           "artist":"Earth, Wind & Fire(Equinox Stars)",
-           "year":"1978",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/92/Septemberalt.png/revision/latest/scale-to-width-down/180?cb=20161028112512",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Side to Side (Cycling Version)",
-           "artist":"Ariana Grande ft. Nicki Minaj",
-           "year":"2016",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5c/Sidetoalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184957",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Sorry (Ex Version)",
-           "artist":"Justin Bieber",
-           "year":"2015",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/ff/Sorryalt.png/revision/latest/scale-to-width-down/180?cb=20161028112617",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Stadium Flow (Fanmade) (2016)",
-           "artist":"Imposs",
-           "year":"2015",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e8/Stadiumflowfan.jpg/revision/latest/scale-to-width-down/180?cb=20160609133041",
-           "original game":"Exclusive Track",
-           "released into servers":"June 9, 2016"
-        },
-        {
-           "song":"Starships(Charleston)",
-           "artist":"Nicki Minaj",
-           "year":"2012",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Starshipsalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530044034",
-           "original game":"Just Dance 2014",
-           "released into servers":"November 25, 2015"
-        },
-        {
-           "song":"Summer (Sweat)",
-           "artist":"Calvin Harris",
-           "year":"2014",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/44/Summeralt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118103317",
-           "original game":"Just Dance 2015",
-           "released into servers":"June 23, 2016October 29, 2018"
-        },
-        {
-           "song":"Swish Swish (VIPMADE)",
-           "artist":"Katy Perry ft. Nicki Minaj",
-           "year":"2017",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/86/2A691DC9-6323-47E3-82C8-508AEE5341BC.jpeg/revision/latest/scale-to-width-down/180?cb=20190112011411",
-           "original game":"Exclusive Track",
-           "released into servers":"January 17, 2019"
-        },
-        {
-           "song":"Taste The Feeling(Alternate)",
-           "artist":"Avicii ft. Conrad Sewell",
-           "year":"2016",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/82/Tastethefeelingalt.jpg/revision/latest/scale-to-width-down/180?cb=20160711113722",
-           "original game":"Exclusive Track",
-           "released into servers":"July 11, 2016"
-        },
-        {
-           "song":"Teacher(Car Version)",
-           "artist":"Nick Jonas",
-           "year":"2014",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/TeacherALT.png/revision/latest/scale-to-width-down/180?cb=20170208084504",
-           "original game":"Just Dance 2016",
-           "released into servers":"March 9, 2017"
-        },
-        {
-           "song":"This Is How We Do (Fanmade) (2016)",
-           "artist":"Katy Perry",
-           "year":"2014",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/df/Thisishowfan_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160916053809",
-           "original game":"Exclusive Track",
-           "released into servers":"August 11, 2016"
-        },
-        {
-           "song":"This Is How We Do(Aerobics Version)",
-           "artist":"Katy Perry",
-           "year":"2014",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d0/Thisishowalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208084516",
-           "original game":"Just Dance 2016",
-           "released into servers":"April 6, 2017"
-        },
-        {
-           "song":"Tribal Dance (With a Katana)",
-           "artist":"2 Unlimited",
-           "year":"1993",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e1/Tribaldancealt.jpg/revision/latest/scale-to-width-down/180?cb=20160728083151",
-           "original game":"Just Dance 4",
-           "released into servers":"July 21, 2016"
-        },
-        {
-           "song":"Tumbum (Ex Version)",
-           "artist":"Yemi Alade",
-           "year":"2016",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/31/Tumbumalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015185000",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Turn Up the Love(Fanmade)",
-           "artist":"Far East Movement ft. Cover Drive",
-           "year":"2012",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e0/TurnUpTheLoveFAN_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20190119150859",
-           "original game":"Just Dance Now",
-           "released into servers":"November 25, 2015"
-        },
-        {
-           "song":"Turn Up the Love(Sumo Version)",
-           "artist":"Far East Movement ft. Cover Drive",
-           "year":"2012",
-           "mode":"Dance Crew",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Turnupthelovealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530044200",
-           "original game":"Just Dance 2014",
-           "released into servers":"December 21, 2015"
-        },
-        {
-           "song":"Uptown Funk(Tuxedo Version)",
-           "artist":"Mark Ronson Ft. Bruno Mars",
-           "year":"2014",
-           "mode":"Trio",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/86/UptownFunkALT.png/revision/latest/scale-to-width-down/180?cb=20170208084527",
-           "original game":"Just Dance 2016",
-           "released into servers":"March 9, 2017"
-        },
-        {
-           "song":"Waka Waka (This Time for Africa) (Football Version)",
-           "artist":"Shakira",
-           "year":"2010",
-           "mode":"Dance Crew",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/09/Wakawakaalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015185001",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Waka Waka (This Time for Africa) (Kids Version) (K)",
-           "artist":"Shakira",
-           "year":"2010",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/91/Wakawakakids_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015185002",
-           "original game":"Just Dance 2018",
-           "released into servers":"October 20, 2018"
-        },
-        {
-           "song":"Wake Me Up Before You Go-Go(From The Emoji Movie)",
-           "artist":"Wham!",
-           "year":"1984",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/36/WakeMeUpALT_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20170720115226",
-           "original game":"Exclusive Track",
-           "released into servers":"July 20, 2017"
-        },
-        {
-           "song":"Walk This Way(Old School)",
-           "artist":"Run DMC & Aerosmith",
-           "year":"1986",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f7/Walkthiswayalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170723044005",
-           "original game":"Just Dance 2015",
-           "released into servers":"June 23, 2016"
-        },
-        {
-           "song":"Want To Want Me(Couple Version)",
-           "artist":"Jason Derulo",
-           "year":"2015",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d5/WantToWantMeALT.png/revision/latest/scale-to-width-down/180?cb=20170208084546",
-           "original game":"Just Dance 2016",
-           "released into servers":"February 16, 2017"
-        },
-        {
-           "song":"Watch Me (Whip/Nae Nae) (Family Battle Version)",
-           "artist":"Silento",
-           "year":"2015",
-           "mode":"Dance Crew",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/36/Naenaealt.png/revision/latest/scale-to-width-down/180?cb=20161028112840",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Water Me (Tennis Version)",
-           "artist":"Lizzo",
-           "year":"2017",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/01/Watermealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215747",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"We No Speak Americano* (Fanmade)",
-           "artist":"Yolanda Be Cool and DCUP(Hit The Electro Beat)",
-           "year":"2010",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8e/Americanofan.jpg/revision/latest/scale-to-width-down/180?cb=20150220094103",
-           "original game":"Just Dance Now",
-           "released into servers":"January 20, 2016"
-        },
-        {
-           "song":"What Is Love* (Car Version)",
-           "artist":"Haddaway(Ultraclub 90)",
-           "year":"1993",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b8/Whatislovealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028112914",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        },
-        {
-           "song":"Where Are You Now? (Hide and Seek Version)",
-           "artist":"Lady Leshurr ft. Wiley",
-           "year":"2016",
-           "mode":"Duet",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a5/Whereareyoualt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022215836",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Work Work (Ex Version)",
-           "artist":"Britney Spears",
-           "year":"2013",
-           "mode":"Solo",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cc/Workworkalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022214600",
-           "original game":"Just Dance 2019",
-           "released into servers":"November 2, 2019"
-        },
-        {
-           "song":"Worth It (Ex Crew Version)",
-           "artist":"Fifth Harmony ft. Kid Ink",
-           "year":"2015",
-           "mode":"Dance Crew",
-           "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/10/Worthitalt.png/revision/latest/scale-to-width-down/180?cb=20161028113043",
-           "original game":"Just Dance 2017",
-           "released into servers":"October 12, 2017"
-        }
+   {
+      "song":"10.000 luchtballonnen",
+      "artist":"K3",
+      "year":"2015",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/10000lucht.png/revision/latest/scale-to-width-down/180?cb=20191102100918",
+      "original game":"Just Dance 2020",
+      "released into servers":"December 23, 2019 (Worldwide)"
+   },
+   {
+      "song":"1999",
+      "artist":"Charli XCX & Troye Sivan",
+      "year":"2018",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5e/1999_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200130161535",
+      "original game":"Exclusive Track",
+      "released into servers":"January 30, 2020"
+   },
+   {
+      "song":"24K Magic",
+      "artist":"Bruno Mars",
+      "year":"2016",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3a/24k_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171003191223",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+   {
+     "song":"24K Magic (Extreme Version)",
+     "artist":"Bruno Mars",
+     "year":"2016",
+     "mode":"Solo",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d7/24kalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20180717054529",
+     "original game":"Just Dance 2018",
+     "released into servers":"October 20, 2018"
+  },
+   {
+      "song":"99 Luftballons",
+      "artist":"Nena (Rutschen Planeten)",
+      "year":"1983",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Luftballons_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151352",
+      "original game":"Just Dance 2014",
+      "released into servers":"Available at launch"
+   },
+   {
+      "song":"#thatPOWER",
+      "artist":"will.i.am ft. Justin Bieber",
+      "year":"2013",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/66/Thatpower_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151358",
+      "original game":"Just Dance 2014",
+      "released into servers":"Available at launch"
+   },
+   {
+     "song":"#thatPOWER (Extreme Version)",
+     "artist":"will.i.am ft.Justin Bieber",
+     "year":"2013",
+     "mode":"Solo",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cd/Thatpoweralt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530044100",
+     "original game":"Just Dance 2014",
+     "released into servers":"February 25, 2016"
+  },
+  {
+     "song":"#thatPOWER (Sing Along)",
+     "artist":"will.i.am ft.Justin Bieber",
+     "year":"2013",
+     "mode":"Trio",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/Thatpoweroscdlc_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160630123117",
+     "original game":"Just Dance 2014",
+     "released into servers":"June 23, 2016"
+  }    
  ]
-
-
- jdU = jdU.map((item, index) => ({
+jdU = jdU.map((item, index) => ({
     ...item,
-    id: 10000 + index,   
+    id: 10000 + index
    }))
-
+   
    var jdfull = [
     ...jd1,
     ...jd2,
+    ...jdsp,
+    ...jd3,
+    ...jdgh,
+    ...jdbo,
     ...jd20,
     ...jdU
 ]
