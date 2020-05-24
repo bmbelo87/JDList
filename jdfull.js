@@ -234,7 +234,7 @@ var jd1 = [
       "shake moves":"No"
    },
    {
-      "song":"Surfin’ Bird",
+      "song":"Surfin' Bird",
       "artist":"The Trashmen",
       "difficulty":"1",
       "effort":"3",
@@ -243,7 +243,7 @@ var jd1 = [
       "shake moves":"Yes"
    },
    {
-      "song":"That’s the Way (I Like It)",
+      "song":"That's the Way (I Like It)",
       "artist":"KC and the Sunshine Band",
       "difficulty":"3",
       "effort":"1",
@@ -479,7 +479,7 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Idealistic_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716232902"
     },
     {
-        "song":"It’s Not Unusual (DLC)",
+        "song":"It's Not Unusual (DLC)",
         "artist":"Tom Jones",
         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/88/Unusual_cover_online.png/revision/latest/scale-to-width-down/185?cb=20180729194659" 
     },
@@ -709,7 +709,7 @@ var jd2 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b9/ThePower_jd2_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20170716233126"
     },
     {
-       "song":"The Shoop Shoop Song (It’s in His Kiss)",
+       "song":"The Shoop Shoop Song (It's in His Kiss)",
        "artist":"Cher",
        "difficulty":"2",
        "effort":"2",
@@ -1334,7 +1334,7 @@ var jd3 = [
          "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2e/Feellikedancing_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211024320"
       },
       {
-         "song":"I Don’t Feel Like Dancin’ (Mashup)",
+         "song":"I Don't Feel Like Dancin' (Mashup)",
          "artist":"Scissor Sisters",
          "difficulty":"2",
          "effort":"2",
@@ -1567,7 +1567,7 @@ var jd3 = [
          "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5c/Shesgotme.png/revision/latest/scale-to-width-down/180?cb=20191211205154"
       },
       {
-         "song":"She’s Got Me Dancing",
+         "song":"She's Got Me Dancing",
          "artist":"Tommy Sparks",
          "difficulty":"3",
          "effort":"2",
@@ -1780,7 +1780,7 @@ var jdgh =  [
       "original game":"Just Dance 2 (DLC)"
    },
    {
-      "song":"Body Movin’ (Fatboy Slim Remix)",
+      "song":"Body Movin' (Fatboy Slim Remix)",
       "artist":"Beastie Boys",
       "difficulty":"1",
       "effort":"3",
@@ -2352,7 +2352,7 @@ jdbo = jdbo.map((item, index) => ({
 }))
 var jd4 = [
    {
-      "song":"(I’ve Had) The Time Of My Life",
+      "song":"(I've Had) The Time Of My Life",
       "artist":"Bill Medley and Jennifer Warnes",
       "difficulty":"3",
       "year":"1987",
@@ -2360,7 +2360,7 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2e/Thetimeofmylife.jpg/revision/latest/scale-to-width-down/165?cb=20140929023028"
    },
    {
-      "song":"(I’ve Had) The Time Of My Life (Mashup)",
+      "song":"(I've Had) The Time Of My Life (Mashup)",
       "artist":"Bill Medley and Jennifer Warnes",
       "difficulty":"3",
       "year":"1987",
@@ -2368,12 +2368,25 @@ var jd4 = [
       "linkimagem":"_img/(IveHad)Thetimeofmylife.jpg"
    },
    {
-      "song":"Ain’t No Other Man",
+      "song":"Aerobics in Space (Sweat Mode)",
+      "artist":"Dynamic Fitness Steps / 80's Pop Music",
+      "+10min":"Moon Cruise",
+      "+25min":"Solar Trip",
+      "+40min":"Galactic Journey",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/77/SJXE41_6d3747c2_14.png/revision/latest/scale-to-width-down/165?cb=20150308054449"
+   },
+   {
+      "song":"Ain't No Other Man",
       "artist":"Christina Aguilera (The Girly Team)",
       "difficulty":"2",
       "year":"2006",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/AintNoOtherMan_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928052914"
+   },
+   {
+      "song":"Ain't No Other Man (Mashup)",
+      "artist":"Christina Aguilera (The Girly Team)",
+      "linkimagem":"_img/Aintnootherman.jpg"
    },
    {
       "song":"Aserejé (The Ketchup Song)",
@@ -2384,12 +2397,32 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Ketchupsong.jpg/revision/latest/scale-to-width-down/165?cb=20140928224051"
    },
    {
+      "song":"Aserejé (The Ketchup Song) (Mashup)",
+      "artist":"Las Ketchup",
+      "linkimagem":"_img/AserejeKetchupsong.jpg"
+   },
+   {
       "song":"Beauty And A Beat",
       "artist":"Justin Bieber ft. Nicki Minaj",
       "difficulty":"3",
       "year":"2012",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/60/Beautyandabeat_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20170227143436"
+   },
+   {
+      "song":"Beauty And A Beat (Mashup)",
+      "artist":"Justin Bieber ft. Nicki Minaj",
+      "difficulty":"3",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"_img/BeautyAndABeat.jpg"
+   },
+   {
+      "song":"Beauty And A Beat vs Call Me Maybe",
+      "artist":"Justin Bieber ft. Nicki Minaj vs. Carly Rae Jepsen",
+      "difficulty":"1",
+      "year":"2012 vs. 2011",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/CallMeBeauty_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20181027223119"
    },
    {
       "song":"Beware of the Boys (Mundian To Bach Ke)",
@@ -2400,7 +2433,24 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a1/Bewareof.jpg/revision/latest/scale-to-width-down/165?cb=20140928062023"
    },
    {
-      "song":"Brand New Start (C)",
+      "song":"Beware of the Boys (Mundian To Bach Ke) (Mashup)",
+      "artist":"Panjabi MC",
+      "difficulty":"2",
+      "year":"2003",
+      "mode":"Dance Crew",
+      "linkimagem":"_img/Bewareof.jpg"
+   },
+   {
+      "song":"Boom",
+      "artist":"Reggaeton Storm",
+      "difficulty":"2",
+      "year":"2006",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b8/BoomDLC_JD4.png/revision/latest/scale-to-width-down/165?cb=20190706183515",
+      "release date":"January 22, 2013"
+   },
+   {
+      "song":"Brand New Start",
       "artist":"Anja",
       "difficulty":"2",
       "year":"2012",
@@ -2416,7 +2466,23 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/54/Callmemaybe.jpg/revision/latest/scale-to-width-down/165?cb=20140928064318"
    },
    {
-      "song":"Can’t Take My Eyes Off You",
+      "song":"Call Me Maybe (Alternative Version)",
+      "artist":"Carly Rae Jepsen",
+      "alternate":"Alternate",
+      "mode":"Solo",
+      "difficulty":"3",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8d/Call_Me_Maybe_Alternate.png/revision/latest/scale-to-width-down/165?cb=20181027224208"
+   },
+   {
+      "song":"Call Me Maybe (Mashup)",
+      "artist":"Carly Rae Jepsen",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"_img/Callmemaybe.jpg"
+   },
+   {
+      "song":"Can't Take My Eyes Off You",
       "artist":"Boys Town Gang",
       "difficulty":"1",
       "year":"1982",
@@ -2424,12 +2490,28 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d6/CantEyesJD4Square.png/revision/latest/scale-to-width-down/165?cb=20181027224125"
    },
    {
-      "song":"Cercavo Amore (P)",
-      "artist":"Emma",
-      "difficulty":"3",
-      "year":"2012",
+      "song":"Can't Take My Eyes Off You (Alternative Version)",
+      "artist":"Boys Town Gang",
+      "alternate":"Alternate",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Amore.jpg/revision/latest/scale-to-width-down/165?cb=20140928055735"
+      "difficulty":"3",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Can%27t_Take_My_Eyes_of_You_Alternate.png/revision/latest/scale-to-width-down/165?cb=20181028012715"
+   },
+   {
+      "song":"Can't Take My Eyes Off You (Mashup)",
+      "artist":"Boys Town Gang",
+      "difficulty":"1",
+      "year":"1982",
+      "mode":"Duet",
+      "linkimagem":"_img/CantEyes.jpg"
+   },
+   {
+      "song":"Cheerleaders Boot Camp (Sweat Mode)",
+      "artist":"Extreme Training / Punk Rock Music",
+      "+10min":"Garage Rehearsal",
+      "+25min":"Club Concert",
+      "+40min":"Stadium Show",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e0/SJXE41_11295e74_14.png/revision/latest/scale-to-width-down/165?cb=20150308054520"
    },
    {
       "song":"Crazy Little Thing",
@@ -2448,12 +2530,30 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9a/Crucifiedquat.jpg/revision/latest/scale-to-width-down/165?cb=20140928071744"
    },
    {
-      "song":"Diggin’ in the Dirt (P)",
-      "artist":"Stefanie Heinzmann",
+      "song":"Crucified (Mashup)",
+      "artist":"Army of Lovers",
+      "difficulty":"3",
+      "year":"1991",
+      "mode":"Dance Crew",
+      "linkimagem":"_img/Crucified.jpg"
+   },
+   {
+      "song":"Dagomba",
+      "artist":"Sorcerer",
       "difficulty":"2",
-      "year":"2012",
+      "year":"2003",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c5/Diggin.jpg/revision/latest/scale-to-width-down/165?cb=20140928073018"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1a/Dagomba_jdn_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928075659",
+      "release date":"November 20, 2012"
+   },
+   {
+      "song":"Die Young",
+      "artist":"Ke$ha",
+      "difficulty":"3",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d4/DieJD4.png/revision/latest/scale-to-width-down/165?cb=20150503063908",
+      "release date":"April 2, 2013"
    },
    {
       "song":"Disturbia",
@@ -2464,7 +2564,15 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/94/Disturbia.jpg/revision/latest/scale-to-width-down/165?cb=20140928073510"
    },
    {
-      "song":"Domino (W)",
+      "song":"Disturbia (Mashup)",
+      "artist":"Rihanna",
+      "difficulty":"3",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"_img/Disturbia.jpg"
+   },
+   {
+      "song":"Domino",
       "artist":"Jessie J",
       "difficulty":"1",
       "year":"2011",
@@ -2472,12 +2580,55 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ce/Domino.jpg/revision/latest/scale-to-width-down/165?cb=20140928073951"
    },
    {
-      "song":"Everybody Needs Somebody To Love*",
-      "artist":"The Blues Brothers (Dancing Bros)",
+      "song":"Electro Body Combat (Sweat Mode)",
+      "artist":"Cardio Fighting Exercise / Electro Music",
+      "+10min":"Amateur Match",
+      "+25min":"Pro Competition",
+      "+40min":"World Championship",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/87/SJXE41_551c13db_14.png/revision/latest/scale-to-width-down/165?cb=20150308054458"
+   },
+   {
+      "song":"Everybody Needs Somebody To Love",
+      "artist":"Dancing Bros",
       "difficulty":"2",
       "year":"1980",
       "mode":"Duet",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/13/Everybodyneeds.jpg/revision/latest/scale-to-width-down/165?cb=20140928081438"
+   },
+   {
+      "song":"Everybody Needs Somebody To Love (Hold My Hand Version)",
+      "artist":"Dancing Bros",
+      "alternate":"Hold My Hand",
+      "mode":"Hold My Hand",
+      "difficulty":"1",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c7/EverybodyAlternate.png/revision/latest/scale-to-width-down/165?cb=20181027224311"
+   },
+   {
+      "song":"Funhouse",
+      "artist":"P!nk",
+      "difficulty":"3",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/eb/FunHouseDLC_JD4.png/revision/latest/scale-to-width-down/165?cb=20190706182021",
+      "release date":"November 20, 2012"
+   },
+   {
+      "song":"Gangnam Style",
+      "artist":"PSY",
+      "difficulty":"3",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/GangnamStyleDLC_JD4.png/revision/latest/scale-to-width-down/165?cb=20190706181433",
+      "release date":"November 20, 2012"
+   },
+   {
+      "song":"Gold Dust",
+      "artist":"DJ Fresh",
+      "difficulty":"2",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/94/Golddust_jd4_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928090923",
+      "release date":"March 5, 2013"
    },
    {
       "song":"Good Feeling",
@@ -2488,7 +2639,23 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bb/Goodfeeling.jpg/revision/latest/scale-to-width-down/165?cb=20140928091620"
    },
    {
-      "song":"Good Girl (N)",
+      "song":"Good Feeling (Extreme Version)",
+      "artist":"Flo Rida",
+      "alternate":"Extreme",
+      "mode":"Solo",
+      "difficulty":"4",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/05/GoodFeelingAlternate.png/revision/latest/scale-to-width-down/165?cb=20181027224249"
+   },
+   {
+      "song":"Good Feeling (Mashup)",
+      "artist":"Flo Rida",
+      "difficulty":"2",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"_img/Goodfeeling.jpg"
+   },
+   {
+      "song":"Good Girl",
       "artist":"Carrie Underwood",
       "difficulty":"1",
       "year":"2012",
@@ -2496,12 +2663,38 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ec/Goodgirl.jpg/revision/latest/scale-to-width-down/165?cb=20140928092207"
    },
    {
-      "song":"Hit ’Em Up Style (Oops!)",
+      "song":"Heavy Cross",
+      "artist":"Gossip",
+      "difficulty":"2",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d7/Heavycross.jpg/revision/latest/scale-to-width-down/165?cb=20140928092540",
+      "release date":"December 11, 2012"
+   },
+   {
+      "song":"Hit The Lights",
+      "artist":"Selena Gomez and the Scene",
+      "difficulty":"2",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a5/Hitthelights.jpg/revision/latest/scale-to-width-down/165?cb=20140928093432",
+      "release date":"December 11, 2012"
+   },
+   {
+      "song":"Hit 'Em Up Style (Oops!)",
       "artist":"Blu Cantrell",
       "difficulty":"1",
       "year":"2001",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/34/HitEmUp_Cover_Generic.jpg/revision/latest/scale-to-width-down/165?cb=20180710205808"
+   },
+   {
+      "song":"Hit 'Em Up Style (Oops!)",
+      "artist":"Blu Cantrell",
+      "difficulty":"1",
+      "year":"2001",
+      "mode":"Solo",
+      "linkimagem":"_img/HitEmUp.jpg"
    },
    {
       "song":"Hot For Me",
@@ -2520,6 +2713,14 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/62/Ilikeitlike_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928220303"
    },
    {
+      "song":"I Like It",
+      "artist":"The Blackout Allstars",
+      "difficulty":"3",
+      "year":"1994",
+      "mode":"Duet",
+      "linkimagem":"_img/Ilikeit.jpg"
+   },
+   {
       "song":"Istanbul (Not Constantinople)",
       "artist":"They Might Be Giants",
       "difficulty":"1",
@@ -2536,12 +2737,36 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a7/Jailhousequat.jpg/revision/latest/scale-to-width-down/165?cb=20140928222630"
    },
    {
-      "song":"Livin’ La Vida Loca",
+      "song":"Jailhouse Rock (Line Dance Version)",
+      "artist":"Elvis Presley",
+      "alternate":"Line Dance",
+      "mode":"Solo",
+      "difficulty":"3",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/85/JailhouseALT_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180629004605"
+   },
+   {
+      "song":"Jailhouse Rock (Mashup)",
+      "artist":"Elvis Presley",
+      "difficulty":"1",
+      "year":"1957",
+      "mode":"Dance Crew",
+      "linkimagem":"_img/Jailhouse.jpg"
+   },
+   {
+      "song":"Livin' La Vida Loca",
       "artist":"Ricky Martin",
       "difficulty":"3",
       "year":"1999",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5d/Livinlavidaloca_jd4_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180628004625"
+   },
+   {
+      "song":"Livin' La Vida Loca",
+      "artist":"Ricky Martin",
+      "difficulty":"3",
+      "year":"1999",
+      "mode":"Solo",
+      "linkimagem":"_img/LivinLaVida.jpg"
    },
    {
       "song":"Love You Like a Love Song",
@@ -2552,7 +2777,15 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Loveyoulike_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928231502"
    },
    {
-      "song":"Make The Party (Don’t Stop) (E)",
+      "song":"Love You Like a Love Song",
+      "artist":"Selena Gomez and the Scene",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"_img/LoveYouLike.jpg"
+   },
+   {
+      "song":"Make The Party (Don't Stop)",
       "artist":"Bunny Beatz",
       "difficulty":"2",
       "year":"2012",
@@ -2568,12 +2801,28 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2d/Maneater.jpg/revision/latest/scale-to-width-down/165?cb=20140928232606"
    },
    {
+      "song":"Maneater (Mashup)",
+      "artist":"Nelly Furtado",
+      "difficulty":"2",
+      "year":"2006",
+      "mode":"Solo",
+      "linkimagem":"_img/Maneater.jpg"
+   },
+   {
       "song":"Mas Que Nada",
       "artist":"Sergio Mendes ft. The Black Eyed Peas",
       "difficulty":"1",
       "year":"2006",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Masquenada.jpg/revision/latest/scale-to-width-down/165?cb=20140928233851"
+   },
+   {
+      "song":"Mas Que Nada (Mashup)",
+      "artist":"Sergio Mendes ft. The Black Eyed Peas",
+      "difficulty":"1",
+      "year":"2006",
+      "mode":"Solo",
+      "linkimagem":"_img/Masquenada.jpg"
    },
    {
       "song":"Moves Like Jagger",
@@ -2584,12 +2833,35 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Moveslikejag_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180627234740"
    },
    {
+      "song":"Moves Like Jagger (Mashup)",
+      "artist":"Maroon 5 ft. Christina Aguilera",
+      "difficulty":"2",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"_img/MovesLike.jpg"
+   },
+   {
+      "song":"Moves Like Jagger vs Never Gonna Give You Up",
+      "artist":"Maroon 5 ft. Christina Aguilera vs Rick Astley",
+      "difficulty":"2",
+      "year":"2011 vs. 1987",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a1/Moveslikejaggervsnevergonnagift.png/revision/latest/scale-to-width-down/165?cb=20150308071537"
+   },
+   {
       "song":"Mr. Saxobeat",
       "artist":"Alexandra Stan",
       "difficulty":"1",
       "year":"2011",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2c/Mrsaxobeat.jpg/revision/latest/scale-to-width-down/165?cb=20140929000522"
+   },
+   {
+      "song":"Mr. Saxobeat (Mashup)",
+      "artist":"Alexandra Stan",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"_img/Mrsaxobeat.jpg"
    },
    {
       "song":"Never Gonna Give You Up",
@@ -2600,12 +2872,37 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/20/Nevergonna.jpg/revision/latest/scale-to-width-down/165?cb=20140929000956"
    },
    {
+      "song":"Never Gonna Give You Up (Mashup)",
+      "artist":"Rick Astley",
+      "difficulty":"1",
+      "year":"1987",
+      "mode":"Solo",
+      "linkimagem":"_img/Nevergonna.jpg"
+   },
+   {
+      "song":"Oath",
+      "artist":"Cher Lloyd ft. Becky G",
+      "difficulty":"2",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/64/OathJD4.png/revision/latest/scale-to-width-down/165?cb=20170227155558",
+      "release date":"January 22, 2013"
+   },
+   {
       "song":"Oh No!",
       "artist":"Marina and the Diamonds",
       "difficulty":"3",
       "year":"2010",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/95/Ohno.jpg/revision/latest/scale-to-width-down/165?cb=20140929001640"
+   },
+   {
+      "song":"Oh No!",
+      "artist":"Marina and the Diamonds",
+      "difficulty":"3",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"_img/Ohno.jpg"
    },
    {
       "song":"On the Floor",
@@ -2616,12 +2913,56 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Onthefloor_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20180629003633"
    },
    {
-      "song":"Oops!...I Did It Again*",
-      "artist":"Britney Spears (The Girly Team)",
+      "song":"One Thing",
+      "artist":"One Direction",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/77/OneThingDLC_JD4.png/revision/latest/scale-to-width-down/165?cb=20190706182612",
+      "release date":"December 11, 2012"
+   },
+   {
+      "song":"Oops!...I Did It Again",
+      "artist":"The Girly Team",
       "difficulty":"2",
       "year":"2000",
       "mode":"Dance Crew",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Ididitagainquat.jpg/revision/latest/scale-to-width-down/165?cb=20140928093842"
+   },
+   {
+      "song":"Oops!...I Did It Again (Mashup)",
+      "artist":"The Girly Team",
+      "difficulty":"2",
+      "year":"2000",
+      "mode":"Dance Crew",
+      "linkimagem":"_img/OpsIDid.jpg"
+   },
+   {
+      "song":"Part Of Me",
+      "artist":"Katy Perry",
+      "difficulty":"4",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/44/PartOfMeDLC_jd4_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20150503065020",
+      "release date":"October 18, 2012"
+   },
+   {
+      "song":"Primadonna",
+      "artist":"Marina and the Diamonds",
+      "difficulty":"2",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/Primadonna.jpg/revision/latest/scale-to-width-down/165?cb=20140929004431",
+      "release date":"April 2, 2013"
+   },
+   {
+      "song":"Professor Pumplestickle",
+      "artist":"Nick Phoenix and Thomas J. Bergersen",
+      "difficulty":"3",
+      "year":"2006",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Professeurdlc.jpg/revision/latest/scale-to-width-down/165?cb=20140929005133",
+      "release date":"March 5, 2013"
    },
    {
       "song":"Rock Lobster",
@@ -2632,12 +2973,35 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b5/Rocklobster_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140929011253"
    },
    {
-      "song":"Rock n’ Roll (Will Take You to the Mountain)",
+      "song":"Rock Lobster (Mashup)",
+      "artist":"The B-52's",
+      "difficulty":"2",
+      "year":"1978",
+      "mode":"Duet",
+      "linkimagem":"_img/Rocklobster.jpg"
+   },
+   {
+      "song":"Rock n' Roll (Will Take You to the Mountain)",
       "artist":"Skrillex",
       "difficulty":"2",
       "year":"2010",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/32/Rocknroll_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140929011951"
+   },
+   {
+      "song":"Rock n' Roll (Will Take You to the Mountain) (Mashup)",
+      "artist":"Skrillex",
+      "difficulty":"2",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"_img/Rocknroll.jpg"
+   },
+   {
+      "song":"Rock n' Roll (Will Take You to the Mountain) vs Livin' la Vida Loca",
+      "artist":"Skrillex vs. Ricky Martin",
+      "difficulty":"1",
+      "year":"2010 vs. 1999",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8e/Rocknrollvslivinlavidalocagift.png/revision/latest/scale-to-width-down/165?cb=20181027222743"
    },
    {
       "song":"Run the Show",
@@ -2648,13 +3012,47 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/26/Runtheshow.jpg/revision/latest/scale-to-width-down/165?cb=20140929012909"
    },
    {
-      "song":"So What (D)",
+      "song":"Run the Show (Extreme Version)",
+      "artist":"Kat DeLuna ft. Busta Rhymes",
+      "alternate":"Extreme",
+      "mode":"Solo",
+      "difficulty":"4",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cb/RunShowext.png/revision/latest/scale-to-width-down/165?cb=20181027224509"
+   },
+   {
+      "song":"Run the Show (Mashup)",
+      "artist":"Kat DeLuna ft. Busta Rhymes",
+      "difficulty":"3",
+      "year":"2007",
+      "mode":"Duet",
+      "linkimagem":"_img/Runtheshow.jpg"
+   },
+   {
+      "song":"So Glamorous",
+      "artist":"The Girly Team",
+      "difficulty":"2",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/67/So_glamorous_jdn.jpg/revision/latest/scale-to-width-down/165?cb=20140924210759",
+      "release date":"December 11, 2012"
+   },
+   {
+      "song":"So What",
       "artist":"P!nk",
       "difficulty":"1",
       "year":"2008",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/Sowhat.jpg/revision/latest/scale-to-width-down/165?cb=20140929020212"
    },
+   {
+      "song":"So What (Mashup)",
+      "artist":"P!nk",
+      "difficulty":"1",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"_img/Sowhat.jpg"
+   },
+   
    {
       "song":"Some Catchin' Up To Do",
       "artist":"Sammy",
@@ -2672,6 +3070,21 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1b/Superbass.jpg/revision/latest/scale-to-width-down/165?cb=20140929021335"
    },
    {
+      "song":"Super Bass (Mashup)",
+      "artist":"Nicki Minaj",
+      "difficulty":"3",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"_img/Superbass.jpg"
+   },
+   {
+      "song":"Super Bass vs Love You Like A Love Song",
+      "artist":"Nicki Minaj vs. Selena Gomez & the Scene",
+      "difficulty":"3",
+      "year":"Both 2011",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bf/Superbassvslovesonggift.png/revision/latest/scale-to-width-down/165?cb=20181027222940"
+   },
+   {
       "song":"Superstition",
       "artist":"Stevie Wonder",
       "difficulty":"1",
@@ -2680,7 +3093,23 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/97/Superjd4.png/revision/latest/scale-to-width-down/165?cb=20180624213855"
    },
    {
-      "song":"The Final Countdown (D)",
+      "song":"Sweat Around The World (Sweat Mode)",
+      "artist":"Latin Dance Practice / World Music",
+      "+10min":"Garden Journey",
+      "+25min":"Forest Dance",
+      "+40min":"Jungle Adventure",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f2/SJXE41_7223beb4_14.png/revision/latest/scale-to-width-down/165?cb=20150308054508"
+   },
+   {
+      "song":"Swinging 60's song (Sweat Mode)",
+      "artist":"Funny Health Conditioning / Classy Pop Music",
+      "+10min":"Breakfast Practice",
+      "+25min":"Tea Party Training",
+      "+40min":"Flower Power Party",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/64/SJXE41_0a7f0229_1.png/revision/latest/scale-to-width-down/165?cb=20150308054439"
+   },
+   {
+      "song":"The Final Countdown",
       "artist":"Europe",
       "difficulty":"3",
       "year":"1986",
@@ -2688,8 +3117,25 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e3/TheFinalCountdown_SquareJD4.png/revision/latest/scale-to-width-down/165?cb=20181027224022"
    },
    {
-      "song":"Time Warp*",
-      "artist":"The Rocky Horror Picture Show Cast (Halloween Thrills)",
+      "song":"The Final Countdown (Mashup)",
+      "artist":"Europe",
+      "difficulty":"3",
+      "year":"1986",
+      "mode":"Duet",
+      "linkimagem":"_img/TheFinalCountdown.jpg"
+   },
+   {
+      "song":"The Lazy Song",
+      "artist":"Bruno Mars",
+      "difficulty":"1",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/32/Thelazysong.jpg/revision/latest/scale-to-width-down/165?cb=20140929022646",
+      "release date":"March 5, 2013"
+   },
+   {
+      "song":"Time Warp",
+      "artist":"Halloween Thrills",
       "difficulty":"3",
       "year":"1975",
       "mode":"Dance Crew",
@@ -2704,7 +3150,30 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Tribaldance.jpg/revision/latest/scale-to-width-down/165?cb=20140924210900"
    },
    {
-      "song":"Umbrella (S)",
+      "song":"Tribal Dance (Katana Version)",
+      "artist":"2 Unlimited",
+      "alternate":"With a Katana",
+      "mode":"Solo",
+      "difficulty":"1",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e1/Tribaldancealt.jpg/revision/latest/scale-to-width-down/165?cb=20160728083151"
+   },
+   {
+      "song":"Tribal Dance (Mashup)",
+      "artist":"2 Unlimited",
+      "difficulty":"3",
+      "year":"1993",
+      "mode":"Duet",
+      "linkimagem":"_img/Tribaldance.jpg"
+   },
+   {
+      "song":"Tribal Dance vs Rock Lobster",
+      "artist":"2 Unlimited vs. The B-52's",
+      "difficulty":"2",
+      "year":"1993 vs. 1978",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/df/Lobstervstribaldancegift.png/revision/latest/scale-to-width-down/165?cb=20181027223314"
+   },
+   {
+      "song":"Umbrella",
       "artist":"Rihanna ft. Jay-Z",
       "difficulty":"1",
       "year":"2007",
@@ -2712,7 +3181,15 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9d/Umbrella.jpg/revision/latest/scale-to-width-down/165?cb=20140929034749"
    },
    {
-      "song":"Want U Back (W)",
+      "song":"Umbrella (Umbrella Version)",
+      "artist":"Rihanna ft. Jay-Z",
+      "alternate":"With an Umbrella",
+      "mode":"Solo",
+      "difficulty":"2",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b2/UmbrellaAlternate.png/revision/latest/scale-to-width-down/165?cb=20181027224648"
+   },
+   {
+      "song":"Want U Back",
       "artist":"Cher Lloyd ft. Astro",
       "difficulty":"1",
       "year":"2011",
@@ -2720,20 +3197,53 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/28/WantUBack_JD4.png/revision/latest/scale-to-width-down/165?cb=20190706184156"
    },
    {
-      "song":"We No Speak Americano*",
-      "artist":"Yolanda Be Cool and DCUP (Hit The Electro Beat)",
+      "song":"We No Speak Americano",
+      "artist":"Hit The Electro Beat",
       "difficulty":"2",
       "year":"2010",
       "mode":"Solo",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b4/Americano.jpg/revision/latest/scale-to-width-down/165?cb=20140928055006"
    },
    {
-      "song":"What Makes You Beautiful (D)",
+      "song":"We No Speak Americano (Mashup)",
+      "artist":"Hit The Electro Beat",
+      "difficulty":"2",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"_img/WeNotSpeak.jpg"
+   },
+   {
+      "song":"We R Who We R",
+      "artist":"Ke$ha",
+      "difficulty":"2",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/39/WeRWhoWeRDLC_JD4.png/revision/latest/scale-to-width-down/165?cb=20190706182228",
+      "release date":"January 22, 2013"
+   },
+   {
+      "song":"What Makes You Beautiful",
       "artist":"One Direction",
       "difficulty":"1",
       "year":"2011",
       "mode":"Dance Crew",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Whatmakesyoubeautiful_square_jd4.png/revision/latest/scale-to-width-down/165?cb=20180627235644"
+   },
+   {
+      "song":"What Makes You Beautiful (Extreme Version)",
+      "artist":"One Direction",
+      "alternate":"Extreme",
+      "mode":"Solo",
+      "difficulty":"4",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/11/WhatMakesAlternate.png/revision/latest/scale-to-width-down/165?cb=20181027224640"
+   },
+   {
+      "song":"What Makes You Beautiful (Mashup)",
+      "artist":"One Direction",
+      "difficulty":"1",
+      "year":"2011",
+      "mode":"Dance Crew",
+      "linkimagem":"_img/Whatmakesyoubeautiful.jpg"
    },
    {
       "song":"Wild Wild West",
@@ -2744,7 +3254,23 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/96/Wildwildwestquat.jpg/revision/latest/scale-to-width-down/165?cb=20140929042214"
    },
    {
-      "song":"You Make Me Feel... (C)",
+      "song":"Wild Wild West (Extreme Version)",
+      "artist":"Will Smith",
+      "alternate":"Extreme",
+      "mode":"Solo",
+      "difficulty":"4",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/Wildwildwestextremesqa.png/revision/latest/scale-to-width-down/165?cb=20181027224630"
+   },
+   {
+      "song":"Wild Wild West (Mashup)",
+      "artist":"Will Smith",
+      "difficulty":"3",
+      "year":"1999",
+      "mode":"Dance Crew",
+      "linkimagem":"_img/Wildwildwest.jpg"
+   },
+   {
+      "song":"You Make Me Feel...",
       "artist":"Cobra Starship ft. Sabi",
       "difficulty":"2",
       "year":"2011",
@@ -2752,20 +3278,1114 @@ var jd4 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5f/Youmakemefeeldlc_jd4_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20150313232308"
    },
    {
-      "song":"You’re the First, the Last, My Everything",
+      "song":"You're the First, the Last, My Everything",
       "artist":"Barry White",
       "difficulty":"1",
       "year":"1974",
       "mode":"Dance Crew",
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d2/You%27re_the_first_the_last_my_everything_jdn.jpg/revision/latest/scale-to-width-down/165?cb=20140924211045"
+   },
+   {
+      "song":"You're the First, the Last, My Everything (Mashup)",
+      "artist":"Barry White",
+      "difficulty":"1",
+      "year":"1974",
+      "mode":"Dance Crew",
+      "linkimagem":"_img/yourethefirst.jpg"
    }
 ]
 jd4 = jd4.map((item, index) => ({
    ...item,
-   id: 400 + index,
+   id: 4000 + index,
   }))
-
-
+var jd14 = [
+   {
+      "song":"#thatPOWER",
+      "artist":"will.i.am Ft. Justin Bieber",
+      "difficulty":"Hard",
+      "year":"2013",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/66/Thatpower_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151358"
+   },
+   {
+      "song":"#thatPOWER (Extreme Version)",
+      "artist":"will.i.am Ft. Justin Bieber",
+      "alternate routine":"Extreme",
+      "mode":"Solo",
+      "difficulty":"Hardest",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cd/Thatpoweralt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530044100"
+   },
+   {
+      "song":"#thatPOWER (On-Stage Version)",
+      "artist":"will.i.am Ft. Justin Bieber",
+      "alternate routine":"On-Stage Mode",
+      "mode":"Trio",
+      "difficulty":"Hard",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/af/Thatpoweroscdlc_jd2014_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530044120"
+   },
+   {
+      "song":"#thatPOWER (Mashup)",
+      "artist":"will.i.am Ft. Justin Bieber",
+      "difficulty":"Hardest",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3b/Thatpower_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150958"
+   },
+   {
+      "song":"99 Luftballons",
+      "artist":"Rutschen Planeten",
+      "difficulty":"Easy",
+      "year":"1983",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Luftballons_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151352"
+   },
+   {
+      "song":"Alfonso Signorini (Eroe Nazionale) (P)",
+      "artist":"Fedez",
+      "difficulty":"Hard",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/07/Alfonso_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110024917"
+   },
+   {
+      "song":"American Girl",
+      "artist":"Bonnie McKee",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1c/Americangirldlc_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140928054638",
+      "release date":"November 26, 2013"
+   },
+   {
+      "song":"Applause",
+      "artist":"Lady Gaga",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/90/Limagolf1_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151350"
+   },
+   {
+      "song":"Applause (Official Coreo Alternative)",
+      "artist":"Lady Gaga",
+      "alternate routine":"Alternate",
+      "mode":"Solo",
+      "difficulty":"Hard",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Limagolf1altdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043726"
+   },
+   {
+      "song":"Aquarius/Let the Sunshine In",
+      "artist":"The Sunlight Shakers",
+      "difficulty":"Easy",
+      "year":"1969",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/64/Aquarius_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110032337"
+   },
+   {
+      "song":"Beauty and a Beat",
+      "artist":"Justin Bieber ft. Nicki Minaj",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/43/Beautyandabeatdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20190823123536",
+      "release date":"April 22, 2014"
+   },
+   {
+      "song":"Blame It On The Boogie",
+      "artist":"Mick Jackson",
+      "difficulty":"Easy",
+      "year":"1978",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/62/Blameit_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151238"
+   },
+   {
+      "song":"Blame It On The Boogie (Extreme Version)",
+      "artist":"Mick Jackson",
+      "alternate routine":"Extreme",
+      "mode":"Solo",
+      "difficulty":"Hardest",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/46/Blameitalt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110031350"
+   },
+   {
+      "song":"Blame It On The Boogie (Sweat Mashup)",
+      "artist":"Mick Jackson",
+      "difficulty":"Easy",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ef/Blameit_mashup.png/revision/latest/scale-to-width-down/150?cb=20200110023220"
+   },
+   {
+      "song":"Blurred Lines",
+      "artist":"Robin Thicke ft. Pharrell Williams",
+      "difficulty":"Easy",
+      "year":"2013",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f0/Blurredlines_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110023644"
+   },
+   {
+      "song":"Blurred Lines (Extreme Version)",
+      "artist":"Robin Thicke ft. Pharrell Williams",
+      "alternate routine":"Extreme",
+      "mode":"Solo",
+      "difficulty":"Hardest",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/36/Blurredlinesaltdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043047"
+   },
+   {
+      "song":"Blurred Lines (Mashup)",
+      "artist":"Robin Thicke ft. Pharrell Williams",
+      "difficulty":"Medium",
+      "gold moves":"No",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a7/Blurredlines_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150821"
+   },
+   {
+      "song":"Candy",
+      "artist":"Robbie Williams",
+      "difficulty":"Medium",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ee/Candy_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151239"
+   },
+   {
+      "song":"Candy (Sweat Mashup)",
+      "artist":"Robbie Williams",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Candymu_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20170621150822"
+   },
+   {
+      "song":"Can't Get Enough",
+      "artist":"Becky G Ft. Pitbull",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a3/Cantgetenoughdlc.jpg/revision/latest/scale-to-width-down/150?cb=20140928064818",
+      "release date":"December 17, 2013"
+   },
+   {
+      "song":"Can't Hold Us",
+      "artist":"Macklemore & Ryan Lewis ft.Ray Dalton",
+      "difficulty":"Medium",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/88/Cantholddlc.jpg/revision/latest/scale-to-width-down/150?cb=20140928065235",
+      "release date":"October 1, 2013"
+   },
+   {
+      "song":"Careless Whisper",
+      "artist":"George Michael",
+      "difficulty":"Hard",
+      "year":"1985",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/75/Carelesswhisper_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151239"
+   },
+   {
+      "song":"Careless Whisper (On-Stage Version)",
+      "artist":"George Michael",
+      "alternate routine":"On-Stage Mode",
+      "mode":"Trio",
+      "difficulty":"Medium",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/17/Carelesswhisperosc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110024727"
+   },
+   {
+      "song":"Could You Be Loved",
+      "artist":"Bob Marley",
+      "difficulty":"Easy",
+      "year":"1980",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f7/Couldyoubeloved_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151210"
+   },
+   {
+      "song":"Could You Be Loved (Mashup)",
+      "artist":"Bob Marley",
+      "difficulty":"Easy",
+      "gold moves":"No",
+      "month":"March",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6f/Couldyoubeloved_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150823"
+   },
+   {
+      "song":"C'Mon",
+      "artist":"Ke$ha",
+      "difficulty":"Medium",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b6/Cmon_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151209"
+   },
+   {
+      "song":"C'mon (Sweat Mashup)",
+      "artist":"Ke$ha",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fd/Cmon_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150822"
+   },
+   {
+      "song":"C'mon vs #thatPOWER",
+      "artist":"Ke$ha VS will.i.am ft. Justin Bieber",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/82/Cmonvsthatpowerbat_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20170621134433"
+   },
+   {
+      "song":"Dançando",
+      "artist":"Ivete Sangalo",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6b/Dancando_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110031107"
+   },
+   {
+      "song":"Die Young",
+      "artist":"Ke$ha",
+      "difficulty":"Medium",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1e/Dieyoungdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200219142453",
+      "release date":"February 11, 2014"
+   },
+   {
+      "song":"Don't You Worry Child",
+      "artist":"Swedish House Mafia ft. John Martin",
+      "difficulty":"Medium",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/64/Dontyouworrydlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200218195150",
+      "release date":"December 17, 2013"
+   },
+   {
+      "song":"Feel So Right",
+      "artist":"Imposs Ft. Konshens",
+      "difficulty":"Hard",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/81/Feelsoright_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151212"
+   },
+   {
+      "song":"Feel So Right (Mashup)",
+      "artist":"Imposs Ft. Konshens",
+      "difficulty":"Hard",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d9/Feelsoright_mashup.png/revision/latest/scale-to-width-down/150?cb=20200109080340"
+   },
+   {
+      "song":"Feel This Moment",
+      "artist":"Pitbull Ft. Christina Aguilera",
+      "difficulty":"Easy",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2b/Feelthismoment_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151212"
+   },
+   {
+      "song":"Fine China",
+      "artist":"Chris Brown",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/70/Finechina.jpg/revision/latest/scale-to-width-down/150?cb=20140928082758"
+   },
+   {
+      "song":"Fine China (Extreme Version)",
+      "artist":"Chris Brown",
+      "alternate routine":"Extreme",
+      "mode":"Solo",
+      "difficulty":"Hardest",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/50/Finechinaalt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043148"
+   },
+   {
+      "song":"Fine China (Mashup)",
+      "artist":"Chris Brown",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6f/Finechina_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150823"
+   },
+   {
+      "song":"Fine China vs Gentleman",
+      "artist":"Chris Brown VS PSY",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/67/Finechinavsgentlemanbat_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043204"
+   },
+   {
+      "song":"Flashdance... What A Feeling",
+      "artist":"The Girly Team",
+      "difficulty":"Hard",
+      "year":"1983",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/95/Whatafeeling_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151437"
+   },
+   {
+      "song":"Flashdance... What A Feeling (Mashup)",
+      "artist":"The Girly Team",
+      "difficulty":"Hard",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a3/Whatafeeling_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621151000"
+   },
+   {
+      "song":"Follow the Leader",
+      "artist":"Wisin & Yandel Ft. Jennifer Lopez",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b7/Followtheleader_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151213"
+   },
+   {
+      "song":"Follow The Leader (Sweat Version)",
+      "artist":"Wisin & Yandel Ft. Jennifer Lopez",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4f/Followtheleaderswt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110031217"
+   },
+   {
+      "song":"Follow The Leader (Mashup)",
+      "artist":"Wisin & Yandel Ft. Jennifer Lopez",
+      "difficulty":"Hard",
+      "gold moves":"No",
+      "month":"September",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/58/Followtheleader_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150824"
+   },
+   {
+      "song":"Funhouse",
+      "artist":"P!nk",
+      "difficulty":"Hard",
+      "year":"2009",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/53/Funhousedlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200219142623",
+      "release date":"March 25, 2014"
+   },
+   {
+      "song":"Gangnam Style",
+      "artist":"PSY",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b3/Gangnamstyledlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200219085153",
+      "release date":"December 17, 2013"
+   },
+   {
+      "song":"Gentleman",
+      "artist":"PSY",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/29/Gentleman_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151213"
+   },
+   {
+      "song":"Gentleman (Sweat Version)",
+      "artist":"PSY",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/79/Gentlemanswt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043245"
+   },
+   {
+      "song":"Gentleman (Mashup)",
+      "artist":"PSY",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/48/Gentlemanmu_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20170621150824"
+   },
+   {
+      "song":"Get Lucky",
+      "artist":"Daft Punk Ft. Pharrell Williams",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/73/Getlucky_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151214"
+   },
+   {
+      "song":"Ghostbusters",
+      "artist":"Ray Parker Jr.",
+      "difficulty":"Medium",
+      "year":"1984",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e6/Ghostbusters_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151214"
+   },
+   {
+      "song":"Ghostbusters (Sweat Edition)",
+      "artist":"Ray Parker Jr.",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/61/Ghostbustersswt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043307"
+   },
+   {
+      "song":"Ghostbusters (Mashup)",
+      "artist":"Ray Parker Jr.",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"February",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c4/Ghostbusters_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150825"
+   },
+   {
+      "song":"Gimme! Gimme! Gimme! (A Man After Midnight)",
+      "artist":"ABBA",
+      "difficulty":"Easy",
+      "year":"1979",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/86/Gimmegimme_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151215"
+   },
+   {
+      "song":"Gimme! Gimme! Gimme! (A Man After Midnight) (On-Stage Mode)",
+      "artist":"ABBA",
+      "alternate routine":"On-Stage Mode",
+      "mode":"Trio",
+      "difficulty":"Medium",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/db/Gimmegimmeosc_jd2014_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043329"
+   },
+   {
+      "song":"Gimme! Gimme! Gimme! (A Man After Midnight) (Sweat Mashup)",
+      "artist":"ABBA",
+      "difficulty":"Easy",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Gimmegimmemu_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20170621150816"
+   },
+   {
+      "song":"I Kissed a Girl",
+      "artist":"Katy Perry",
+      "difficulty":"Medium",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c7/Ikissed_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151216"
+   },
+   {
+      "song":"I Kissed a Girl (On-Stage Version)",
+      "artist":"Katy Perry",
+      "alternate routine":"On-Stage Mode",
+      "mode":"Trio",
+      "difficulty":"Easy",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ac/Ikissedosc_jd2014_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043400"
+   },
+   {
+      "song":"I Kissed a Girl (Sweat Version)",
+      "artist":"Katy Perry",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/eb/Ikissedswt_jd2014_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043425"
+   },
+   {
+      "song":"I Kissed a Girl (Mashup)",
+      "artist":"Katy Perry",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"December",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ca/Ikissedmu_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20170621150816"
+   },
+   {
+      "song":"I Need Your Love",
+      "artist":"Calvin Harris Ft. Ellie Goulding",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/36/Ineedyourlovedlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200118113227",
+      "release date":"December 17, 2013"
+   },
+   {
+      "song":"I Will Survive",
+      "artist":"Gloria Gaynor",
+      "difficulty":"Easy",
+      "year":"1978",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Iwillsurvive_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151349"
+   },
+   {
+      "song":"I Will Survive (On-Stage Version)",
+      "artist":"Gloria Gaynor",
+      "alternate routine":"On-Stage Mode",
+      "mode":"Trio",
+      "difficulty":"Easy",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/44/Iwillsurviveosc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043506"
+   },
+   {
+      "song":"I Will Survive (Mashup)",
+      "artist":"Gloria Gaynor",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/45/Iwillsurvive_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150817"
+   },
+   {
+      "song":"In The Summertime",
+      "artist":"Mungo Jerry",
+      "difficulty":"Easy",
+      "year":"1970",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/19/Summertime_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151357"
+   },
+   {
+      "song":"Isidora",
+      "artist":"Bog Bog Orkestar",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3d/Zagreb_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151439"
+   },
+   {
+      "song":"It's You",
+      "artist":"Duck Sauce",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9c/Itsyou_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151216"
+   },
+   {
+      "song":"It's You (Sweat Version)",
+      "artist":"Duck Sauce",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/40/Itsyouswt_jd2014_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043448"
+   },
+   {
+      "song":"It's You (Sweat Mashup)",
+      "artist":"Duck Sauce",
+      "difficulty":"Medium",
+      "gold moves":"No",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/97/Itsyoumu_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20170621150817"
+   },
+   {
+      "song":"Just A Gigolo",
+      "artist":"Louis Prima",
+      "difficulty":"Medium",
+      "year":"1956",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Gigolo_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151215"
+   },
+   {
+      "song":"Just a Gigolo (Mashup)",
+      "artist":"Louis Prima",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4e/Gigolo_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150815"
+   },
+   {
+      "song":"Just Dance",
+      "artist":"Lady Gaga Ft. Colby O' Donis",
+      "difficulty":"Hard",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a4/Justdance_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151349"
+   },
+   {
+      "song":"Just Dance (On-Stage Version)",
+      "artist":"Lady Gaga Ft. Colby O' Donis",
+      "alternate routine":"On-Stage Mode",
+      "mode":"Trio",
+      "difficulty":"Hard",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d1/Justdanceosc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043528"
+   },
+   {
+      "song":"Just Dance (Sweat Version)",
+      "artist":"Lady Gaga Ft. Colby O' Donis",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ac/Justdanceswtdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043543"
+   },
+   {
+      "song":"Just Dance (Mashup)",
+      "artist":"Lady Gaga Ft. Colby O' Donis",
+      "difficulty":"Hard",
+      "gold moves":"No",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/aa/Justdance_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150818"
+   },
+   {
+      "song":"Kiss You",
+      "artist":"One Direction",
+      "difficulty":"Easy",
+      "year":"2013",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ea/Kissyou_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20180710080234"
+   },
+   {
+      "song":"Kiss You (Sweat Version)",
+      "artist":"One Direction",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/80/Kissyouswt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20180710081033"
+   },
+   {
+      "song":"Kiss You vs Pound The Alarm",
+      "artist":"One Direction VS Nicki Minaj",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ca/Kissvspoundbat_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043606"
+   },
+   {
+      "song":"Limbo",
+      "artist":"Daddy Yankee",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5d/Limbo_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151351"
+   },
+   {
+      "song":"Limbo (Sweat Version)",
+      "artist":"Daddy Yankee",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/26/Limboswt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043745"
+   },
+   {
+      "song":"Limbo (Mashup)",
+      "artist":"Daddy Yankee",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"January",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d7/Limbo_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150818"
+   },
+   {
+      "song":"Love Boat",
+      "artist":"Frankie Bostello",
+      "difficulty":"Medium",
+      "year":"1979",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/70/Loveboat_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151351"
+   },
+   {
+      "song":"Love Boat (Mashup)",
+      "artist":"Frankie Bostello",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"August",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b7/Loveboat_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150819"
+   },
+   {
+      "song":"María",
+      "artist":"Ricky Martin",
+      "difficulty":"Hard",
+      "year":"1995",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f0/Maria_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151352"
+   },
+   {
+      "song":"María (Sweat Version)",
+      "artist":"Ricky Martin",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ac/Mariaswt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110032302"
+   },
+   {
+      "song":"Miss Understood",
+      "artist":"Sammie",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b4/Misunderstood_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151353"
+   },
+   {
+      "song":"Miss Understood (Sweat Mashup)",
+      "artist":"Sammie",
+      "difficulty":"Medium",
+      "gold moves":"No",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7e/Misunderstood_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150819"
+   },
+   {
+      "song":"Moskau",
+      "artist":"Dancing Bros.",
+      "difficulty":"Hard",
+      "year":"1979",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bf/Moskau_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151353"
+   },
+   {
+      "song":"Moskau",
+      "artist":"Dancing Bros.",
+      "difficulty":"Hard",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ea/Moskau_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150820"
+   },
+   {
+      "song":"Moves Like Jagger",
+      "artist":"Maroon 5 Ft. Christina Aguilera",
+      "difficulty":"Medium",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Moveslikedlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20190831124058",
+      "release date":"April 22, 2014"
+   },
+   {
+      "song":"My Main Girl",
+      "artist":"Mainstreet",
+      "difficulty":"Easy",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Maingirldlc.jpg/revision/latest/scale-to-width-down/150?cb=20140928232156",
+      "release date":"December 17, 2013"
+   },
+   {
+      "song":"Nitro Bot",
+      "artist":"Sentai Express",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c2/Robotrock_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151355"
+   },
+   {
+      "song":"One Thing",
+      "artist":"One Direction",
+      "difficulty":"Easy",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/64/Onethingdlc.jpg/revision/latest/scale-to-width-down/150?cb=20140929002154",
+      "release date":"April 22, 2014"
+   },
+   {
+      "song":"One Way Or Another (Teenage Kicks)",
+      "artist":"One Direction",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7b/Onewaydlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200218195750",
+      "release date":"November 26, 2013"
+   },
+   {
+      "song":"Part of Me",
+      "artist":"Katy Perry",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8b/Partofmedlc_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140929003621",
+      "release date":"March 25, 2014"
+   },
+   {
+      "song":"Pound The Alarm",
+      "artist":"Nicki Minaj",
+      "difficulty":"Medium",
+      "year":"2012",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b0/Poundthealarm_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151354"
+   },
+   {
+      "song":"Pound The Alarm (Extreme Version)",
+      "artist":"Nicki Minaj",
+      "alternate routine":"Extreme",
+      "mode":"Solo",
+      "difficulty":"Hardest",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fc/Poundthealarmaltdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043843"
+   },
+   {
+      "song":"Pound The Alarm (Mashup)",
+      "artist":"Nicki Minaj",
+      "difficulty":"Medium",
+      "gold moves":"No",
+      "month":"July",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e3/Poundthealarm_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150952"
+   },
+   {
+      "song":"Prince Ali",
+      "artist":"Disney's Aladdin",
+      "difficulty":"Medium",
+      "year":"1992",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/24/Princeali_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151354"
+   },
+   {
+      "song":"Prince Ali",
+      "artist":"Disney's Aladdin",
+      "difficulty":"Medium",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/93/Princeali_mashup..png/revision/latest/scale-to-width-down/150?cb=20170621150955"
+   },
+   {
+      "song":"Rich Girl",
+      "artist":"Gwen Stefani Ft. Eve",
+      "difficulty":"Easy",
+      "year":"2004",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3d/Richgirl_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151355"
+   },
+   {
+      "song":"Rich Girl (Chair Dance)",
+      "artist":"Gwen Stefani Ft. Eve",
+      "alternate routine":"Chair",
+      "mode":"Solo",
+      "difficulty":"Hard",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/46/Richgirlalt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043909"
+   },
+   {
+      "song":"Rich Girl (Mashup)",
+      "artist":"Gwen Stefani Ft. Eve",
+      "difficulty":"Easy",
+      "gold moves":"Yes",
+      "month":"November",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4c/Richgirl_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150956"
+   },
+   {
+      "song":"Roar",
+      "artist":"Katy Perry",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/36/Kilopapadlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200219143102",
+      "release date":"October 1, 2013"
+   },
+   {
+      "song":"Rock n Roll",
+      "artist":"Avril Lavigne",
+      "difficulty":"Easy",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8b/Rocknrolldlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200218194657",
+      "release date":"February 11, 2014"
+   },
+   {
+      "song":"Sexy And I Know It",
+      "artist":"LMFAO",
+      "difficulty":"Medium",
+      "year":"2011",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e9/Sexyandiknowitdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200218195331",
+      "release date":"November 26, 2013"
+   },
+   {
+      "song":"She Wolf (Falling to Pieces)",
+      "artist":"David Guetta Ft. Sia",
+      "difficulty":"Medium",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Shewolf_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151356"
+   },
+   {
+      "song":"She Wolf (Falling to Pieces) (Mashup)",
+      "artist":"David Guetta Ft. Sia",
+      "difficulty":"Medium",
+      "gold moves":"No",
+      "month":"October",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d1/Shewolf_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150956"
+   },
+   {
+      "song":"She Wolf (Falling to Pieces) vs Where Have You Been",
+      "artist":"David Guetta ft. SIA VS Rihanna",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/aa/Shewolfvswherehavebat_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530043931"
+   },
+   {
+      "song":"Starships",
+      "artist":"Nicki Minaj",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/aa/Starships_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151357"
+   },
+   {
+      "song":"Starships (Charleston Version)",
+      "artist":"Nicki Minaj",
+      "alternate routine":"Charleston",
+      "mode":"Duet",
+      "difficulty":"Hard",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Starshipsalt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530044034"
+   },
+   {
+      "song":"Starships (Sweat Mashup)",
+      "artist":"Nicki Minaj",
+      "difficulty":"Hard",
+      "gold moves":"Yes",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/db/Starships_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150957"
+   },
+   {
+      "song":"The Other Side",
+      "artist":"Jason Derulo",
+      "difficulty":"Hard",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7b/Otherside_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151354"
+   },
+   {
+      "song":"The Way",
+      "artist":"Ariana Grande Ft. Mac Miller",
+      "difficulty":"Easy",
+      "year":"2013",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d1/Theway_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151436"
+   },
+   {
+      "song":"The World is Ours",
+      "artist":"David Correy ft. Monobloco",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/84/TheWorldDLC_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20170716013810",
+      "release date":"May 6, 2014"
+   },
+   {
+      "song":"Timber",
+      "artist":"Pitbull Ft. Ke$ha",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/87/Timberdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200218195443",
+      "release date":"February 11, 2014"
+   },
+   {
+      "song":"Troublemaker",
+      "artist":"Olly Murs Ft. Flo Rida",
+      "difficulty":"Easy",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/87/Troublemaker_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151436"
+   },
+   {
+      "song":"Troublemaker (Sweat Version)",
+      "artist":"Olly Murs Ft. Flo Rida",
+      "alternate routine":"Sweat",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c7/Troublemakerswt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530044140"
+   },
+   {
+      "song":"Troublemaker (Mashup)",
+      "artist":"Olly Murs Ft. Flo Rida",
+      "difficulty":"Easy",
+      "gold moves":"Yes",
+      "month":"May",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/08/Troublemaker_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150959"
+   },
+   {
+      "song":"Turn Up the Love",
+      "artist":"Far East Movement Ft. Cover Drive",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e7/Turnupthelove_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151437"
+   },
+   {
+      "song":"Turn Up The Love (Sumo Version)",
+      "artist":"Far East Movement Ft. Cover Drive",
+      "alternate routine":"Sumo",
+      "mode":"Dance Crew",
+      "difficulty":"Medium",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Turnupthelovealt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530044200"
+   },
+   {
+      "song":"Turn Up The Love (Sweat Mashup)",
+      "artist":"Far East Movement Ft. Cover Drive",
+      "difficulty":"Hard",
+      "gold moves":"No",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8d/Turnupthelove_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621150959"
+   },
+   {
+      "song":"Wake Me Up",
+      "artist":"Avicii ft.Aloe Blacc",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/Wakemeupdlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200219142922",
+      "release date":"October 1, 2013"
+   },
+   {
+      "song":"Waking Up in Vegas",
+      "artist":"Katy Perry",
+      "difficulty":"Medium",
+      "year":"2008",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b3/Wakingup_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20200110033149"
+   },
+   {
+      "song":"We Can’t Stop",
+      "artist":"Miley Cyrus",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c8/Wecantstopdlc.jpg/revision/latest/scale-to-width-down/150?cb=20140929040654",
+      "release date":"October 1, 2013 (PAL, first release)November 26, 2013 (PAL, second release and NTSC)"
+   },
+   {
+      "song":"We R Who We R",
+      "artist":"Ke$ha",
+      "difficulty":"Medium",
+      "year":"2010",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/Werwhowerdlc.jpg/revision/latest/scale-to-width-down/150?cb=20140929041106",
+      "release date":"April 22, 2014"
+   },
+   {
+      "song":"What About Love",
+      "artist":"Austin Mahone",
+      "difficulty":"Medium",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Whataboutlovedlc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20190324145046",
+      "release date":"November 26, 2013"
+   },
+   {
+      "song":"Where Have You Been",
+      "artist":"Rihanna",
+      "difficulty":"Hard",
+      "year":"2012",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/Wherehaveyou_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151438"
+   },
+   {
+      "song":"Where Have You Been (Extreme Version)",
+      "artist":"Rihanna",
+      "alternate routine":"Extreme",
+      "mode":"Solo",
+      "difficulty":"Hardest",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/34/Wherehaveyoualt_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530044251"
+   },
+   {
+      "song":"Where Have You Been (On-Stage Version)",
+      "artist":"Rihanna",
+      "alternate routine":"On-Stage Mode",
+      "mode":"Trio",
+      "difficulty":"Hard",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5d/Wherehaveyouosc_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20150530044313"
+   },
+   {
+      "song":"Where Have You Been (Mashup)",
+      "artist":"Rihanna",
+      "difficulty":"Hard",
+      "gold moves":"Yes",
+      "month":"April",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e9/Wherehaveyou_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621151001"
+   },
+   {
+      "song":"Wild",
+      "artist":"Jessie J Ft. Big Sean",
+      "difficulty":"Hard",
+      "year":"2013",
+      "mode":"Solo",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a0/Wild_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151438"
+   },
+   {
+      "song":"Wild (Mashup)",
+      "artist":"Jessie J Ft. Big Sean",
+      "difficulty":"Hard",
+      "gold moves":"No",
+      "month":"N/A",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4c/Wild_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621151035"
+   },
+   {
+      "song":"Y.M.C.A.",
+      "artist":"Village People",
+      "difficulty":"Easy",
+      "year":"1978",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d6/Ymca_cover_generic.png/revision/latest/scale-to-width-down/150?cb=20171107151439"
+   },
+   {
+      "song":"Y.M.C.A. (Mashup)",
+      "difficulty":"Easy",
+      "gold moves":"Yes",
+      "month":"June",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4f/Ymca_mashup.png/revision/latest/scale-to-width-down/150?cb=20170621151036"
+   }
+]
+jd14 = jd14.map((item, index) => ({
+   ...item,
+   id: 14000 + index,   
+  }))
 var jd20 = [
     {
        "song":"Always Look On The Bright Side Of Life",
@@ -2857,7 +4477,7 @@ var jd20 = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/60/Concalma_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210114"
     },
     {
-       "song":"Everybody (Backstreet’s Back)",
+       "song":"Everybody (Backstreet's Back)",
        "artist":"Millennium Alert",
        "year":"1997",
        "mode":"Dance Crew",
@@ -2945,7 +4565,7 @@ var jd20 = [
         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/16/Iamthebestalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210253"
      },
     {
-       "song":"I Don’t Care",
+       "song":"I Don't Care",
        "artist":"Ed Sheeran & Justin Bieber",
        "year":"2019",
        "mode":"Solo",
@@ -3312,7 +4932,7 @@ var jdU = [
        "released into servers":"November 2, 2019"
     },
     {
-       "song":"Ain’t My Fault",
+       "song":"Ain't My Fault",
        "artist":"Zara Larsson",
        "year":"2016",
        "mode":"Solo",
@@ -3574,7 +5194,7 @@ var jdU = [
    },
     {
        "song":"Barbie Girl",
-       "artist":"Aqua (Countdown Dee’s Hit Explosion)",
+       "artist":"Aqua (Countdown Dee's Hit Explosion)",
        "year":"1997",
        "mode":"Duet",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d3/Barbiegirl_now.jpg/revision/latest/scale-to-width-down/180?cb=20150404185740",
@@ -3591,7 +5211,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Beep Beep I’m A Sheep",
+       "song":"Beep Beep I'm A Sheep",
        "artist":"LilDeuceDeuce ft. BlackGryph0n & TomSka",
        "year":"2017",
        "mode":"Solo",
@@ -3600,7 +5220,7 @@ var jdU = [
        "released into servers":"October 20, 2018"
     },
     {
-       "song":"Better When I’m Dancin’",
+       "song":"Better When I'm Dancin'",
        "artist":"Meghan Trainor",
        "year":"2015",
        "mode":"Solo",
@@ -3888,7 +5508,7 @@ var jdU = [
        "released into servers":"November 2, 2019"
     },
     {
-       "song":"Can’t Feel My Face",
+       "song":"Can't Feel My Face",
        "artist":"The Weeknd",
        "year":"2015",
        "mode":"Solo",
@@ -3897,7 +5517,7 @@ var jdU = [
        "released into servers":"October 12, 2017"
     },
     {
-       "song":"Can’t Get Enough",
+       "song":"Can't Get Enough",
        "artist":"Becky G ft. Pitbull",
        "year":"2013",
        "mode":"Solo",
@@ -3906,7 +5526,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Can’t Take My Eyes Off You",
+       "song":"Can't Take My Eyes Off You",
        "artist":"Boys Town Gang",
        "year":"1982",
        "mode":"Duet",
@@ -3915,7 +5535,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-      "song":"Can’t Take My Eyes Off You (Wrestler Version)",
+      "song":"Can't Take My Eyes Off You (Wrestler Version)",
       "artist":"Boys Town Gang",
       "year":"1982",
       "mode":"Solo",
@@ -4266,7 +5886,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Diggin’ in the Dirt",
+       "song":"Diggin' in the Dirt",
        "artist":"Stefanie Heinzmann",
        "year":"2012",
        "mode":"Solo",
@@ -4320,7 +5940,7 @@ var jdU = [
        "released into servers":"January 23, 2020"
     },
     {
-       "song":"Don’t Let Me Down",
+       "song":"Don't Let Me Down",
        "artist":"The Chainsmokers ft. Daya",
        "year":"2016",
        "mode":"Duet",
@@ -4329,7 +5949,7 @@ var jdU = [
        "released into servers":"April 20, 2017"
     },
     {
-       "song":"Don’t Stop Me Now",
+       "song":"Don't Stop Me Now",
        "artist":"Queen",
        "year":"1978",
        "mode":"Solo",
@@ -4338,7 +5958,7 @@ var jdU = [
        "released into servers":"October 12, 2017"
     },
     {
-      "song":"Don’t Stop Me Now (Panda Version)",
+      "song":"Don't Stop Me Now (Panda Version)",
       "artist":"Queen",
       "year":"1979",
       "mode":"Solo",
@@ -4347,7 +5967,7 @@ var jdU = [
       "released into servers":"October 12, 2017"
    },
     {
-       "song":"Don’t Wanna Know",
+       "song":"Don't Wanna Know",
        "artist":"Maroon 5",
        "year":"2016",
        "mode":"Solo",
@@ -4356,7 +5976,7 @@ var jdU = [
        "released into servers":"October 12, 2017"
     },
     {
-       "song":"Don’t Worry",
+       "song":"Don't Worry",
        "artist":"Madcon ft. Ray Dalton",
        "year":"2015",
        "mode":"Duet",
@@ -4365,7 +5985,7 @@ var jdU = [
        "released into servers":"January 26, 2017"
     },
     {
-       "song":"Don’t Worry Be Happy",
+       "song":"Don't Worry Be Happy",
        "artist":"Bobby McFerrin (The Bench Men)",
        "year":"1988",
        "mode":"Trio",
@@ -4374,7 +5994,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Don’t You Worry Child",
+       "song":"Don't You Worry Child",
        "artist":"Swedish House Mafia ft. John Martin",
        "year":"2013",
        "mode":"Solo",
@@ -4995,7 +6615,7 @@ var jdU = [
        "released into servers":"November 24, 2016"
     },
     {
-       "song":"Hips Don’t Lie",
+       "song":"Hips Don't Lie",
        "artist":"Shakira ft. Wyclef Jean",
        "year":"2005",
        "mode":"Solo",
@@ -5004,7 +6624,7 @@ var jdU = [
        "released into servers":"October 12, 2017"
     },
     {
-      "song":"Hips Don’t Lie (Sumo Version)",
+      "song":"Hips Don't Lie (Sumo Version)",
       "artist":"Shakira ft. Wyclef Jean",
       "year":"2005",
       "mode":"Duet",
@@ -5040,7 +6660,7 @@ var jdU = [
       "released into servers":"May 4, 2017"
    },
     {
-       "song":"Hit ’Em Up Style (Oops!)",
+       "song":"Hit 'Em Up Style (Oops!)",
        "artist":"Blu Cantrell",
        "year":"2001",
        "mode":"Solo",
@@ -5112,8 +6732,8 @@ var jdU = [
        "released into servers":"June 22, 2017 (Consoles)"
     },
     {
-       "song":"How Far I’ll Go",
-       "artist":"Disney’s Moana",
+       "song":"How Far I'll Go",
+       "artist":"Disney's Moana",
        "year":"2016",
        "mode":"Solo",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bc/Howfar_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184948",
@@ -5220,7 +6840,7 @@ var jdU = [
        "released into servers":"November 29, 2016"
     },
     {
-       "song":"I Love Rock ‘N’ Roll*",
+       "song":"I Love Rock ‘N' Roll*",
        "artist":"Joan Jett & The Blackhearts(Fast Forward Highway)",
        "year":"1981",
        "mode":"Solo",
@@ -5247,7 +6867,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"I Was Made For Lovin’ You",
+       "song":"I Was Made For Lovin' You",
        "artist":"Kiss",
        "year":"1979",
        "mode":"Dance Crew",
@@ -5274,7 +6894,7 @@ var jdU = [
       "released into servers":"July 21, 2016"
    },
    {
-      "song":"I’m An Albatraoz",
+      "song":"I'm An Albatraoz",
       "artist":"AronChupa",
       "year":"2014",
       "mode":"Solo",
@@ -5283,7 +6903,7 @@ var jdU = [
       "released into servers":"February 7, 2017"
    },
    {
-      "song":"I’m Still Standing*",
+      "song":"I'm Still Standing*",
       "artist":"Elton John(Top Culture)",
       "year":"1983",
       "mode":"Solo",
@@ -5292,7 +6912,7 @@ var jdU = [
       "released into servers":"November 2, 2019"
    },
    {
-      "song":"I’ve Been Working on The Railroad",
+      "song":"I've Been Working on The Railroad",
       "artist":"The Just Dance Kids",
       "year":"1927",
       "mode":"Solo",
@@ -5310,7 +6930,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"If You’re Happy and You Know It",
+       "song":"If You're Happy and You Know It",
        "artist":"The Just Dance Kids",
        "year":"1957",
        "mode":"Solo",
@@ -5391,7 +7011,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"It’s Raining Men",
+       "song":"It's Raining Men",
        "artist":"The Weather Girls",
        "year":"1983",
        "mode":"Solo",
@@ -5400,7 +7020,7 @@ var jdU = [
        "released into servers":"April 21, 2016"
     },
     {
-       "song":"It’s You",
+       "song":"It's You",
        "artist":"Duck Sauce",
        "year":"2013",
        "mode":"Solo",
@@ -5409,7 +7029,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-      "song":"It’s You (Sweat Version)",
+      "song":"It's You (Sweat Version)",
       "artist":"Duck Sauce",
       "year":"2013",
       "mode":"Solo",
@@ -5427,7 +7047,7 @@ var jdU = [
       "released into servers":"October 20, 2018"
    },
    {
-      "song":"J’Suis Pas Jalouse",
+      "song":"J'Suis Pas Jalouse",
       "artist":"Andy Raconte",
       "year":"2017",
       "mode":"Duet",
@@ -5536,7 +7156,7 @@ var jdU = [
     },
     {
        "song":"Junto a Ti",
-       "artist":"Martina Stoessel & Lodovica Comello (Disney’s \"Violetta\")",
+       "artist":"Martina Stoessel & Lodovica Comello (Disney's \"Violetta\")",
        "year":"2012",
        "mode":"Trio",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ea/JuntoATi.png/revision/latest/scale-to-width-down/180?cb=20170208083212",
@@ -5778,7 +7398,7 @@ var jdU = [
        "released into servers":"January 18, 2018 (2016, 2018)"
     },
     {
-       "song":"Let’s Groove",
+       "song":"Let's Groove",
        "artist":"Earth, Wind & Fire (Equinox Stars)",
        "year":"1981",
        "mode":"Trio",
@@ -6607,7 +8227,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Rock n’ Roll (Will Take You to the Mountain)",
+       "song":"Rock n' Roll (Will Take You to the Mountain)",
        "artist":"Skrillex",
        "year":"2010",
        "mode":"Solo",
@@ -6751,7 +8371,7 @@ var jdU = [
        "released into servers":"October 20, 2018"
     },
     {
-       "song":"She’s Got Me Dancing",
+       "song":"She's Got Me Dancing",
        "artist":"Tommy Sparks",
        "year":"2009",
        "mode":"Solo",
@@ -6823,7 +8443,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"Somethin’ Stupid",
+       "song":"Somethin' Stupid",
        "artist":"Robbie Williams and Nicole Kidman",
        "year":"2001",
        "mode":"Duet",
@@ -6868,7 +8488,7 @@ var jdU = [
        "released into servers":"November 7, 2019"
     },
     {
-       "song":"Soul Searchin’",
+       "song":"Soul Searchin'",
        "artist":"Groove Century",
        "year":"1999",
        "mode":"Solo",
@@ -7156,7 +8776,7 @@ var jdU = [
        "released into servers":"December 21, 2015"
     },
     {
-       "song":"That’s Not My Name",
+       "song":"That's Not My Name",
        "artist":"The Ting Tings",
        "year":"2008",
        "mode":"Solo",
@@ -7165,7 +8785,7 @@ var jdU = [
        "released into servers":"July 19, 2018"
     },
     {
-       "song":"That’s the Way (I Like It)",
+       "song":"That's the Way (I Like It)",
        "artist":"KC and the Sunshine Band",
        "year":"1975",
        "mode":"Solo",
@@ -7453,7 +9073,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"U Can’t Touch This*",
+       "song":"U Can't Touch This*",
        "artist":"MC Hammer(Groove Century)",
        "year":"1990",
        "mode":"Solo",
@@ -7463,7 +9083,7 @@ var jdU = [
     },
     {
        "song":"Un Poco Loco",
-       "artist":"Gael García Bernal, Anthony Gonzalez*(Disney’s Coco)",
+       "artist":"Gael García Bernal, Anthony Gonzalez*(Disney's Coco)",
        "year":"2017",
        "mode":"Solo",
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/20/Pocoloco_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181022233357",
@@ -7885,7 +9505,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"You Can’t Hurry Love",
+       "song":"You Can't Hurry Love",
        "artist":"The Supremes",
        "year":"1966",
        "mode":"Duet",
@@ -7894,7 +9514,7 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"You Don’t Know Me",
+       "song":"You Don't Know Me",
        "artist":"Jax Jones ft. Raye",
        "year":"2016",
        "mode":"Solo",
@@ -7930,7 +9550,7 @@ var jdU = [
        "released into servers":"June 7, 2018"
     },
     {
-      "song":"You’re the First, the Last, My Everything",
+      "song":"You're the First, the Last, My Everything",
       "artist":"Barry White",
       "year":"1974",
       "mode":"Dance Crew",
@@ -7939,7 +9559,7 @@ var jdU = [
       "released into servers":"Available at launch"
    },
    {
-      "song":"You’re The One That I Want",
+      "song":"You're The One That I Want",
       "artist":"John Travolta & Olivia Newton-John(From The Movie Grease)",
       "year":"1978",
       "mode":"Duet",
@@ -8031,9 +9651,8 @@ var jdU = [
  ]
 jdU = jdU.map((item, index) => ({
     ...item,
-    id: 10000 + index
+    id:11000 + index
    }))
-   
    var jdfull = [
     ...jd1,
     ...jd2,

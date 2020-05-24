@@ -22,27 +22,20 @@
 <body>
 <div id="principal">
 
-<h1> Wii </h1>
-	<!--Just Dance 1-->
-<button type="button" data-toggle="collapse"  href="#jd1" class="btn btn-outline-primary btn-lg">Just Dance 1</button>
-	
-	<!--Just Dance 2-->
+<h1> Clássicos </h1>
+	<button type="button" data-toggle="collapse"  href="#jd1" class="btn btn-outline-primary btn-lg">Just Dance 1</button>
 	<button type="button" data-toggle="collapse"  href="#jd2" class="btn btn-outline-primary btn-lg">Just Dance 2</button>
-	
-		<!--Just Dance: Summer Hits-->
-	<button type="button" data-toggle="collapse"  href="#jdsp" class="btn btn-outline-primary btn-lg">Just Dance: Summer Party</button>
-	
 	<button type="button" data-toggle="collapse"  href="#jd3" class="btn btn-outline-primary btn-lg">Just Dance 3</button>
-	
-	<button type="button" data-toggle="collapse"  href="#jdgh" class="btn btn-outline-primary btn-lg">Just Dance Greatest Hits</button>
-	
-	<button type="button" data-toggle="collapse"  href="#jdbo" class="btn btn-outline-primary btn-lg">Just Dance Best Of</button>
 	<button type="button" data-toggle="collapse"  href="#jd4" class="btn btn-outline-primary btn-lg">Just Dance 4</button>
-	<!--<button type="button">Just Dance Wii (JAP)</button>
+	<button type="button">Just Dance Wii (JAP)</button>
 	<button type="button">Just Dance Wii 2 (JAP)</button>
+	<button type="button" data-toggle="collapse"  href="#jd14" class="btn btn-outline-primary btn-lg">Just Dance 2014</button>
 	
-<h1> Wii U </h1>
-	<button type="button">Just Dance 4</button>
+<h1> Spin Of </h1>
+	<button type="button" data-toggle="collapse"  href="#jdsp" class="btn btn-outline-primary btn-lg">Just Dance: Summer Party</button>
+	<button type="button" data-toggle="collapse"  href="#jdgh" class="btn btn-outline-primary btn-lg">Just Dance Greatest Hits</button>
+	<button type="button" data-toggle="collapse"  href="#jdbo" class="btn btn-outline-primary btn-lg">Just Dance Best Of</button>
+<!--
 	<button type="button">Just Dance 2014</button>
 	<button type="button">Just Dance 2015</button>
 	<button type="button">Just Dance 2016</button>
@@ -185,6 +178,20 @@
 		</table>
 	</div>
 	<div class="container-xl">
+		<table id="jd14" class="collapse">
+			<thead class="thead thead-dark">
+				<tr>
+					<th class="alert alert-info" data-field="id" scope="col">ID</th>
+					<th data-field="song" scope="col">Música</th>
+					<th data-field="artist" scope="col">Artista</th>
+					<th data-field="linkimagem" data-formatter="imgFormatter" scope="col">Prévia</th>					
+				</tr>
+				<tbody>
+				</tbody>
+			</thead>
+		</table>
+	</div>
+	<div class="container-xl">
 		<table id="jd20" class="collapse">
 			<thead class="thead thead-dark">
 				<tr>
@@ -267,6 +274,9 @@
 		});
 		$('#jd4').bootstrapTable({
 			data: jd4
+		});
+		$('#jd14').bootstrapTable({
+			data: jd14
 		});
 		$('#jd20').bootstrapTable({
 			data: jd20

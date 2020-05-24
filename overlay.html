@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <script src="comfy.min.js"> </script>
+        <script src="jdfull.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+        <style>
+            
+            
+            body {
+                width: 1920px;
+                height: 1080px;
+                font-family:"Roboto";
+                
+            }
+            table#lista{
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                background: rgba(0, 0, 0, 0.8);
+                color:rgba(255, 255, 255, 0.8);
+                width: 800px;
+                border-collapse: collapse;
+
+            }
+            thead {
+                font-size: 32px;
+            }
+            thead th.lista {
+                border-bottom: 1px solid white;
+            }
+
+            thead th#pedinte {
+                width: 120px;
+                text-align: center;
+            }
+
+            thead th#mus {
+                width: 680px !important;
+                text-align: center;
+            }
+
+            tbody {
+                text-align: center;
+                font-size:26px;
+            }
+            tbody td.lista {
+                border-bottom: 1px solid white;
+            }
+            #imagem {
+                display:none;
+            }
+
+            /*table#nowplay {
+                background:rgba(255, 255, 255, 0.5);
+            }
+*/
+
+            .fotoesquerda{
+                
+                display:table-cell;
+                height: 120px;
+                width: 150px;
+                text-align: center;
+                vertical-align: middle;
+            }
+            .textodireita{
+                display:table-cell;
+                vertical-align: middle;
+                text-align: rleft;
+                width: 410px;
+                height: 120px;
+            }
+            
+            img#thumb{
+                height: 85%;
+                width: 84%;
+                border-radius: 15px !important;
+            }
+            h1#musica {
+                font-family: "roboto";
+                font-size: 28px;
+                font-weight: 900;
+            }
+            h1#artista {
+                font-family: "roboto";
+                font-size: 22px;
+                font-weight: 700;
+                color:slategray;
+            }
+            
+            #agora{ 
+                position: absolute;
+                left: 20px;
+                top:20px;
+                font-family: "roboto";
+                font-size: 30px;
+                font-weight: 900;
+                background: white;
+                width: 500px;
+                height: 120px;
+                border-radius: 15px;
+            }
+            button {
+                position: fixed;
+                top: 980px;
+            }*/
+        </style>
+    </head>
+    <body>
+        <button onClick="deletaMusica()" type="button" class="btn btn-success btn-lg">Próxima Música</button>
+        <div id="principal">
+        <div id="agora" >
+            <div id="now"><h1 style="display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 150px;">Aguardando pedido...</h1></div>
+        </div>
+        
+        <table id="lista">
+            <thead>
+
+            <tr>
+               <th class="lista" id="pedinte">Pedinte</th>
+               <th class="lista" id="mus">Música e artista</th>
+               
+             </tr>
+            </thead>
+            <tbody></tbody>
+         </table>
+        </div>
+
+        
+
+        <script>
+            //document.getElementsByTagName()
+            ComfyJS.Init("botprata", "oauth:dk2hw1xmxjmj1kj4bs3kfdiw9dpn71", "bsilver");
+            ComfyJS.onChat = (user, message, flags, self, extra) => {
+                if (flags.customReward && extra.customRewardId === "9b33b443-5b70-47fa-b299-a30f9fd0fbf1") {
+                    console.log( message );
+                    const musicaEncontrada = jdfull.find(m => m.id === parseInt(message));
+                    if (musicaEncontrada) {
+                        var html = `<tr><td class="lista" id="usuario">${user}</td><td class="lista" id="musica">${musicaEncontrada.song} - ${musicaEncontrada.artist}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML +  html;
+                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song} ${musicaEncontrada.artist}`);
+                    } else {
+                        ComfyJS.Say(`/me ${user} a música está errada.`);
+                    }
+
+                }
+
+                function primeiraMusica() {
+                    var primeira = document.querySelector('tbody tr');
+                        if (!primeira) return;
+                        var colunas = primeira.querySelectorAll('td');
+                        var musica = "<div id='divisor'><span class='fotoesquerda'><img src="+colunas[4].innerText+" id='thumb'/></span><span class='textodireita'><h1 id='musica' class='musicagora'>" + colunas[2].innerText + "</h1> <h1 id='artista' class='musicagora'>" + colunas[3].innerText+"</h1></span></div>";
+
+                        document.querySelector('#now').innerHTML = musica;
+                }
+
+                    setInterval(primeiraMusica, 1000);
+            }
+            
+            function deletaMusica() {
+                const musica = document.querySelector("tbody tr");
+                console.log(musica);
+                musica.remove();
+            }
+        </script>
+    </body>
+</html>
