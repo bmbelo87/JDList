@@ -10465,7 +10465,6 @@ var jdUP = [
       "artist":"Just Vibes",
       "linkimagem":"https://vignette.wikia.nocookie.net/just-dance-unlimited-party/images/0/05/Switchwitch_cover_generic.jpg/revision/latest/scale-to-width-down/196?cb=20190430203018"
    }
-
 ]
    
 
