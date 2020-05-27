@@ -30,11 +30,15 @@
 	<button type="button">Just Dance Wii (JAP)</button>
 	<button type="button">Just Dance Wii 2 (JAP)</button>
 	<button type="button" data-toggle="collapse"  href="#jd14" class="btn btn-outline-primary btn-lg">Just Dance 2014</button>
+	<button type="button" data-toggle="collapse"  href="#jd20" class="btn btn-outline-primary btn-lg">Just Dance 2020</button>
+	
+	<button type="button" data-toggle="collapse"  href="#jdU" class="btn btn-outline-primary btn-lg">Just Dance Unlimited</button>
 	
 <h1> Spin Of </h1>
 	<button type="button" data-toggle="collapse"  href="#jdsp" class="btn btn-outline-primary btn-lg">Just Dance: Summer Party</button>
 	<button type="button" data-toggle="collapse"  href="#jdgh" class="btn btn-outline-primary btn-lg">Just Dance Greatest Hits</button>
 	<button type="button" data-toggle="collapse"  href="#jdbo" class="btn btn-outline-primary btn-lg">Just Dance Best Of</button>
+	<button type="button" data-toggle="collapse"  href="#jdUP" class="btn btn-outline-primary btn-lg">Just Dance Unlimited Party</button>
 <!--
 	<button type="button">Just Dance 2014</button>
 	<button type="button">Just Dance 2015</button>
@@ -44,9 +48,7 @@
 	<button type="button">Just Dance 2017</button>
 	<button type="button">Just Dance 2018</button>
 	<button type="button">Just Dance 2019</button>-->
-	<button type="button" data-toggle="collapse"  href="#jd20" class="btn btn-outline-primary btn-lg">Just Dance 2020</button>
-	
-	<button type="button" data-toggle="collapse"  href="#jdU" class="btn btn-outline-primary btn-lg">Just Dance Unlimited</button>
+
 	
 
 	
@@ -192,6 +194,20 @@
 		</table>
 	</div>
 	<div class="container-xl">
+		<table id="jdUP" class="collapse">
+			<thead class="thead thead-dark">
+				<tr>
+					<th class="alert alert-info" data-field="id" scope="col">ID</th>
+					<th data-field="song" scope="col">Música</th>
+					<th data-field="artist" scope="col">Artista</th>
+					<th data-field="linkimagem" data-formatter="imgFormatter" scope="col">Prévia</th>					
+				</tr>
+				<tbody>
+				</tbody>
+			</thead>
+		</table>
+	</div>
+	<div class="container-xl">
 		<table id="jd20" class="collapse">
 			<thead class="thead thead-dark">
 				<tr>
@@ -283,6 +299,9 @@
 		});
 		$('#jdU').bootstrapTable({
 			data: jdU
+		});
+		$('#jdUP').bootstrapTable({
+			data: jdUP
 		});
 	}));
 	
