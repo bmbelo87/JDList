@@ -34,11 +34,13 @@
 	
 	<button type="button" data-toggle="collapse"  href="#jdU" class="btn btn-outline-primary btn-lg">Just Dance Unlimited</button>
 	
-<h1> Spin Of </h1>
+	<h1> Spin Of </h1>
 	<button type="button" data-toggle="collapse"  href="#jdsp" class="btn btn-outline-primary btn-lg">Just Dance: Summer Party</button>
 	<button type="button" data-toggle="collapse"  href="#jdgh" class="btn btn-outline-primary btn-lg">Just Dance Greatest Hits</button>
 	<button type="button" data-toggle="collapse"  href="#jdbo" class="btn btn-outline-primary btn-lg">Just Dance Best Of</button>
-	<button type="button" data-toggle="collapse"  href="#jdUP" class="btn btn-outline-primary btn-lg">Just Dance Unlimited Party</button>
+	<h1>Mods</h1>
+	<button type="button" data-toggle="collapse"  href="#jdUP" class="btn btn-outline-primary btn-lg">Just Dance UNLIMITED PARTY</button>
+	<button type="button" data-toggle="collapse"  href="#jdEast" class="btn btn-outline-primary btn-lg">Just Dance EAST</button>
 <!--
 	<button type="button">Just Dance 2014</button>
 	<button type="button">Just Dance 2015</button>
@@ -237,12 +239,20 @@
 					<th data-field="linkimagem" data-formatter="imgFormatter" scope="col">Prévia</th>					
 				</tr>
 				<tbody>
-					<tr>
-						<th scope="row">a</th>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
+				</tbody>
+			</thead>
+		</table>
+	</div>
+	<div class="container-xl">
+		<table id="jdEast" class="collapse">
+			<thead class="thead thead-dark">
+				<tr>
+					<th class="alert alert-info" data-field="id" scope="col">ID</th>
+					<th data-field="song" scope="col">Música</th>
+					<th data-field="artist" scope="col">Artista</th>
+					<th data-field="linkimagem" data-formatter="imgFormatter" scope="col">Prévia</th>					
+				</tr>
+				<tbody>
 				</tbody>
 			</thead>
 		</table>
@@ -255,19 +265,17 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
 <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
 
 
 <script src="jdfull.js"></script>
-<script src="jdup.js"></script>
+<script src="jdmods.js"></script>
 <!--<script src="jdsp.js"></script>
 <script src="jd3.js"></script>-->
 <script type="text/javascript">
     function imgFormatter(value) {
         return '<img src="'+ value +'" />';     
     }
-
     $(document).ready(
         $(function () {
         $('#jd1').bootstrapTable({
@@ -303,6 +311,9 @@
 		$('#jdUP').bootstrapTable({
 			data: jdUP
 		});
+		$('#jdEast').bootstrapTable({
+			data: jdEast
+		})
 	}));
 	
 	/*function idFormatter(value, row, index) {
