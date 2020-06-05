@@ -16,41 +16,44 @@
             }
             table#lista{
                 position: absolute;
+                display: flex;
                 right: 0px;
                 top: 0px;
-                background: rgba(0, 0, 0, 0.8);
-                color:rgba(255, 255, 255, 0.8);
-                width: 800px;
+                color: black;
+                width: 600px;
                 border-collapse: collapse;
-
-            }
-            thead {
-                font-size: 32px;
-            }
-            thead th.lista {
-                border-bottom: 1px solid white;
-            }
-
-            thead th#pedinte {
-                width: 120px;
-                text-align: center;
-            }
-
-            thead th#mus {
-                width: 680px !important;
-                text-align: center;
+                flex-flow: row;
+                align-items: center;
+                transition:cubic-bezier(0.6, -0.28, 0.735, 0.045);
             }
 
             tbody {
                 text-align: center;
                 font-size:26px;
+                display: block;
+                background:rgba(255, 255, 255, 0.8);
             }
             tbody td.lista {
-                border-bottom: 1px solid white;
+                height: 10px;
+                width: 600px;
+                margin: 5px;
+                border-radius: 10px;
+            }
+            #imagemespera {
+                border-radius: 10px;
             }
             #imagem {
                 display:none;
             }
+            #musica {
+                padding: 10px;
+                width: 100%;
+            }
+            h2#musica {
+                font-size: 34px;
+                font-weight: 900;
+            }
+           
 
             /*table#nowplay {
                 background:rgba(255, 255, 255, 0.5);
@@ -78,18 +81,18 @@
                 width: 84%;
                 border-radius: 15px !important;
             }
-            h1#musica {
-                font-family: "roboto";
-                font-size: 28px;
-                font-weight: 900;
-            }
+            
             h1#artista {
                 font-family: "roboto";
                 font-size: 22px;
                 font-weight: 700;
                 color:slategray;
             }
-            
+            h1#musica {
+                font-family: "roboto";
+                font-size: 28px;
+                font-weight: 900;
+            }
             #agora{ 
                 position: absolute;
                 left: 20px;
@@ -120,12 +123,6 @@
         
         <table id="lista">
             <thead>
-
-            <tr>
-               <th class="lista" id="pedinte">Pedinte</th>
-               <th class="lista" id="mus">Música e artista</th>
-               
-             </tr>
             </thead>
             <tbody></tbody>
          </table>
@@ -141,7 +138,7 @@
                     console.log( message );
                     const musicaEncontrada = jdfull.find(m => m.id === parseInt(message));
                     if (musicaEncontrada) {
-                        var html = `<tr><td class="lista" id="usuario">${user}</td><td class="lista" id="musica">${musicaEncontrada.song} - ${musicaEncontrada.artist}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var html = `<tr><td class="lista" ><img id="imagemespera" src=${musicaEncontrada.linkimagem}/></td><td class="lista" id="musica"><h2>${musicaEncontrada.song}</h2></td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML +  html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song} ${musicaEncontrada.artist}`);
