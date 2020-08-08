@@ -9625,14 +9625,9 @@ jdU = jdU.map((item, index) => ({
 
 
    var jdfull = [
-    ...jd1,
-    ...jd2,
-    ...jdsp,
     ...jd3,
-    ...jdgh,
-    ...jdbo,
+    ...jd14,
+    ...jd15,
     ...jd20,
-    ...jdU,
-    ...jdUP,
-    ...jdEast,
+    ...jdU
    ]
