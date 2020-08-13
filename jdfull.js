@@ -4197,6 +4197,11 @@ var jdU = [
       "original game":"Just Dance 2019",
       "released into servers":"November 2, 2019"
    },
+      {
+         "song":"Barbra Streisand",
+         "artist":"Duck Sauce",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Barbrastreisand_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170725171754"
+      },
     {
        "song":"Barbie Girl",
        "artist":"Aqua (Countdown Dee's Hit Explosion)",
@@ -4709,6 +4714,11 @@ var jdU = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a7/Cotton_jdnow_cover_generic_updated.jpg/revision/latest/scale-to-width-down/180?cb=20170108132005",
        "original game":"Just Dance",
        "released into servers":"Available at launch"
+    },
+    { 
+       "song":"Crayon",
+       "artist":"G-Dragon",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3d/Crayon_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20200806104852"
     },
     {
        "song":"Crazy Christmas",
@@ -5358,6 +5368,11 @@ var jdU = [
        "original game":"Just Dance 2016",
        "released into servers":"April 6, 2017"
     },
+   { 
+      "song":"Giddy on Up (Giddy on Out)",
+      "artist":"Laura Bell Bundy",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ad/Giddyonup_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20191224134717"
+   },
     {
       "song":"Gimme! Gimme! Gimme! (A Man After Midnight)",
       "artist":"ABBA",
@@ -5719,6 +5734,11 @@ var jdU = [
        "original game":"Just Dance 3",
        "released into servers":"Available at launch"
     },
+    {
+      "song":"Hype",
+      "artist":"Dizzee Rascal & Calvin Harris",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c0/Hype_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200723103759"
+   },
     {
        "song":"I Feel It Coming",
        "artist":"The Weeknd ft. Daft Punk",
@@ -6269,6 +6289,11 @@ var jdU = [
        "released into servers":"October 12, 2017"
     },
     {
+       "song":"La Respuesta",
+       "artist":"Becky G and Maluma",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/da/Larespuesta_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200730102115"
+    },
+    {
        "song":"Land Of 1000 Dances",
        "artist":"Wilson Pickett",
        "year":"1966",
@@ -6557,6 +6582,11 @@ var jdU = [
        "released into servers":"November 24, 2016"
     },
     {
+       "song":"Mas Que Nada",
+       "artist":"The Black Eyed Peas ft. Sergio Mendes",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Masquenada.jpg/revision/latest/scale-to-width-down/180?cb=20140928233851"
+    },
+    {
        "song":"Mashed Potato Time",
        "artist":"Dee Dee Sharp",
        "year":"1962",
@@ -6817,6 +6847,11 @@ var jdU = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ca/Newworld_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20180821090038",
        "original game":"Just Dance 2019",
        "released into servers":"November 2, 2019"
+    },
+    { 
+       "song":"New World (World Cup Champion Version)",
+       "artist":"Krewella, Yellow Claw ft. Vava", 
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/76/Newworldalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200709111020"
     },
     {
        "song":"Nine In The Afternoon",
@@ -8374,6 +8409,11 @@ var jdU = [
        "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/50/Whereverigo.png/revision/latest/scale-to-width-down/180?cb=20161028113002",
        "original game":"Just Dance 2017",
        "released into servers":"October 12, 2017"
+    },
+    {
+       "song":"White Noise",
+       "artist":"Disclosure ft. AlunaGeorge",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d0/WhiteNoise_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20200813100124"
     },
     {
        "song":"Who Let the Dogs Out?*",
