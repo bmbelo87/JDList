@@ -3882,7 +3882,79 @@ jd20 = jd20.map((item, index) => ({
     id: 2000 + index,   
    }))
 var jdU = [
-    {
+   {
+      "song":"10.000 luchtballonnen",
+      "artist":"K3",
+      "year":"2015",
+      "mode":"Trio",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c7/10000Lucht_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191102100918",
+      "original game":"Just Dance 2020",
+      "released into servers":"December 23, 2019 (Worldwide)"
+   },
+   {
+      "song":"1999",
+      "artist":"Charli XCX & Troye Sivan",
+      "year":"2018",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5e/1999_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200130161535",
+      "original game":"Exclusive Track",
+      "released into servers":"January 30, 2020"
+   },
+   {
+      "song":"24K Magic",
+      "artist":"Bruno Mars",
+      "year":"2016",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/3a/24k_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171003191223",
+      "original game":"Just Dance 2018",
+      "released into servers":"October 20, 2018"
+   },
+   {
+     "song":"24K Magic (Extreme Version)",
+     "artist":"Bruno Mars",
+     "year":"2016",
+     "mode":"Solo",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d7/24kalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20180717054529",
+     "original game":"Just Dance 2018",
+     "released into servers":"October 20, 2018"
+  },
+   {
+      "song":"99 Luftballons",
+      "artist":"Nena (Rutschen Planeten)",
+      "year":"1983",
+      "mode":"Duet",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Luftballons_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151352",
+      "original game":"Just Dance 2014",
+      "released into servers":"Available at launch"
+   },
+   {
+      "song":"#thatPOWER",
+      "artist":"will.i.am ft. Justin Bieber",
+      "year":"2013",
+      "mode":"Dance Crew",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/66/Thatpower_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151358",
+      "original game":"Just Dance 2014",
+      "released into servers":"Available at launch"
+   },
+   {
+     "song":"#thatPOWER (Extreme Version)",
+     "artist":"will.i.am ft.Justin Bieber",
+     "year":"2013",
+     "mode":"Solo",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cd/Thatpoweralt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20150530044100",
+     "original game":"Just Dance 2014",
+     "released into servers":"February 25, 2016"
+  },
+  {
+     "song":"#thatPOWER (Sing Along)",
+     "artist":"will.i.am ft.Justin Bieber",
+     "year":"2013",
+     "mode":"Trio",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/Thatpoweroscdlc_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20160630123117",
+     "original game":"Just Dance 2014",
+     "released into servers":"June 23, 2016"
+  }, 
+   {
        "song":"A Little Party Never Killed Nobody",
        "artist":"Fergie ft. Q-Tip, GoonRock",
        "year":"2013",
