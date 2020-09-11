@@ -32,9 +32,65 @@
 	<button type="button" data-toggle="collapse"  href="#jd16" class="btn btn-outline-primary btn-lg">JUST DANCE 2016</button>
 	<button type="button" data-toggle="collapse"  href="#jd17" class="btn btn-outline-primary btn-lg">JUST DANCE 2017</button>
 	<button type="button" data-toggle="collapse"  href="#jd19" class="btn btn-outline-primary btn-lg">JUST DANCE 2019</button>
-	<h1>MODS</h1>
 	<button type="button" data-toggle="collapse"  href="#jdH" class="btn btn-outline-primary btn-lg">JUST DANCE HITS</button>
+	<h1>DIFICULDADES</h1>
+	<button type="button" data-toggle="collapse"  href="#easy" class="btn btn-outline-primary btn-lg">FACIL</button>
+	<button type="button" data-toggle="collapse"  href="#medium" class="btn btn-outline-primary btn-lg">MÉDIO</button>
+	<button type="button" data-toggle="collapse"  href="#hard" class="btn btn-outline-primary btn-lg">DIFÍCIL</button>
+	<button type="button" data-toggle="collapse"  href="#extreme" class="btn btn-outline-primary btn-lg">EXTREMA</button>
 	
+	<div class="container-xl">
+		<table id="easy" class="collapse">
+			<thead class="thead-dark">
+				<tr>
+					<th class="alert alert-info" data-field="id" scope="col">ID</th>
+					<th data-field="song" scope="col">Música</th>
+					<th data-field="linkimagem" data-formatter="imgFormatter" scope="col">Prévia</th>					
+				</tr>
+				<tbody>
+				</tbody>
+			</thead>
+		</table>
+	</div>
+	<div class="container-xl">
+		<table id="medium" class="collapse">
+			<thead class="thead-dark">
+				<tr>
+					<th class="alert alert-info" data-field="id" scope="col">ID</th>
+					<th data-field="song" scope="col">Música</th>
+					<th data-field="linkimagem" data-formatter="imgFormatter" scope="col">Prévia</th>					
+				</tr>
+				<tbody>
+				</tbody>
+			</thead>
+		</table>
+	</div>
+	<div class="container-xl">
+		<table id="hard" class="collapse">
+			<thead class="thead-dark">
+				<tr>
+					<th class="alert alert-info" data-field="id" scope="col">ID</th>
+					<th data-field="song" scope="col">Música</th>
+					<th data-field="linkimagem" data-formatter="imgFormatter" scope="col">Prévia</th>					
+				</tr>
+				<tbody>
+				</tbody>
+			</thead>
+		</table>
+	</div>
+	<div class="container-xl">
+		<table id="extreme" class="collapse">
+			<thead class="thead-dark">
+				<tr>
+					<th class="alert alert-info" data-field="id" scope="col">ID</th>
+					<th data-field="song" scope="col">Música</th>
+					<th data-field="linkimagem" data-formatter="imgFormatter" scope="col">Prévia</th>					
+				</tr>
+				<tbody>
+				</tbody>
+			</thead>
+		</table>
+	</div>
 	<div class="container-xl">
 		<table id="jd1" class="collapse">
 			<thead class="thead-dark">
@@ -217,6 +273,7 @@
 
 
 <script src="jdfull.js"></script>
+<script src="jdmodes.js"></script>
 <!--<script src="jdsp.js"></script>
 <script src="jd3.js"></script>-->
 <script type="text/javascript">
@@ -261,9 +318,18 @@
 		$('#jdUP').bootstrapTable({
 			data: jdUP
 		});
-		$('#jdEast').bootstrapTable({
-			data: jdEast
-		})
+		$('#easy').bootstrapTable({
+			data: easy
+		});
+		$('#medium').bootstrapTable({
+			data: medium
+		});
+		$('#hard').bootstrapTable({
+			data: hard
+		});
+		$('#extreme').bootstrapTable({
+			data: extreme
+		});
 	}));
 	
 	/*function idFormatter(value, row, index) {
@@ -271,12 +337,17 @@
 	}*/
 
 	document.querySelectorAll('.btn[href]').forEach(btn => {
-   btn.addEventListener('click', () => {
-       document.querySelectorAll('.table.show[id]:not([id=' + btn.getAttribute('href').replace('#', '') + '])').forEach(table => {
-           table.classList.remove('show');
-       });
-   });
-});
+   		btn.addEventListener('click', () => {
+       		document.querySelectorAll('.table.show[id]:not([id=' + btn.getAttribute('href').replace('#', '') + '])').forEach(table => {
+           		table.classList.remove('show');
+       		});
+   		});
+	});	
+
+	
+
+	
+	
 
 </script>
 </body>

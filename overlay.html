@@ -158,7 +158,7 @@
             //document.getElementsByTagName()
             ComfyJS.Init("botprata", "oauth:dk2hw1xmxjmj1kj4bs3kfdiw9dpn71", "bsilver");
             ComfyJS.onChat = (user, message, flags, self, extra) => {
-                if (flags.customReward && extra.customRewardId === "9b33b443-5b70-47fa-b299-a30f9fd0fbf1") {
+               /* if (flags.customReward && extra.customRewardId === "9b33b443-5b70-47fa-b299-a30f9fd0fbf1") {
                     console.log( message );
                     const musicaEncontrada = jdfull.find(m => m.id == message);
                     if (musicaEncontrada) {
@@ -166,12 +166,87 @@
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML +  html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
-                    } else {
-                        ComfyJS.Say(`/me ${user} a música está errada.`);
                     }
+                } if (flags.customReward && extra.customRewardId === "e3d166f6-4fda-45cf-ada4-fc78d83d4847") {
+                    console.log( message );
+                    const musicaEncontrada = jdfull.find(m => m.id == message);
+                    if (musicaEncontrada) {
+                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML +  html;
+                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
+                    } 
+                } else {
+                        ComfyJS.Say(`/me ${user} a música está errada.`);
 
+                }*/
+                console.log( message );
+                //A partir daqui para as músicas selecionadas.
+                const musicaEncontrada = jdfull.find(m => m.id == message.toUpperCase());
+                switch (flags.customReward && extra.customRewardId) {
+                    case "9b33b443-5b70-47fa-b299-a30f9fd0fbf1": 
+                    if (musicaEncontrada) {
+                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML +  html;
+                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
+                    } else {
+                        ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
+                    }
+                    break;
+                    //Lista Easy
+                    case "e3d166f6-4fda-45cf-ada4-fc78d83d4847": 
+                    if (musicaEncontrada) {
+                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML +  html;
+                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
+                    } else {
+                        ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
+                    }
+                    break;
+                    //Lista Medio
+                    case "e86fa695-1952-4692-9d8c-9515ff151a8a": 
+                    if (musicaEncontrada) {
+                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML +  html;
+                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
+                    } else {
+                        ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
+                    }
+                    break;
+                    //Lista Difícil
+                    case "0459ba2a-e931-4e52-8734-54ffee438b2c": 
+                    if (musicaEncontrada) {
+                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML +  html;
+                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
+                    } else {
+                        ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
+                    }
+                    break;
+                    //Lista Extreme
+                    case "ea2e3e96-65d5-4c75-b11c-3f065098394b": 
+                    if (musicaEncontrada) {
+                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML +  html;
+                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
+                    } else {
+                        ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
+                    }
+                    break;
+                    /*Música Aleatória
+                    case "":
+                    if (musicaEncontrada) {
+                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML + html;
+                        ComfyJS.Say(`/me ${user} uma música aleatória foi selecionada pra você! Aguarde...`);
+                    }*/
                 }
-
                 function primeiraMusica() {
                     var primeira = document.querySelector('tbody tr');
                         if (!primeira) return;
@@ -189,6 +264,7 @@
                 console.log(musica);
                 musica.remove();
             }
+            
         </script>
     </body>
 </html>
