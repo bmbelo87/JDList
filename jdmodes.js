@@ -4993,7 +4993,7 @@
 
    hard = hard.map((item,index) => ({
       ...item,
-      id: 'H' + ("000" + (000 + index)).substr((""+index).length)
+      id: 'D' + ("000" + (000 + index)).substr((""+index).length)
    }))
 
    var extreme = [ 
@@ -5302,7 +5302,7 @@
       id: 'E' + ("000" + (000 + index)).substr((""+index).length)
    }))
 
-   var jdfull = [
+   var jdmodes = [
     ...easy,
     ...medium,
     ...hard,

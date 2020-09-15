@@ -71,12 +71,12 @@ var jd3 = [
          "effort":"2",
          "year":"2010",
          "mode":"Solo",
-         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/83/Barbrasquare.png/revision/latest/scale-to-width-down/180?cb=20191211024453"
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/47/BarbraStreisand_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211024453"
       },
       {
          "song":"Barbra Streisand (Extreme Version)",
          "artist":"Duck Sauce",
-         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b8/Barbraextremegift.png/revision/latest/scale-to-width-down/180?cb=20191008224817"
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0f/Kelloggs_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191008224817"
       },
       {
          "song":"Barbra Streisand (Mashup)",
@@ -84,7 +84,7 @@ var jd3 = [
          "difficulty":"2",
          "effort":"1",
          "background color":"Dark Blue",
-         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/01/Barbramashup.png/revision/latest/scale-to-width-down/180?cb=20191211215054"
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/45/BarbraStreisandAR_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211215054"
       },
          {
          "song":"Beautiful Liar",
@@ -112,7 +112,7 @@ var jd3 = [
          "effort":"2",
          "year":"1979",
          "mode":"Dance Crew",
-         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/57/Wonderlandsquare.png/revision/latest/scale-to-width-down/180?cb=20191211202637"
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4c/BoogieWonderQUAT_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211202637"
       },
       {
          "song":"Boom",
@@ -149,7 +149,7 @@ var jd3 = [
          "effort":"3",
          "year":"2011",
          "mode":"Solo",
-         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/af/Cardiaccarresssqa.png/revision/latest/scale-to-width-down/123?cb=20150318123738",
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6c/CardiacCaress_jd3_cover_generic.png/revision/latest/scale-to-width-down/123?cb=20150318123738",
          "release date":"January 18, 2012"
       },
       {
@@ -235,7 +235,7 @@ var jd3 = [
          "effort":"2",
          "year":"2010",
          "mode":"Solo",
-         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/50/ForgetYouuuuu.png/revision/latest/scale-to-width-down/180?cb=20191211202140"
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ce/ForgetYou_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211202140"
       },
       {
          "song":"Giddy on Up (Giddy on Out)",
@@ -626,7 +626,7 @@ var jd3 = [
          "effort":"1",
          "year":"2011",
          "mode":"Duet",
-         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/16/Twistandshakeasqa.png/revision/latest/scale-to-width-down/180?cb=20191211213317"
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/12/TwistShakeAss_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211213317"
       },
       {
          "song":"Venus",
@@ -661,7 +661,7 @@ var jd3 = [
          "difficulty":"2",
          "effort":"3",
          "background color":"Sweat Background",
-         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Whatyouwaitmu_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211220430"
+         "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bd/WhatYouWaitAR_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211220430"
       }
    ]
 jd3 = jd3.map((item, index) => ({
@@ -712,7 +712,7 @@ var jd4 = [
       "difficulty":"1",
       "year":"2002",
       "mode":"Duet",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Ketchupsong.jpg/revision/latest/scale-to-width-down/165?cb=20140928224051"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/KetchupSong_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928224051"
    },
    {
       "song":"Aserejé (The Ketchup Song) (Mashup)",
@@ -740,7 +740,7 @@ var jd4 = [
       "artist":"Justin Bieber ft. Nicki Minaj vs. Carly Rae Jepsen",
       "difficulty":"1",
       "year":"2012 vs. 2011",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/CallMeBeauty_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20181027223119"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e5/BeautyVsCallMeDUEL_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20181027223119"
    },
    {
       "song":"Beware of the Boys (Mundian To Bach Ke)",
@@ -861,7 +861,7 @@ var jd4 = [
       "difficulty":"2",
       "year":"2003",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1a/Dagomba_jdn_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928075659",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/22/ElectroTribalDLC_jdn_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928075659",
       "release date":"November 20, 2012"
    },
    {
@@ -879,7 +879,7 @@ var jd4 = [
       "difficulty":"3",
       "year":"2008",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/94/Disturbia.jpg/revision/latest/scale-to-width-down/165?cb=20140928073510"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d8/Disturbia_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928073510"
    },
    {
       "song":"Disturbia (Mashup)",
@@ -895,7 +895,7 @@ var jd4 = [
       "difficulty":"1",
       "year":"2011",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ce/Domino.jpg/revision/latest/scale-to-width-down/165?cb=20140928073951"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e6/Domino_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140928073951"
    },
    {
       "song":"Electro Body Combat (Sweat Mode)",
@@ -1279,7 +1279,7 @@ var jd4 = [
       "difficulty":"3",
       "year":"2006",
       "mode":"Duet",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Professeurdlc.jpg/revision/latest/scale-to-width-down/165?cb=20140929005133",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/ProfesseurDLC_jdn_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140929005133",
       "release date":"March 5, 2013"
    },
    {
@@ -1319,7 +1319,7 @@ var jd4 = [
       "artist":"Skrillex vs. Ricky Martin",
       "difficulty":"1",
       "year":"2010 vs. 1999",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8e/Rocknrollvslivinlavidalocagift.png/revision/latest/scale-to-width-down/165?cb=20181027222743"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b2/RockVsLaVidaDUEL_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20181027222743"
    },
    {
       "song":"Run the Show",
@@ -1400,7 +1400,7 @@ var jd4 = [
       "artist":"Nicki Minaj vs. Selena Gomez & the Scene",
       "difficulty":"3",
       "year":"Both 2011",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bf/Superbassvslovesonggift.png/revision/latest/scale-to-width-down/165?cb=20181027222940"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/52/BassVsLoveSongDUEL_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20181027222940"
    },
    {
       "song":"Superstition",
@@ -1457,7 +1457,7 @@ var jd4 = [
       "difficulty":"3",
       "year":"1975",
       "mode":"Dance Crew",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2a/Timewarpquat.jpg/revision/latest/scale-to-width-down/165?cb=20140929033301"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/21/TimeWarpQUAT_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140929033301"
    },
    {
       "song":"Tribal Dance",
@@ -1496,7 +1496,7 @@ var jd4 = [
       "difficulty":"1",
       "year":"2007",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9d/Umbrella.jpg/revision/latest/scale-to-width-down/165?cb=20140929034749"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c1/Umbrella_cover_generic.jpg/revision/latest/scale-to-width-down/165?cb=20140929034749"
    },
    {
       "song":"Umbrella (Umbrella Version)",
@@ -1504,7 +1504,7 @@ var jd4 = [
       "alternate":"With an Umbrella",
       "mode":"Solo",
       "difficulty":"2",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b2/UmbrellaAlternate.png/revision/latest/scale-to-width-down/165?cb=20181027224648"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/ff/UmbrellaALT_cover_generic.png/revision/latest/scale-to-width-down/165?cb=20181027224648"
    },
    {
       "song":"Want U Back",
@@ -1777,7 +1777,7 @@ var jd14 = [
       "difficulty":"Medium",
       "year":"2013",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/a3/Cantgetenoughdlc.jpg/revision/latest/scale-to-width-down/150?cb=20140928064818",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/Cantgetenoughdlc_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140928064818",
       "release date":"December 17, 2013"
    },
    {
@@ -1786,7 +1786,7 @@ var jd14 = [
       "difficulty":"Medium",
       "year":"2011",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/88/Cantholddlc.jpg/revision/latest/scale-to-width-down/150?cb=20140928065235",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/56/CantHoldDLC_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140928065235",
       "release date":"October 1, 2013"
    },
    {
@@ -1898,7 +1898,7 @@ var jd14 = [
       "difficulty":"Medium",
       "year":"2013",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/70/Finechina.jpg/revision/latest/scale-to-width-down/150?cb=20140928082758"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/87/FineChina_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140928082758"
    },
    {
       "song":"Fine China (Extreme Version)",
@@ -2336,7 +2336,7 @@ var jd14 = [
       "difficulty":"Easy",
       "year":"2013",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Maingirldlc.jpg/revision/latest/scale-to-width-down/150?cb=20140928232156",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/af/Maingirldlc_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140928232156",
       "release date":"December 17, 2013"
    },
    {
@@ -2353,7 +2353,7 @@ var jd14 = [
       "difficulty":"Easy",
       "year":"2012",
       "mode":"Duet",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/64/Onethingdlc.jpg/revision/latest/scale-to-width-down/150?cb=20140929002154",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/82/Onethingdlc_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140929002154",
       "release date":"April 22, 2014"
    },
    {
@@ -2615,7 +2615,7 @@ var jd14 = [
       "difficulty":"Medium",
       "year":"2013",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c8/Wecantstopdlc.jpg/revision/latest/scale-to-width-down/150?cb=20140929040654",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b7/Wecantstopdlc_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140929040654",
       "release date":"October 1, 2013 (PAL, first release)November 26, 2013 (PAL, second release and NTSC)"
    },
    {
@@ -2624,7 +2624,7 @@ var jd14 = [
       "difficulty":"Medium",
       "year":"2010",
       "mode":"Solo",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/9/9f/Werwhowerdlc.jpg/revision/latest/scale-to-width-down/150?cb=20140929041106",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8d/Werwhowerdlc_cover_generic.jpg/revision/latest/scale-to-width-down/150?cb=20140929041106",
       "release date":"April 22, 2014"
    },
    {
@@ -2966,7 +2966,7 @@ var jd15 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/ef/Summer_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118103241"
    },
    {
-      "song":"Tetris*",
+      "song":"Tetris",
       "artist":"Hirokazu Tanaka (Dancing Bros.)",
       "year":"1989",
       "mode":"Dance Crew",
@@ -2980,7 +2980,7 @@ var jd15 = [
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/26/Thefox_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170224100817"
    },
    {
-      "song":"Till I Find You(N)",
+      "song":"Till I Find You",
       "artist":"Austin Mahone",
       "year":"2014",
       "mode":"Solo",
@@ -3238,7 +3238,7 @@ var jd15 = [
       "theme":"Shamans",
       "icon linkimagem":"Apache (Jump On It)",
       "gold moves":"Yes",
-      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/13/Thefoxmu_cover_generic.png/revision/latest/scale-to-width-down/145?cb=20170723050119"
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/25/Thefoxalt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170224100829"
    },
    {
       "song":"Till I Find You(D) (N)",
@@ -4157,7 +4157,7 @@ var jdU = [
        "artist":"Las Ketchup",
        "year":"2002",
        "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Ketchupsong.jpg/revision/latest/scale-to-width-down/180?cb=20140928224051",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/KetchupSong_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20140928224051",
        "original game":"Just Dance 4",
        "released into servers":"Available at launchNovember 25, 2015"
     },
@@ -4986,7 +4986,7 @@ var jdU = [
        "artist":"Jessie J",
        "year":"2012",
        "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/ce/Domino.jpg/revision/latest/scale-to-width-down/180?cb=20140928073951",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e6/Domino_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20140928073951",
        "original game":"Just Dance 4",
        "released into servers":"Available at launch"
     },
@@ -5775,7 +5775,7 @@ var jdU = [
        "artist":"Donna Summer",
        "year":"1980",
        "mode":"Duet",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2d/HotStuff_jdn_cover_generic.png.jpg/revision/latest/scale-to-width-down/180?cb=20150206230512",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c2/HotStuff_jdn_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20150206230512",
        "original game":"Just Dance 2",
        "released into servers":"Available at launch"
     },
@@ -7254,7 +7254,7 @@ var jdU = [
        "artist":"Boney M.",
        "year":"1978",
        "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8e/Rasputin.jpg/revision/latest/scale-to-width-down/180?cb=20150121012746",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cb/Rasputin_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20150121012746",
        "original game":"Just Dance 2",
        "released into servers":"Available at launch"
     },
@@ -8046,7 +8046,7 @@ var jdU = [
        "artist":"Halloween Thrills",
        "year":"1975",
        "mode":"Dance Crew",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/2a/Timewarpquat.jpg/revision/latest/scale-to-width-down/180?cb=20140929033301",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/21/TimeWarpQUAT_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20140929033301",
        "original game":"Just Dance 4",
        "released into servers":"Available at launch"
     },
@@ -8150,11 +8150,11 @@ var jdU = [
        "released into servers":"Available at launch"
     },
     {
-       "song":"U Can't Touch This*",
+       "song":"U Can't Touch This",
        "artist":"MC Hammer(Groove Century)",
        "year":"1990",
        "mode":"Solo",
-       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/44/Canttouchthis_.jpg/revision/latest/scale-to-width-down/180?cb=20150320092743",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/CantTouchThis_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20150320092743",
        "original game":"Just Dance",
        "released into servers":"Available at launch"
     },
