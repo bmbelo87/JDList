@@ -3883,6 +3883,490 @@ jd20 = jd20.map((item, index) => ({
    }))
 var jdU = [
    {
+      "song":"Always Look On The Bright Side Of Life",
+      "artist":"The Frankie Bostello Orchestra",
+      "year":"1979",
+      "mode":"Dance Crew",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/32/Alwayslookon_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205755"
+   },
+   {
+      "song":"Baby Shark",
+      "artist":"Pinkfong",
+      "year":"2016",
+      "mode":"Duet",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b8/Babyshark_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205757"
+   },
+   {
+      "song":"Bad Boy",
+      "artist":"Riton & Kah-Lo",
+      "year":"2018",
+      "mode":"Duet",
+      "difficulty":"Easy",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cf/Badboy_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205759"
+   },
+   {
+      "song":"bad guy",
+      "artist":"Billie Eilish",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d4/Badguy_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205802"
+   },
+   {
+       "song":"bad guy (Billie Version)",
+       "artist":"Billie Eilish",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Moderate",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/86/BadGuyALT_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191106031521"
+    },
+
+   {
+      "song":"Bangarang",
+      "artist":"Skrillex ft. Sirah",
+      "year":"2011",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d5/Bangarang_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191031042700"
+   },
+   {
+       "song":"Bangarang (Extreme Version)",
+       "artist":"Skrillex ft. Sirah",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Intense",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fc/Bangarangalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205806"
+    },
+   {
+      "song":"Bassa Sababa",
+      "artist":"Netta",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cc/Bassasababa_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210105"
+   },
+   {
+      "song":"Con Altura",
+      "artist":"ROSALÍA & J Balvin ft. El Guincho",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/60/Conaltura_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210111"
+   },
+   {
+      "song":"Con Calma",
+      "artist":"Daddy Yankee ft. Snow",
+      "year":"2019",
+      "mode":"Duet",
+      "difficulty":"Medium",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/60/Concalma_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210114"
+   },
+   {
+      "song":"Everybody (Backstreet's Back)",
+      "artist":"Millennium Alert",
+      "year":"1997",
+      "mode":"Dance Crew",
+      "difficulty":"Easy",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/35/Everybody_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210301"
+   },
+   {
+      "song":"FANCY",
+      "artist":"TWICE",
+      "year":"2019",
+      "mode":"Trio",
+      "difficulty":"Medium",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d0/Fancytwice_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210118"
+   },
+   {
+      "song":"Fancy Footwork",
+      "artist":"Chromeo",
+      "year":"2007",
+      "mode":"Solo",
+      "difficulty":"Hard",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/24/Footwork_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210120"
+   },
+   {
+      "song":"Fit But You Know It",
+      "artist":"The Streets",
+      "year":"2004",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Intense",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1f/Fitbutyouknow_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210119"
+   },
+   {
+      "song":"Get Busy",
+      "artist":"KOYOTIE",
+      "year":"2019",
+      "mode":"Duet",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/aa/Getbusy_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210246"
+   },
+   {
+      "song":"God Is A Woman",
+      "artist":"Ariana Grande",
+      "year":"2018",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/35/Godisawoman_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210250"
+   },
+   {
+       "song":"God Is a Woman (God Version)",
+       "artist":"Ariana Grande",
+       "mode":"Solo",
+       "difficulty":"Medium",
+       "effort":"Low",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7b/Godisawomanalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210252"
+    },
+   {
+      "song":"High Hopes",
+      "artist":"Panic! at the Disco",
+      "year":"2018",
+      "mode":"Dance Crew",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7f/Highhopes_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210251"
+   },
+   {
+      "song":"I Am The Best",
+      "artist":"2NE1",
+      "year":"2011",
+      "mode":"Trio",
+      "difficulty":"Hard",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/28/Iamthebest_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191023081404"
+   },
+   {
+       "song":"I Am the Best (Extreme Version)",
+       "artist":"2NE1",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Intense",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/16/Iamthebestalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210253"
+    },
+   {
+      "song":"I Don't Care",
+      "artist":"Ed Sheeran & Justin Bieber",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/80/Idontcare_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210255"
+   },
+   {
+      "song":"I Like It",
+      "artist":"Cardi B, Bad Bunny & J Balvin",
+      "year":"2018",
+      "mode":"Trio",
+      "difficulty":"Medium",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d7/Ilikeit_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210257"
+   },
+   {
+      "song":"Infernal Galop (Can-Can)",
+      "artist":"The Just Dance Orchestra",
+      "year":"1858",
+      "mode":"Duet",
+      "difficulty":"Medium",
+      "effort":"Intense",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bd/Cancan_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210110"
+   },
+   {
+      "song":"Into the Unknown",
+      "artist":"Disney's Frozen 2",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f1/Lullaby_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191123054754"
+   },
+   {
+      "song":"Just An Illusion",
+      "artist":"Equinox Stars",
+      "year":"1982",
+      "mode":"Duet",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Justanillusion_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210258"
+   },
+   {
+      "song":"Keep in Touch",
+      "artist":"JD McCrary",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/46/Keepintouch_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210300"
+   },
+   {
+      "song":"Kill This Love",
+      "artist":"BLACKPINK",
+      "year":"2019",
+      "mode":"Dance Crew",
+      "difficulty":"Hard",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e5/Killthislove_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210445"
+   },
+   {
+       "song":"Kill This Love (Extreme Version)",
+       "artist":"BLACKPINK",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Intense",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/d/d3/Killthislovealt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210447"
+    },
+   {
+      "song":"Le Bal Masqué",
+      "artist":"Dr. Creole",
+      "year":"1984",
+      "mode":"Dance Crew",
+      "difficulty":"Easy",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7f/Balmasque_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205804"
+   },
+   {
+      "song":"MA ITU",
+      "artist":"Stella Mwangi",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Hard",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/05/Maitu_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210447"
+   },
+   {
+      "song":"My New Swag",
+      "artist":"VAVA ft. Ty & Nina Wang",
+      "year":"2017",
+      "mode":"Solo",
+      "difficulty":"Hard",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/e/e3/Swag_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210607"
+   },
+   {
+      "song":"Old Town Road (Remix)",
+      "artist":"Lil Nas X ft. Billy Ray Cyrus",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/32/Oldtownroad_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210449"
+   },
+   {
+       "song":"Old Town Road (Line Dance Version)",
+       "artist":"Lil Nas X ft. Billy Ray Cyrus",
+       "mode":"Trio",
+       "difficulty":"Easy",
+       "effort":"Low",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/65/Oldtownroadalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210450"
+    },
+   {
+      "song":"Policeman",
+      "artist":"Eva Simons ft. Konshens",
+      "year":"2015",
+      "mode":"Trio",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ac/Policeman_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210450"
+   },
+   {
+      "song":"Rain Over Me",
+      "artist":"Pitbull ft. Marc Anthony",
+      "year":"2011",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/fe/Rainoverme_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210451"
+   },
+   {
+       "song":"Rain Over Me (Extreme Version)",
+       "artist":"Pitbull ft. Marc Anthony",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Intense",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/2/28/Rainovermealt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210451"
+    },
+    
+   {
+      "song":"Skibidi",
+      "artist":"Little Big",
+      "year":"2018",
+      "mode":"Duet",
+      "difficulty":"Easy",
+      "effort":"Intense",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/0/0e/Skibidi_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210604"
+   },
+   {
+     "song":"Só Depois do Carnaval",
+     "artist":"Lexa",
+     "year":"2019",
+     "mode":"Solo",
+     "difficulty":"Medium",
+     "effort":"Moderate",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f4/Docarnaval_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191031042342"
+  },
+   {
+      "song":"Soy Yo",
+      "artist":"Bomba Estéreo",
+      "year":"2015",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/74/Soyyo_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210604"
+   },
+   {
+       "song":"Soy Yo (Snake Edition)",
+       "artist":"Bomba Estéreo",
+       "mode":"Duet",
+       "difficulty":"Medium",
+       "effort":"Moderate",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8b/Soyyoalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210605"
+    },
+   {
+      "song":"Stop Movin'",
+      "artist":"Royal Republic",
+      "year":"2019",
+      "mode":"Trio",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1e/Stopmovin_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210606"
+   },
+   {
+      "song":"Sushi",
+      "artist":"Merk & Kremont",
+      "year":"2018",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ae/Sushii_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210606"
+   },
+   {
+       "song":"Sushi (Extreme Version)",
+       "artist":"Merk & Kremont",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Intense",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/bb/Sushiialt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210607"
+    },
+   {
+      "song":"Taki Taki",
+      "artist":"DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
+      "year":"2018",
+      "mode":"Solo",
+      "difficulty":"Medium",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c3/Takitaki_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210609"
+   },
+   {
+       "song":"Taki Taki (Caveman Version)",
+       "artist":"DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
+       "mode":"Duet",
+       "difficulty":"Medium",
+       "effort":"Moderate",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/69/Takitakialt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210612"
+    },
+   {
+      "song":"Talk",
+      "artist":"Khalid",
+      "year":"2019",
+      "mode":"Solo",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6d/Talk_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210612"
+   },
+   {
+       "song":"Talk (Extreme Edition)",
+       "artist":"Khalid",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Intense",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/cb/Talkalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210748"
+    },
+   {
+      "song":"Tel Aviv",
+      "artist":"Omar Adam Ft. Arisa",
+      "year":"2013",
+      "mode":"Trio",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/6/6b/Telaviv_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210749"
+   },
+   {
+      "song":"The Time (Dirty Bit)",
+      "artist":"The Black Eyed Peas",
+      "year":"2010",
+      "mode":"Dance Crew",
+      "difficulty":"Medium",
+      "effort":"Moderate",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/14/Thetime_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210753"
+   },
+   {
+       "song":"The Time (Dirty Bit) (Extreme Version)",
+       "artist":"The Black Eyed Peas",
+       "mode":"Solo",
+       "difficulty":"Ex",
+       "effort":"Intense",
+       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7a/Thetimealt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210757"
+    },
+   {
+      "song":"Ugly Beauty",
+      "artist":"Jolin Tsai",
+      "year":"2018",
+      "mode":"Trio",
+      "difficulty":"Easy",
+      "effort":"Low",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/3/31/Uglybeauty_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210757"
+   },
+   {
+      "song":"Vodovorot",
+      "artist":"XS Project",
+      "year":"2011",
+      "mode":"Solo",
+      "difficulty":"Hard",
+      "effort":"Intense",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b7/Vodovorot_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210758"
+   },
+   {
+     "song":"365",
+     "artist":"Zedd & Katy Perry",
+     "year":"2019",
+     "mode":"Solo",
+     "difficulty":"Easy",
+     "effort":"Low",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/f/f9/365_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205753"
+  },
+  {
+     "song":"7 rings",
+     "artist":"Ariana Grande",
+     "year":"2019",
+     "mode":"Trio",
+     "difficulty":"Medium",
+     "effort":"Moderate",
+     "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4a/7rings_cover_generic.jpg/revision/latest/scale-to-width-down/200?cb=20191026222501"
+  },
+  {
+      "song":"7 rings (Extreme Version)",
+      "artist":"Ariana Grande",
+      "mode":"Solo",
+      "difficulty":"Ex",
+      "effort":"Intense",
+      "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/1c/7ringsalt_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103205752"
+   },
+   {
       "song":"10.000 luchtballonnen",
       "artist":"K3",
       "year":"2015",

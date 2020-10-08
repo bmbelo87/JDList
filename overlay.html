@@ -28,7 +28,7 @@
             }
 
             thead th#pedinte {
-               
+                background: white;
                 color:rgba(0, 0, 0, 1);
                 text-align: center;
                 margin-bottom: 5px;
@@ -66,16 +66,16 @@
             }
             
             .easy {
-                background: limegreen;
+                background: #f930bc;
             }
             .medium {
-                background: goldenrod;
+                background: #9740fc;
             }
             .hard {
-                background: lightskyblue;
+                background: #ff7100;
             }
             .extreme {
-                background: magenta;
+                background: #11fc06;
             }
 
             td#surpresa {
@@ -87,6 +87,8 @@
                 text-overflow: ellipsis;
                 white-space: nowrap;
                 background: linear-gradient(90deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094);
+                -webkit-text-stroke: 2px black;
+                color: white;
                 background-size: 400%;
                 animation: steam 40s linear infinite;
             }
@@ -236,28 +238,33 @@
                         ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
                     }
                     break;
-                    //Lista Easy
+                    //Lista Easy Medio Dificil
                     case "e3d166f6-4fda-45cf-ada4-fc78d83d4847":
                     if (musicaModos && ((message.charAt(0) == 'F') || (message.charAt(0) == 'f'))) {
                         var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista easy" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
-                    } else {
-                        ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
-                    }
-                    break;
-                    //Lista Medio
-                    case "e86fa695-1952-4692-9d8c-9515ff151a8a": 
-                    if (musicaModos && ((message.charAt(0) == 'M') || (message.charAt(0) == 'm'))) {
+                    } else if (musicaModos && ((message.charAt(0) == 'M') || (message.charAt(0) == 'm'))) {
                         var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista medium" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML +  html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
+                    } else if (musicaModos && ((message.charAt(0) == 'D') || (message.charAt(0) == 'd'))) {
+                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista hard" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
+                        var tbody = document.querySelector('tbody');
+                        tbody.innerHTML = tbody.innerHTML +  html;
+                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
+                    } else if (musicaModos && ((message.charAt(0) == 'E') || (message.charAt(0) == 'e'))) {
+                        ComfyJS.Say(`Ei ${user} você digitou uma ID para uma música Extrema, por favor, utilize o botão "Escolha uma Música Extrema" para essa ID começada com E. Seus pontos não serão restaurados.`)
                     } else {
-                        ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
+                        ComfyJS.Say(`Ei ${user} o ID da música está incorreto, verifique o ID e peça para o bsilver adicionar manualmente.`);
                     }
                     break;
+                    //Lista Medio
+                    //case "e86fa695-1952-4692-9d8c-9515ff151a8a": 
+                    
+                    //break;
                     //Lista Difícil
                     case "0459ba2a-e931-4e52-8734-54ffee438b2c": 
                     if (musicaModos && ((message.charAt(0) == 'D') || (message.charAt(0) == 'd'))) {
