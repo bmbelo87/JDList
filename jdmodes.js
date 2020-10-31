@@ -2742,6 +2742,11 @@
       "released into servers":"August 23, 2018"
    },
    {
+      "song":"Dark Horse",
+      "artist":"Katy Perry",
+      "linkimagem":"https://static.wikia.nocookie.net/justdance/images/9/91/Darkhorse_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118083535"
+   },
+   {
       "song":"Day-O (The Banana Boat Song)",
       "artist":"Harry Belafonte(The Just Dance Kids)",
       "year":"1956",
@@ -3163,6 +3168,11 @@
    "released into servers":"October 20, 2018"
 },
 {
+   "song":"I Don't Feel Like Dancin'",
+   "artist":"Scissor Sisters",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/2/2e/Feellikedancing_jd3_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191211024320",
+},
+{
    "song":"I Like It",
    "artist":"Cardi B, Bad Bunny & J Balvin",
    "year":"2018",
@@ -3305,6 +3315,11 @@
    "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/b/b7/JumpMaLa_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20191127063211",
    "original game":"Exclusive Track",
    "released into servers":"July 4, 2019"
+},
+{
+   "song":"Jungle Boogie",
+   "artist":"Studio Musicians",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/2/2d/JungleBoogie_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20201015093655",
 },
 {
    "song":"Junto a Ti",
