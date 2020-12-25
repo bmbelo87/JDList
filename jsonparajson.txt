@@ -1,0 +1,28 @@
+var tabela = document.querySelectorAll('.wikitable')[0];
+
+var cabecalho = [];
+[].forEach.call(tabela.querySelectorAll('th'), item => {
+  cabecalho.push(item.textContent.trim().toLowerCase());
+});
+
+var items = [];
+[].forEach.call(tabela.querySelectorAll('tr'), item => {
+   var obj = {};
+   for (let i = 0; i < cabecalho.length; i++) {
+       if (item.querySelectorAll('td')[i]) {
+           var campo = cabecalho[i];
+
+           var img = item.querySelectorAll('td')[i].querySelector('img');
+           if (img) {
+                obj[campo] = img.getAttribute('src');
+           } else {
+                obj[campo] = item.querySelectorAll('td')[i].textContent.trim();
+           }
+       } else {
+            return;
+       }
+   }
+   items.push(obj);
+});
+
+JSON.stringify(items).split("}").join("}\n");
