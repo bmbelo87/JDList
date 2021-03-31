@@ -1,179 +1,194 @@
 <html>
-    <head>
-        <script src="comfy.min.js"> </script>
-        <script src="jdfull.js"></script>
-        <script src="jdmodes.js"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
-        <style>
-            body {
-                width: 1920px;
-                height: 1080px;
-                font-family:"Roboto";
-            }
-            table#lista{
-                position: absolute;
-                right: 0px;
-                top: 0px;
-                width: 600px;
-                border-collapse: separate; 
-                border-spacing: 10px;
 
-            }
-            thead {
-                font-size: 34px;
-            }
-            thead th.lista {
-                border-bottom: 1px solid white;
+<head>
+    <script src="comfy.min.js"> </script>
+    <script src="jdfull.js"></script>
+    <script src="jdmodes.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            width: 1920px;
+            height: 1080px;
+            font-family: "Roboto";
+        }
+
+        table#lista {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 600px;
+            border-collapse: separate;
+            border-spacing: 10px;
+
+        }
+
+        thead {
+            font-size: 34px;
+        }
+
+        thead th.lista {
+            border-bottom: 1px solid white;
+        }
+
+        thead th#pedinte {
+            background: white;
+            color: rgba(0, 0, 0, 1);
+            text-align: center;
+            margin-bottom: 5px;
+            border-radius: 10px;
+        }
+
+        thead th#mus {
+            text-align: left;
+        }
+
+        tbody {
+            text-align: left;
+            font-size: 42px;
+            -webkit-text-stroke: 1.4px black;
+        }
+
+        tbody td.lista {
+            /*border-bottom: 1px solid white;*/
+        }
+
+        #imagem {
+            display: none;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        td#musica {
+            width: 600px !important;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .easy {
+            background: #f930bc;
+        }
+
+        .medium {
+            background: #9740fc;
+        }
+
+        .hard {
+            background: #ff7100;
+        }
+
+        .extreme {
+            background: #11fc06;
+        }
+
+        td#surpresa {
+            width: 600px !important;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            background: linear-gradient(90deg, #6e40aa, #be3caf, #fe4b83, #ff7747, #e3b62f, #b0ef5a, #53f666, #1edfa2, #23acd8, #4c6fdc, #4c6fdc, #6e40aa, #be3caf, #fe4b83, #ff7747, #e3b62f, #b0ef5a, #53f666, #1edfa2, #23acd8, #4c6fdc, #6e40aa);
+            color: #CCC;
+            background-size: 400%;
+            animation: steam 40s linear infinite;
+            text-align: center;
+
+        }
+
+        @keyframes steam {
+            0% {
+                background-position: 400% 0;
             }
 
-            thead th#pedinte {
-                background: white;
-                color:rgba(0, 0, 0, 1);
-                text-align: center;
-                margin-bottom: 5px;
-                border-radius:10px;
+            100% {
+                background-position: 0 0;
             }
+        }
 
-            thead th#mus {
-                
-                text-align: left;
-            }
 
-            tbody {
-                text-align: left;
-                font-size:30px;
-            }
-            tbody td.lista {
-                border-bottom: 1px solid white;
-            }
-
-            #imagem {
-                display:none;
-            }
-            td {
-                padding:10px;
-            }
-            td#musica {
-                width: 600px !important;
-                padding: 20px;
-                border-radius:10px;
-                max-width: 100px;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                
-            }
-            
-            .easy {
-                background: #f930bc;
-            }
-            .medium {
-                background: #9740fc;
-            }
-            .hard {
-                background: #ff7100;
-            }
-            .extreme {
-                background: #11fc06;
-            }
-
-            td#surpresa {
-                width: 600px !important;
-                padding: 20px;
-                border-radius:10px;
-                max-width: 100px;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                background: linear-gradient(90deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094);
-                -webkit-text-stroke: 1px black;
-                color: white;
-                background-size: 400%;
-                animation: steam 40s linear infinite;
-            }
-
-            @keyframes steam {
-    0% {
-        background-position: 400% 0;
-    }
-    100% {
-        background-position: 0 0;
-    }
-    
-}
-            /*table#nowplay {
+        /*table#nowplay {
                 background:rgba(255, 255, 255, 0.5);
             }
 */
 
-            .fotoesquerda{
-                display:table-cell;
-                height: 120px;
-                width: 150px;
-                text-align: center;
-                vertical-align: middle;
-            }
+        .fotoesquerda {
+            display: table-cell;
+            height: 120px;
+            width: 150px;
+            text-align: center;
+            vertical-align: middle;
+        }
 
-            .textodireita{
-                display:table-cell;
-                vertical-align: middle;
-                text-align: rleft;
-                width: 410px;
-                height: 120px;
-            }
-            
-            img#thumb{
-                height: 125%;
-                width: 100%;
-                border-radius: 15px !important;
-                position: relative;
-                top: 15px;
-                left: 15px;
-            }
-            h1#musica {
-                font-family: "roboto";
-                font-size: 30px;
-                font-weight: 900;
-                position: relative;
-                top: 5px;
-                left: 25px;
-            }
-            h1#artista {
-                font-family: "roboto";
-                font-size: 24px;
-                font-weight: 700;
-                color:slategray;
-                position: relative;
-                top: 5px;
-                left: 25px;
-            }
-            
-            
+        .textodireita {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: rleft;
+            width: 410px;
+            height: 120px;
+        }
 
-            #agora{ 
-                position: absolute;
-                left: 20px;
-                top:20px;
-                font-family: "roboto";
-                font-size: 30px;
-                font-weight: 900;
-                background: white;
-                width: 600px;
-                height: 180px;
-                border-radius: 15px;
-            }
+        img#thumb {
+            height: 125%;
+            width: 100%;
+            border-radius: 15px !important;
+            position: relative;
+            top: 15px;
+            left: 15px;
+        }
 
-            button {
-                position: fixed;
-                top: 500px;
-            }
-        </style>
-    </head>
-    <body>
-        <button onClick="deletaMusica()" type="button" class="btn btn-success btn-lg">Próxima Música</button>
-        <div id="principal">
-        <div id="agora" >
+        h1#musica {
+            font-family: "roboto";
+            font-size: 30px;
+            font-weight: 900;
+            position: relative;
+            top: 5px;
+            left: 25px;
+        }
+
+        h1#artista {
+            font-family: "roboto";
+            font-size: 24px;
+            font-weight: 700;
+            color: slategray;
+            position: relative;
+            top: 5px;
+            left: 25px;
+        }
+
+        #agora {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            font-family: "roboto";
+            font-size: 30px;
+            font-weight: 900;
+            background: white;
+            width: 600px;
+            height: 180px;
+            border-radius: 15px;
+        }
+
+        button {
+            position: fixed;
+            top: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onClick="deletaMusica()" type="button" class="btn btn-success btn-lg">Próxima Música</button>
+    <div id="principal">
+        <div id="agora">
             <div id="now">
                 <h1 style="display: flex;
                     justify-content: center;
@@ -183,63 +198,64 @@
                 </h1>
             </div>
         </div>
-        
+
         <table id="lista">
             <thead>
 
-            <tr>
-               <th class="lista" id="pedinte" colspan="2">Próximas músicas</th>
-             </tr>
+                <tr>
+                    <th class="lista" id="pedinte" colspan="1">Próximas Músicas</th>
+                </tr>
             </thead>
-            <tbody></tbody>
-         </table>
-        </div>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
 
-        
 
-        <script>
-            //document.getElementsByTagName()
-            ComfyJS.Init("botprata", "oauth:dk2hw1xmxjmj1kj4bs3kfdiw9dpn71", "bsilver");
-            ComfyJS.onChat = (user, message, flags, self, extra) => {
-               /* if (flags.customReward && extra.customRewardId === "9b33b443-5b70-47fa-b299-a30f9fd0fbf1") {
-                    console.log( message );
-                    const musicaEncontrada = jdfull.find(m => m.id == message);
+
+    <script>
+        //document.getElementsByTagName()
+        ComfyJS.Init("botprata", "oauth:dk2hw1xmxjmj1kj4bs3kfdiw9dpn71", "bsilver");
+        ComfyJS.onChat = (user, message, flags, self, extra) => {
+            /* if (flags.customReward && extra.customRewardId === "9b33b443-5b70-47fa-b299-a30f9fd0fbf1") {
+                 console.log( message );
+                 const musicaEncontrada = jdfull.find(m => m.id == message);
+                 if (musicaEncontrada) {
+                     var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                     var tbody = document.querySelector('tbody');
+                     tbody.innerHTML = tbody.innerHTML +  html;
+                     ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
+                 }
+             } if (flags.customReward && extra.customRewardId === "e3d166f6-4fda-45cf-ada4-fc78d83d4847") {
+                 console.log( message );
+                 const musicaEncontrada = jdfull.find(m => m.id == message);
+                 if (musicaEncontrada) {
+                     var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                     var tbody = document.querySelector('tbody');
+                     tbody.innerHTML = tbody.innerHTML +  html;
+                     ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
+                 } 
+             } else {
+                     ComfyJS.Say(`/me ${user} a música está errada.`);
+
+             }*/
+            console.log(message);
+            //A partir daqui para as músicas selecionadas.
+            const musicaEncontrada = jdfull.find(m => m.id == message.toUpperCase());
+            const musicaModos = jdmodes.find(m => m.id == message.toUpperCase());
+            switch (flags.customReward && extra.customRewardId) {
+                case "9b33b443-5b70-47fa-b299-a30f9fd0fbf1":
                     if (musicaEncontrada) {
                         var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
-                        tbody.innerHTML = tbody.innerHTML +  html;
-                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
-                    }
-                } if (flags.customReward && extra.customRewardId === "e3d166f6-4fda-45cf-ada4-fc78d83d4847") {
-                    console.log( message );
-                    const musicaEncontrada = jdfull.find(m => m.id == message);
-                    if (musicaEncontrada) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
-                        var tbody = document.querySelector('tbody');
-                        tbody.innerHTML = tbody.innerHTML +  html;
-                        ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
-                    } 
-                } else {
-                        ComfyJS.Say(`/me ${user} a música está errada.`);
-
-                }*/
-                console.log( message );
-                //A partir daqui para as músicas selecionadas.
-                const musicaEncontrada = jdfull.find(m => m.id == message.toUpperCase());
-                const musicaModos = jdmodes.find(m => m.id == message.toUpperCase());
-                switch (flags.customReward && extra.customRewardId) {
-                    case "9b33b443-5b70-47fa-b299-a30f9fd0fbf1": 
-                    if (musicaEncontrada) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
-                        var tbody = document.querySelector('tbody');
-                        tbody.innerHTML = tbody.innerHTML +  html;
+                        tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
                     } else {
                         ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
                     }
                     break;
-                    //Lista Easy Medio Dificil
-                    case "e3d166f6-4fda-45cf-ada4-fc78d83d4847":
+                //Lista Easy Medio Dificil
+                case "e3d166f6-4fda-45cf-ada4-fc78d83d4847":
                     if (musicaModos && ((message.charAt(0) == 'F') || (message.charAt(0) == 'f'))) {
                         var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista easy" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
@@ -248,12 +264,12 @@
                     } else if (musicaModos && ((message.charAt(0) == 'M') || (message.charAt(0) == 'm'))) {
                         var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista medium" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
-                        tbody.innerHTML = tbody.innerHTML +  html;
+                        tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
                     } else if (musicaModos && ((message.charAt(0) == 'D') || (message.charAt(0) == 'd'))) {
                         var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista hard" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
-                        tbody.innerHTML = tbody.innerHTML +  html;
+                        tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
                     } else if (musicaModos && ((message.charAt(0) == 'E') || (message.charAt(0) == 'e'))) {
                         ComfyJS.Say(`Ei ${user} você digitou uma ID para uma música Extrema, por favor, utilize o botão "Escolha uma Música Extrema" para essa ID começada com E. Seus pontos não serão restaurados.`)
@@ -261,66 +277,67 @@
                         ComfyJS.Say(`Ei ${user} o ID da música está incorreto, verifique o ID e peça para o bsilver adicionar manualmente.`);
                     }
                     break;
-                    //Lista Medio
-                    //case "e86fa695-1952-4692-9d8c-9515ff151a8a": 
-                    
-                    //break;
-                    //Lista Difícil
-                    case "0459ba2a-e931-4e52-8734-54ffee438b2c": 
+                //Lista Medio
+                //case "e86fa695-1952-4692-9d8c-9515ff151a8a": 
+
+                //break;
+                //Lista Difícil
+                case "0459ba2a-e931-4e52-8734-54ffee438b2c":
                     if (musicaModos && ((message.charAt(0) == 'D') || (message.charAt(0) == 'd'))) {
                         var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista hard" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
-                        tbody.innerHTML = tbody.innerHTML +  html;
+                        tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
                     } else {
                         ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
                     }
                     break;
-                    //Lista Extreme
-                    case "ea2e3e96-65d5-4c75-b11c-3f065098394b": 
+                //Lista Extreme
+                case "ea2e3e96-65d5-4c75-b11c-3f065098394b":
                     if (musicaModos && ((message.charAt(0) == 'E') || (message.charAt(0) == 'e'))) {
                         var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista extreme" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
-                        tbody.innerHTML = tbody.innerHTML +  html;
+                        tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
                     } else {
                         ComfyJS.Say(`Ei ${user} o ID da música está incorreto, o bsilver irá adicionar a lista manualmente, ok?`);
                     }
                     break;
-                    //Música Aleatória
-                    case "05c5e702-1d21-4461-8a94-68b9679f3d40":
+                //Música Aleatória
+                case "05c5e702-1d21-4461-8a94-68b9679f3d40":
                     const id = Math.floor(Math.random() * jdU.length);
                     const musicaRandom = jdU[id];
                     if (musicaRandom) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica" style="display:none;">${musicaRandom.song}</td><td style="display: none;">${musicaRandom.song}</td><td style="display: none;">${musicaRandom.artist}</td><td id="imagem">${musicaRandom.linkimagem}</td><td class="lista" id="surpresa">O que será que vem ai????</td></tr>`;
+                        var html = `<tr class="animation"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica" style="display:none;">${musicaRandom.song}</td><td style="display: none;">${musicaRandom.song}</td><td style="display: none;">${musicaRandom.artist}</td><td id="imagem">${musicaRandom.linkimagem}</td><td class="lista" id="surpresa">Musica Aleatória!</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} uma música aleatória foi selecionada pra você! Aguarde...`);
                     }
-                }
-                function primeiraMusica() {
+            }
+            /*    function primeiraMusica() {
                     var primeira = document.querySelector('tbody tr');
                     if (!primeira) return;
                     primeira.style.display = 'none';
                     var colunas = primeira.querySelectorAll('td');
-                    var musica = "<div id='divisor'><span class='fotoesquerda'><img src="+colunas[4].innerText+" id='thumb'/></span><span class='textodireita'><h1 id='musica' class='musicagora'>" + colunas[2].innerText + "</h1> <h1 id='artista' class='musicagora'>" + colunas[3].innerText+"</h1></span></div>";
+                    var musica = "<div id='divisor'><span class='fotoesquerda'><img src=" + colunas[4].innerText + " id='thumb'/></span><span class='textodireita'><h1 id='musica' class='musicagora'>" + colunas[2].innerText + "</h1> <h1 id='artista' class='musicagora'>" + colunas[3].innerText + "</h1></span></div>";
                     document.querySelector('#now').innerHTML = musica;
                 }
-                setInterval(primeiraMusica, 1000);
+                setInterval(primeiraMusica, 1000);*/
+        }
+
+        function deletaMusica() {
+            const musica = document.querySelector("tbody tr");
+            if (!musica) {
+                const musicaAtual = document.getElementById("divisor");
+                musicaAtual.remove();
+                const box = document.getElementById("agora");
+                box.innerHTML = "<div id='now'><h1 style='display: flex; justify-content: center; align-items: center; height: 150px;'>Aguardando pedido...</h1></div>"
+                return;
             }
-            
-            function deletaMusica() {
-                const musica = document.querySelector("tbody tr");
-                if (!musica) {
-                    const musicaAtual = document.getElementById("divisor");
-                    musicaAtual.remove();
-                    const box = document.getElementById("agora");
-                    box.innerHTML = "<div id='now'><h1 style='display: flex; justify-content: center; align-items: center; height: 150px;'>Aguardando pedido...</h1></div>"
-                    return;
-                }
-                musica.remove();
-            }
-            
-        </script>
-    </body>
+            musica.remove();
+        }
+
+    </script>
+</body>
+
 </html>

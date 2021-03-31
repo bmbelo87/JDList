@@ -4448,6 +4448,13 @@
    "released into servers":"Available at launch"
 },
 {
+   "song":"The Fox (What Does The Fox Say?)",
+   "artist":"Ylvis",
+   "year":"2013",
+   "mode":"Solo",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/2/26/Thefox_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170224100817"
+},
+{
    "song":"The Other Side",
    "artist":"SZA & Justin Timberlake",
    "year":"2020",
