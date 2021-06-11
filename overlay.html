@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -16,12 +17,14 @@
 
         table#lista {
             position: absolute;
-            right: 0px;
+            right: 10px;
             top: 0px;
             width: 600px;
             border-collapse: separate;
             border-spacing: 10px;
-
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
         }
 
         thead {
@@ -46,27 +49,45 @@
 
         tbody {
             text-align: left;
-            font-size: 42px;
+            font-size: 40px;
             -webkit-text-stroke: 1.4px black;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
         }
 
-        tbody td.lista {
-            /*border-bottom: 1px solid white;*/
+     tbody tr.new:last-child {
+        overflow: hidden;
+        animation: slide 0.2s linear normal;
+        display: flex;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
+      }
+
+      @keyframes slide {
+        0% {
+          margin-left: -600px;
         }
+
+        100% {
+          margin-left: -10px;
+        }
+      }
 
         #imagem {
             display: none;
         }
 
         td {
+            display: flex;
             padding: 10px;
         }
 
         td#musica {
-            width: 600px !important;
+            width: 600px;
             padding: 20px;
             border-radius: 10px;
-            max-width: 100px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -93,7 +114,6 @@
             width: 600px !important;
             padding: 20px;
             border-radius: 10px;
-            max-width: 100px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -102,7 +122,6 @@
             background-size: 400%;
             animation: steam 40s linear infinite;
             text-align: center;
-
         }
 
         @keyframes steam {
@@ -237,7 +256,6 @@
                  } 
              } else {
                      ComfyJS.Say(`/me ${user} a música está errada.`);
-
              }*/
             console.log(message);
             //A partir daqui para as músicas selecionadas.
@@ -246,7 +264,7 @@
             switch (flags.customReward && extra.customRewardId) {
                 case "9b33b443-5b70-47fa-b299-a30f9fd0fbf1":
                     if (musicaEncontrada) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
+                        var html = `<tr class="new"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.song}</td><td style="display: none;">${musicaEncontrada.artist}</td><td id="imagem">${musicaEncontrada.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaEncontrada.song}`);
@@ -257,17 +275,17 @@
                 //Lista Easy Medio Dificil
                 case "e3d166f6-4fda-45cf-ada4-fc78d83d4847":
                     if (musicaModos && ((message.charAt(0) == 'F') || (message.charAt(0) == 'f'))) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista easy" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
+                        var html = `<tr class="new"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista easy" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
                     } else if (musicaModos && ((message.charAt(0) == 'M') || (message.charAt(0) == 'm'))) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista medium" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
+                        var html = `<tr class="new"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista medium" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
                     } else if (musicaModos && ((message.charAt(0) == 'D') || (message.charAt(0) == 'd'))) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista hard" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
+                        var html = `<tr class="new"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista hard" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
@@ -284,7 +302,7 @@
                 //Lista Difícil
                 case "0459ba2a-e931-4e52-8734-54ffee438b2c":
                     if (musicaModos && ((message.charAt(0) == 'D') || (message.charAt(0) == 'd'))) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista hard" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
+                        var html = `<tr class="new"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista hard" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
@@ -295,7 +313,7 @@
                 //Lista Extreme
                 case "ea2e3e96-65d5-4c75-b11c-3f065098394b":
                     if (musicaModos && ((message.charAt(0) == 'E') || (message.charAt(0) == 'e'))) {
-                        var html = `<tr><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista extreme" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
+                        var html = `<tr class="new"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista extreme" id="musica">${musicaModos.song}</td><td style="display: none;">${musicaModos.song}</td><td style="display: none;">${musicaModos.artist}</td><td id="imagem">${musicaModos.linkimagem}</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} pediu a musica ${musicaModos.song}`);
@@ -308,13 +326,13 @@
                     const id = Math.floor(Math.random() * jdU.length);
                     const musicaRandom = jdU[id];
                     if (musicaRandom) {
-                        var html = `<tr class="animation"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica" style="display:none;">${musicaRandom.song}</td><td style="display: none;">${musicaRandom.song}</td><td style="display: none;">${musicaRandom.artist}</td><td id="imagem">${musicaRandom.linkimagem}</td><td class="lista" id="surpresa">Musica Aleatória!</td></tr>`;
+                        var html = `<tr class="new"><td class="lista" id="usuario" style="display:none;">${user}</td><td class="lista" id="musica" style="display:none;">${musicaRandom.song}</td><td style="display: none;">${musicaRandom.song}</td><td style="display: none;">${musicaRandom.artist}</td><td id="imagem">${musicaRandom.linkimagem}</td><td class="lista" id="surpresa">Musica Aleatória!</td></tr>`;
                         var tbody = document.querySelector('tbody');
                         tbody.innerHTML = tbody.innerHTML + html;
                         ComfyJS.Say(`/me ${user} uma música aleatória foi selecionada pra você! Aguarde...`);
                     }
             }
-            /*    function primeiraMusica() {
+                function primeiraMusica() {
                     var primeira = document.querySelector('tbody tr');
                     if (!primeira) return;
                     primeira.style.display = 'none';
@@ -322,7 +340,7 @@
                     var musica = "<div id='divisor'><span class='fotoesquerda'><img src=" + colunas[4].innerText + " id='thumb'/></span><span class='textodireita'><h1 id='musica' class='musicagora'>" + colunas[2].innerText + "</h1> <h1 id='artista' class='musicagora'>" + colunas[3].innerText + "</h1></span></div>";
                     document.querySelector('#now').innerHTML = musica;
                 }
-                setInterval(primeiraMusica, 1000);*/
+                setInterval(primeiraMusica, 1000);
         }
 
         function deletaMusica() {
