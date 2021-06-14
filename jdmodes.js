@@ -248,6 +248,11 @@
           "released into servers":"October 20, 2018"
        },
        {
+          "song":"Born To Be Wild",
+          "artist":"Steppenwolf",
+          "linkimagem":"https://static.wikia.nocookie.net/justdance/images/0/0c/Borntobewild_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20201124165000"
+       },
+       {
          "song":"Boogie Wonderland",
          "artist":"Earth, Wind and Fire ft. The Emotions(Groove Century)",
          "year":"1979",
@@ -354,6 +359,11 @@
          "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/af/Calypso_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20181023044157",
          "original game":"Just Dance 2019",
          "released into servers":"November 2, 2019"
+      },
+      {
+         "song":"Calypso (Community Remix)",
+         "artist":"Luis Fonsi ft. Stefflon Don",
+         "linkimagem":"https://static.wikia.nocookie.net/justdance/images/6/67/CalypsoFAN_Cover_Generic.png/revision/latest/scale-to-width-down/200?cb=20210406152559"
       },
       {
          "song":"Can't Take My Eyes Off You",
@@ -1112,6 +1122,11 @@
    "released into servers":"Available at launch"
 },
 {
+   "song":"It's Not Unusual",
+   "artist":"Tom Jones",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/e/e5/Unusual_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20210211155820"
+},
+{
    "song":"It's Raining Men",
    "artist":"The Weather Girls",
    "year":"1983",
@@ -1609,6 +1624,11 @@
    "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/8/8b/Partofmedlc_jdu_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20140929003621",
    "original game":"Just Dance 4",
    "released into servers":"Available at launch"
+},
+{
+   "song":"Pata Pata",
+   "artist":"Miriam Makeba (African Ladies)",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/7/70/Patapata.jpg/revision/latest/scale-to-width-down/180?cb=20150514133901"
 },
 {
    "song":"PoPiPo",
@@ -2661,6 +2681,11 @@
       "released into servers":"Available at launch"
    },
    {
+      "song":"Black Widow",
+      "artist":"Iggy Azalea Ft. Rita Ora",
+      "linkimagem":"https://static.wikia.nocookie.net/justdance/images/0/0f/Blackwidow_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118081920"
+   },
+   {
       "song":"Blame",
       "artist":"Calvin Harris Ft. John Newman",
       "year":"2014",
@@ -2742,7 +2767,11 @@
       "original game":"Just Dance 2019",
       "released into servers":"November 2, 2019"
    },
-   
+   {
+      "song":"Burn",
+      "artist":"Ellie Goulding",
+      "linkimagem":"https://static.wikia.nocookie.net/justdance/images/7/74/Burn_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170224110845"
+   },
    {
       "song":"Ça Plane Pour Moi",
       "artist":"Plastic Bertrand(Bob Platine)",
@@ -2928,6 +2957,11 @@
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/4/4e/Dancingqueen_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170723043634",
       "original game":"Exclusive Track",
       "released into servers":"August 23, 2018"
+   },
+   {
+      "song":"Dans van de Farao",
+      "artist":"K3",
+      "linkimagem":"https://static.wikia.nocookie.net/justdance/images/4/4a/Dansvandefarao_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20201110193703"
    },
    {
       "song":"Dark Horse",
@@ -3153,6 +3187,11 @@
    "released into servers":"February 1, 2018"
 },
 {
+   "song":"Flash (Just Dance Version)",
+   "artist":"Bilal Hassani, Sundy Jules, Paola Locatelli & Sulivan Gwed",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/5/5f/Flash_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20201110185340"
+},
+{
    "song":"Flashdance... What A Feeling*",
    "artist":"Irene Cara(The Girly Team)",
    "year":"1983",
@@ -3237,6 +3276,11 @@
    "song":"Giddy on Up (Giddy on Out)",
    "artist":"Laura Bell Bundy",
    "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ad/Giddyonup_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20191224134717"
+},
+{
+   "song":"Girls Like",
+   "artist":"Tinie Tempah ft. Zara Larsson",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/2/22/GirlsLike_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20210128142015"
 },
 {
    "song":"God Is a Woman (God Version)",
@@ -4027,6 +4071,11 @@
    "released into servers":"March 24, 2016"
 },
 {
+   "song":"Only You (And You Alone)",
+   "artist":"The Platters (Love Letter)",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/a/a1/Onlyyou_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170224103659"
+},
+{
    "song":"Oops!...I Did It Again",
    "artist":"Britney Spears(The Girly Team)",
    "year":"2000",
@@ -4070,6 +4119,16 @@
    "difficulty":"Medium",
    "effort":"Moderate",
    "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/a/ac/Policeman_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210450"
+},
+{
+   "song":"Problem",
+   "artist":"Ariana Grande ft. Iggy Azalea & Big Sean",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/2/2e/Problem_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118101356"
+},
+{
+   "song":"Pump It",
+   "artist":"The Black Eyed Peas",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/b/bd/Pumpit_jdnow_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20141218125852"
 },
 {
    "song":"Rabiosa",
@@ -4439,6 +4498,13 @@
    "released into servers":"Available at launch"
 },
 {
+   "song":"The Fox (What Does The Fox Say?)",
+   "artist":"Ylvis",
+   "year":"2013",
+   "mode":"Solo",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/2/26/Thefox_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170224100817"
+},
+{
    "song":"The Other Side",
    "artist":"Jason Derulo",
    "year":"2013",
@@ -4446,13 +4512,6 @@
    "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/7/7b/Otherside_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20171107151354",
    "original game":"Just Dance 2014",
    "released into servers":"Available at launch"
-},
-{
-   "song":"The Fox (What Does The Fox Say?)",
-   "artist":"Ylvis",
-   "year":"2013",
-   "mode":"Solo",
-   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/2/26/Thefox_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170224100817"
 },
 {
    "song":"The Other Side",
@@ -4471,6 +4530,11 @@
    "difficulty":"Medium",
    "effort":"Moderate",
    "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/1/14/Thetime_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191103210753"
+},
+{
+   "song":"The Way I Are",
+   "artist":"Timbaland ft. Keri Hilson, D.O.E., Sebastian",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/a/ad/Thewayiare_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20210422110535"
 },
 {
    "song":"The Way I Are (Dance With Somebody)",
@@ -4563,6 +4627,11 @@
    "released into servers":"Available at launch"
 },
 {
+   "song":"Tusa",
+   "artist":"KAROL G & Nicki Minaj",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/3/3e/Tusa_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20201124154812"
+},
+{
    "song":"Uno",
    "artist":"Little Big",
    "year":"2020",
@@ -4570,6 +4639,11 @@
    "difficulty":"Medium",
    "effort":"Moderate",
    "linkimagem":"https://static.wikia.nocookie.net/justdance/images/3/33/Uno_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20201105145754"
+},
+{
+   "song":"U.S.A.",
+   "artist":"DA PUMP",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/9/9f/Usa_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20201112184349"
 },
 {
    "song":"Uptown Funk",
@@ -4864,6 +4938,11 @@
          "released into servers":"Available at launch"
       },
       {
+         "song":"Best Song Ever",
+         "artist":"One Direction",
+         "linkimagem":"https://static.wikia.nocookie.net/justdance/images/f/f5/Bestsongever_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170224094705"
+      },
+      {
          "song":"Bonbon",
          "artist":"Era Istrefi",
          "year":"2016",
@@ -4934,6 +5013,11 @@
       "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/c/c3/Cheapthrillsalt.png/revision/latest/scale-to-width-down/180?cb=20161028111436",
       "original game":"Just Dance 2017",
       "released into servers":"October 12, 2017"
+   },
+   {
+      "song":"Come Back Home",
+      "artist":"2NE1",
+      "linkimagem":"https://static.wikia.nocookie.net/justdance/images/8/83/Comebackhome_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20210429093516"
    },
    {
       "song":"Crazy Christmas",
@@ -5085,6 +5169,11 @@
    "linkimagem":"https://static.wikia.nocookie.net/justdance/images/1/11/Joone_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20201105163849"
 },
 {
+   "song":"Juice (VIP Made)",
+   "artist":"Lizzo",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/c/c4/Juicevip_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20201110190429"
+},
+{
    "song":"Kick It",
    "artist":"NCT 127",
    "year":"2020",
@@ -5138,6 +5227,12 @@
    "original game":"Just Dance 2",
    "released into servers":"Available at launch"
 },
+{  
+   "song":"Monster",
+   "artist":"EXO",
+   "linkimagem":"https://static.wikia.nocookie.net/justdance/images/5/52/Monster_jdu_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20210415162512"
+},
+
 {
    "song":"My New Swag",
    "artist":"VAVA ft. Ty & Nina Wang",
@@ -5272,6 +5367,12 @@
     "original game":"Just Dance 2016",
     "released into servers":"April 6, 2017"
  },
+ {
+    "song":"Stupid Love",
+    "artist":"Lady Gaga",
+    "linkimagem":"https://static.wikia.nocookie.net/justdance/images/c/c2/Stupidlove_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20210121132107"
+ },
+
  {
    "song":"Tetris",
    "artist":"Hirokazu Tanaka(Dancing Bros.)",
