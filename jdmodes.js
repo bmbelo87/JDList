@@ -5151,15 +5151,6 @@
    "linkimagem":"https://static.wikia.nocookie.net/justdance/images/1/10/Sorbet_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20201030014452"
 },
 {
-   "song":"India Waale",
-   "artist":"From the movie Happy New Year",
-   "year":"2014",
-   "mode":"Duet",
-   "linkimagem":"https://vignette.wikia.nocookie.net/justdance/images/5/5a/Indiawaaledlc_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200118113003",
-   "original game":"Just Dance Now",
-   "released into servers":"Available at launch"
-},
-{
    "song":"Joone Khodet",
    "artist":"Black Cats",
    "year":"2006",
