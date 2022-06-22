@@ -105,7 +105,7 @@ var easy = [
     year: '2002',
     mode: 'Duet',
     linkimagem:
-      'https://static.wikia.nocookie.net/justdance/images/e/e9/Ketchupsong_jdnow_cover_generic.jpg',
+      'https://static.wikia.nocookie.net/justdance/images/3/3a/Ketchupsong_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20140928224051',
     'original game': 'Just Dance 4',
     'released into servers': 'Available at launchNovember 25, 2015'
   },
@@ -1579,6 +1579,12 @@ var easy = [
     'released into servers': 'Available at launch'
   },
   {
+    song: 'Louie Louie',
+    artist: 'Iggy Pop',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/e/e5/Louie_jdu_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20220401233055'
+  },
+  {
     song: 'Love Boat',
     artist: 'Jack Jones (Frankie Bostello)',
     year: '1979',
@@ -1794,7 +1800,7 @@ var easy = [
     year: '1987',
     mode: 'Solo',
     linkimagem:
-      'https://vignette.wikia.nocookie.net/justdance/images/4/4e/NeverGonna_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20200319110029',
+      'https://static.wikia.nocookie.net/justdance/images/7/7d/NeverGonna_JDU_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20200625165405',
     'original game': 'Just Dance 4',
     'released into servers': 'March 19, 2020'
   },
@@ -1854,7 +1860,7 @@ var easy = [
     year: '2016',
     mode: 'Duet',
     linkimagem:
-      'https://vignette.wikia.nocookie.net/justdance/images/d/d4/Oishii.png/revision/latest/scale-to-width-down/180?cb=20161028112207',
+      'https://static.wikia.nocookie.net/justdance/images/b/bf/Oishii_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028112207',
     'original game': 'Just Dance 2017',
     'released into servers': 'October 12, 2017'
   },
@@ -2775,6 +2781,12 @@ var easy = [
     'released into servers': 'May 14, 2020'
   },
   {
+    song: 'Womanizer',
+    artist: 'The Gym All-stars',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/1/15/Womanziar_jdu_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20220420195313'
+  },
+  {
     song: 'Y.M.C.A.',
     artist: 'Village People',
     year: '1978',
@@ -2943,6 +2955,12 @@ easy = easy.map((item, index) => ({
 
 var medium = [
   {
+    song: 'A La Folie',
+    artist: 'Julien Granel & Lena Situations',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/7/7b/Alafolie_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20211104012655'
+  },
+  {
     song: 'A Pirate You Shall Be',
     artist: 'Tom Zehnder',
     year: '1996',
@@ -3087,6 +3105,12 @@ var medium = [
       'https://vignette.wikia.nocookie.net/justdance/images/d/de/Automatonalt_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184939',
     'original game': 'Just Dance 2018',
     'released into servers': 'October 20, 2018'
+  },
+  {
+    song: 'Bad Habits',
+    artist: 'Ed Sheeran',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/d/d9/Badhabits_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20220602151208'
   },
   {
     song: 'Bad Romance',
@@ -3449,6 +3473,12 @@ var medium = [
       'https://vignette.wikia.nocookie.net/justdance/images/4/49/Colasong_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028111311',
     'original game': 'Just Dance 2017',
     'released into servers': 'October 12, 2017'
+  },
+  {
+    song: 'Come on Eileen',
+    artist: 'Dexys Midnight Runners',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/9/96/Comeon_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20220317204645'
   },
   {
     song: 'Con Altura',
@@ -3843,7 +3873,7 @@ var medium = [
     year: '2010',
     mode: 'Solo',
     linkimagem:
-      'https://vignette.wikia.nocookie.net/justdance/images/0/03/ForgetYou_Cover_Generic.png/revision/latest/scale-to-width-down/185?cb=20200528143143',
+      'https://static.wikia.nocookie.net/justdance/images/0/08/ForgetYou_JDU_Cover_Generic.png/revision/latest/scale-to-width-down/180?cb=20200624164846',
     'original game': 'Just Dance 3',
     'released into servers': 'May 28, 2020'
   },
@@ -3866,6 +3896,12 @@ var medium = [
     effort: 'Moderate',
     linkimagem:
       'https://static.wikia.nocookie.net/justdance/images/2/25/Freedfromdesire_cover_generic.png'
+  },
+  {
+    song: 'Follow the White Rabbit',
+    artist: 'Madison Beer',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/6/6e/FollowTheWhiteRabbit_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20220401232001'
   },
   {
     song: 'Fun',
@@ -4155,6 +4191,12 @@ var medium = [
     'released into servers': 'Available at launch'
   },
   {
+    song: 'I Love it',
+    artist: 'Icona Pop ft. Charli XCX',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/1/14/Iloveit_jd2015_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200119123012'
+  },
+  {
     song: 'I Want You Back',
     artist: 'The Jackson 5',
     year: '1971',
@@ -4246,7 +4288,7 @@ var medium = [
     year: '1856',
     mode: 'Dance Crew',
     linkimagem:
-      'https://vignette.wikia.nocookie.net/justdance/images/a/ac/SaintPatrickSqu.png/revision/latest/scale-to-width-down/180?cb=20170208083509',
+      'https://static.wikia.nocookie.net/justdance/images/c/c8/Saintpatrick_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170208083509',
     'original game': 'Just Dance 2016',
     'released into servers': 'March 9, 2017'
   },
@@ -4441,6 +4483,12 @@ var medium = [
       'https://vignette.wikia.nocookie.net/justdance/images/a/ab/Keepon_cover_generic.jpg/revision/latest/scale-to-width-down/180?cb=20171015184951',
     'original game': 'Just Dance 2018',
     'released into servers': 'October 20, 2018'
+  },
+  {
+    song: 'Kiss Me More',
+    artist: 'Doja Cat Ft. SZA',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/e/ef/Kissmemore_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20220324183957'
   },
   {
     song: 'Kiss You',
@@ -4745,6 +4793,12 @@ var medium = [
     'released into servers': 'Available at launch'
   },
   {
+    song: 'MONTERO (Call Me By Your Name)',
+    artist: 'Lil Nas X',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/8/89/Montero_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20220317201914'
+  },
+  {
     song: 'Moskau',
     artist: 'Dschinghis Khan (Dancing Bros.)',
     year: '1979',
@@ -4989,6 +5043,12 @@ var medium = [
     effort: 'Low',
     linkimagem:
       'https://static.wikia.nocookie.net/justdance/images/7/72/Siargo_cover_generic.png'
+  },
+  {
+    song: 'Princess',
+    artist: 'Jam Hsiao',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/8/8b/Princess_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200812032011'
   },
   {
     song: 'Problem',
@@ -5707,6 +5767,12 @@ var medium = [
     'released into servers': 'November 2, 2019'
   },
   {
+    song: 'Waterval',
+    artist: 'K3',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/f/f1/Langkawi_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20211209151551'
+  },
+  {
     song: 'We Go Well Together',
     artist: 'Goldheart',
     year: '2003',
@@ -5936,7 +6002,7 @@ var hard = [
     year: '2014',
     mode: 'Dance Crew',
     linkimagem:
-      'https://static.wikia.nocookie.net/justdance/images/1/12/Balance_jd2015_cover_generic.png',
+      'https://static.wikia.nocookie.net/justdance/images/6/6d/Balance_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20200625174542',
     'original game': 'Just Dance 2015',
     'released into servers': 'Available at launch'
   },
@@ -6271,6 +6337,12 @@ var hard = [
     'released into servers': 'October 20, 2018'
   },
   {
+    song: 'Koi',
+    artist: 'Gen Hoshino',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/7/7a/Koi_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20211103233601'
+  },
+  {
     song: 'Love Ward',
     artist: 'Hatsune Miku',
     year: '2009',
@@ -6358,6 +6430,12 @@ var hard = [
     'released into servers': 'November 2, 2019'
   },
   {
+    song: 'Positions',
+    artist: 'Ariana Grande',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/3/33/Positions_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20220217150400'
+  },
+  {
     song: 'Professor Pumplestickle',
     artist: 'Nick Phoenix and Thomas J. Bergersen',
     year: '2006',
@@ -6441,6 +6519,12 @@ var hard = [
       'https://vignette.wikia.nocookie.net/justdance/images/4/46/Screamnshout_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20161028112423',
     'original game': 'Just Dance 2017',
     'released into servers': 'May 23, 2019May 29, 2019'
+  },
+  {
+    song: 'Shoutout',
+    artist: 'Lisa Pac',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/d/d9/Flyingstepvip_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20211104014358'
   },
   {
     song: 'Shut Up and Dance',
@@ -6641,6 +6725,12 @@ var extreme = [
     effort: 'Moderate',
     linkimagem:
       'https://vignette.wikia.nocookie.net/justdance/images/8/86/BadGuyALT_cover_generic.png/revision/latest/scale-to-width-down/200?cb=20191106031521'
+  },
+  {
+    song: 'Bad Romance (Official Choreo)',
+    artist: 'Lady Gaga',
+    linkimagem:
+      'https://static.wikia.nocookie.net/justdance/images/6/65/Badromancealt_cover_generic.png/revision/latest/scale-to-width-down/180?cb=20170226142127'
   },
   {
     song: 'Bang Bang Bang (Extreme Version)',
